@@ -1,0 +1,40 @@
+{
+  "id": "hard-024",
+  "source": "rfqs/hard-024.eml",
+  "received": "2026-11-06",
+  "hard": "pasted, misaligned table; German and English number formats mixed",
+  "split": "hard",
+  "customer_name": "Morwick Industrieservice GmbH",
+  "customer_email": "r.dreyer@morwick-industrieservice-gmbh.example",
+  "delivery_date": "2026-11-29",
+  "delivery_location": [
+    "Paderborn"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "solar cable H1Z2Z2-K 1x6 mm² black",
+      "sku": "CAB-PV-6-BK",
+      "quantity": 3600,
+      "unit": "m"
+    },
+    {
+      "text": "earthing tape 30x3.5 mm, galvanised",
+      "sku": "ACC-ETAPE-30X3.5",
+      "quantity": 2500,
+      "unit": "m"
+    },
+    {
+      "text": "MC4 connector pair (male + female)",
+      "sku": "PV-MC4-PAIR",
+      "quantity": 500,
+      "unit": "pcs"
+    },
+    {
+      "text": "cable gland M16, polyamide, IP68",
+      "sku": "ACC-GLAND-M16",
+      "quantity": 120,
+      "unit": "pcs"
+    }
+  ]
+}

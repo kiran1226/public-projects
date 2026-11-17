@@ -1,0 +1,46 @@
+{
+  "id": "hard-002",
+  "source": "rfqs/hard-002.eml",
+  "received": "2026-11-03",
+  "hard": "product not in the catalog; unit conversion",
+  "split": "hard",
+  "customer_name": "Tarnow Solarbau GmbH",
+  "customer_email": "f.falkner@tarnow-solarbau-gmbh.example",
+  "delivery_date": "2026-11-29",
+  "delivery_location": [
+    "Cottbus"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "compression cable lug 185 mm², tinned copper, M12",
+      "sku": "ACC-LUG-CU-185",
+      "quantity": 40,
+      "unit": "pcs"
+    },
+    {
+      "text": "moulded case circuit breaker (MCCB) 320 A, 3-pole",
+      "sku": null,
+      "quantity": 4,
+      "unit": "pcs"
+    },
+    {
+      "text": "cable tray 100 mm wide, 60 mm high, 3 m long, galvanised",
+      "sku": "ACC-TRAY-100",
+      "quantity": 12,
+      "unit": "pcs"
+    },
+    {
+      "text": "earthing tape 30x3.5 mm, galvanised",
+      "sku": "ACC-ETAPE-30X3.5",
+      "quantity": 250,
+      "unit": "m"
+    },
+    {
+      "text": "cable gland M20, polyamide, IP68",
+      "sku": "ACC-GLAND-M20",
+      "quantity": 200,
+      "unit": "pcs"
+    }
+  ]
+}

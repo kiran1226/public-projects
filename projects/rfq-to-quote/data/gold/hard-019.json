@@ -1,0 +1,46 @@
+{
+  "id": "hard-019",
+  "source": "rfqs/hard-019.eml",
+  "received": "2026-11-11",
+  "hard": "near-miss variant",
+  "split": "hard",
+  "customer_name": "Cronstett Industrieservice GmbH",
+  "customer_email": "c.petzold@cronstett-industrieservice-gmbh.example",
+  "delivery_date": "2026-12-08",
+  "delivery_location": [
+    "Heilbronn"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "Kabelverschraubung M50, Polyamid, IP68",
+      "sku": "ACC-GLAND-M50",
+      "quantity": 60,
+      "unit": "pcs"
+    },
+    {
+      "text": "Erdungsband 30x3,5 mm, verzinkt",
+      "sku": "ACC-ETAPE-30X3.5",
+      "quantity": 800,
+      "unit": "m"
+    },
+    {
+      "text": "Solarkabel H1Z2Z2-K 1x10 mm² schwarz",
+      "sku": "CAB-PV-10-BK",
+      "quantity": 1200,
+      "unit": "m"
+    },
+    {
+      "text": "MC4-Steckerpaar (Stecker + Buchse)",
+      "sku": "PV-MC4-PAIR",
+      "quantity": 20,
+      "unit": "pcs"
+    },
+    {
+      "text": "Mittelklemme für Rahmenhöhe 3 cm, silber",
+      "sku": "PV-MID-30-SIL",
+      "quantity": 500,
+      "unit": "pcs"
+    }
+  ]
+}

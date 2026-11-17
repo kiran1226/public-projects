@@ -1,0 +1,52 @@
+{
+  "id": "rfq-028",
+  "source": "rfqs/rfq-028.pdf",
+  "received": "2026-10-08",
+  "hard": "tender table; near-identical 10 kV and 20 kV lines; large order",
+  "split": "dev",
+  "customer_name": "Stadtwerke Auenland GmbH",
+  "customer_email": "netze@stadtwerke-auenland.example",
+  "delivery_date": "2026-12-14",
+  "delivery_location": [
+    "Zwickau"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "NA2XS(F)2Y 1x240 mm² 12/20 kV",
+      "sku": "CAB-MV-1X240-20KV",
+      "quantity": 800,
+      "unit": "m"
+    },
+    {
+      "text": "NA2XS(F)2Y 1x240 mm² 6/10 kV",
+      "sku": "CAB-MV-1X240-10KV",
+      "quantity": 800,
+      "unit": "m"
+    },
+    {
+      "text": "Öltransformator 800 kVA, 10/0,4 kV",
+      "sku": "TRF-OIL-800-10",
+      "quantity": 2,
+      "unit": "pcs"
+    },
+    {
+      "text": "Bandstahl 30x3,5 mm verzinkt",
+      "sku": "ACC-ETAPE-30X3.5",
+      "quantity": 300,
+      "unit": "m"
+    },
+    {
+      "text": "Tiefenerder 1500 mm",
+      "sku": "ACC-EROD-1500",
+      "quantity": 10,
+      "unit": "pcs"
+    },
+    {
+      "text": "Überspannungsschutz Typ 1+2",
+      "sku": "ACC-SPD-T12",
+      "quantity": 2,
+      "unit": "pcs"
+    }
+  ]
+}

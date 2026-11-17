@@ -1,0 +1,22 @@
+{
+  "id": "rfq-032",
+  "source": "rfqs/rfq-032.eml",
+  "received": "2026-10-20",
+  "hard": "answer to our own question, on top of a quoted thread",
+  "split": "holdout",
+  "customer_name": "Brandes Tiefbau GmbH",
+  "customer_email": "h.brandes@brandes-tiefbau.example",
+  "delivery_date": "2026-11-20",
+  "delivery_location": [
+    "Paderborn"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "NAYY-J 4x95",
+      "sku": "CAB-NAYY-4X95",
+      "quantity": 1000,
+      "unit": "m"
+    }
+  ]
+}

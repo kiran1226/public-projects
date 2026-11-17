@@ -1,0 +1,28 @@
+{
+  "id": "rfq-013",
+  "source": "rfqs/rfq-013.eml",
+  "received": "2026-10-02",
+  "hard": "quantities as German number words, date without year",
+  "split": "dev",
+  "customer_name": "Dachdeckerei Lorenz e.K.",
+  "customer_email": "info@dachdeckerei-lorenz.example",
+  "delivery_date": "2026-10-16",
+  "delivery_location": [
+    "Goslar"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "Dachhaken für Schiefer",
+      "sku": "PV-HOOK-SLATE",
+      "quantity": 20,
+      "unit": "pcs"
+    },
+    {
+      "text": "Montageschienen 40x60 in 4,4 m",
+      "sku": "PV-RAIL-40X60-4400",
+      "quantity": 12,
+      "unit": "pcs"
+    }
+  ]
+}

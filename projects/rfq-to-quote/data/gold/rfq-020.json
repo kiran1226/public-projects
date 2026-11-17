@@ -1,0 +1,28 @@
+{
+  "id": "rfq-020",
+  "source": "rfqs/rfq-020.eml",
+  "received": "2026-10-13",
+  "hard": "one product outside our range",
+  "split": "dev",
+  "customer_name": "Energiehof Albrecht GbR",
+  "customer_email": "kontakt@energiehof-albrecht.example",
+  "delivery_date": "2026-11-06",
+  "delivery_location": [
+    "Passau"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "550 Wp monocrystalline solar modules",
+      "sku": null,
+      "quantity": 50,
+      "unit": "pcs"
+    },
+    {
+      "text": "mid clamps for 30 mm frames in black",
+      "sku": "PV-MID-30-BLK",
+      "quantity": 200,
+      "unit": "pcs"
+    }
+  ]
+}

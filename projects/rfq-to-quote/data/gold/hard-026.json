@@ -1,0 +1,28 @@
+{
+  "id": "hard-026",
+  "source": "rfqs/hard-026.eml",
+  "received": "2026-11-11",
+  "hard": "typos and trade abbreviations; ambiguous on purpose",
+  "split": "hard",
+  "customer_name": "Pernstein Elektrotechnik GmbH",
+  "customer_email": "h.petzold@pernstein-elektrotechnik-gmbh.example",
+  "delivery_date": "2026-12-02",
+  "delivery_location": [
+    "Ulm"
+  ],
+  "open_questions": true,
+  "items": [
+    {
+      "text": "end clmp 30mm blk",
+      "sku": "PV-END-30-BLK",
+      "quantity": 80,
+      "unit": "pcs"
+    },
+    {
+      "text": "aluminium mounting rail 40x40 mm",
+      "sku": null,
+      "quantity": 500,
+      "unit": "pcs"
+    }
+  ]
+}

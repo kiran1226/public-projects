@@ -1,0 +1,22 @@
+{
+  "id": "rfq-034",
+  "source": "rfqs/rfq-034.eml",
+  "received": "2026-10-21",
+  "hard": "price question with no quantity",
+  "split": "holdout",
+  "customer_name": "Elektro Pohl GmbH",
+  "customer_email": "info@elektro-pohl.example",
+  "delivery_date": null,
+  "delivery_location": [
+    "Jena"
+  ],
+  "open_questions": true,
+  "items": [
+    {
+      "text": "NYY-J 5x10",
+      "sku": "CAB-NYY-5X10",
+      "quantity": null,
+      "unit": null
+    }
+  ]
+}

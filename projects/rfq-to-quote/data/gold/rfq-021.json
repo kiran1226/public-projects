@@ -1,0 +1,28 @@
+{
+  "id": "rfq-021",
+  "source": "rfqs/rfq-021.txt",
+  "received": "2026-09-22",
+  "hard": "internal phone note, no customer email",
+  "split": "dev",
+  "customer_name": "Aydin Elektrotechnik GmbH",
+  "customer_email": null,
+  "delivery_date": "2026-10-15",
+  "delivery_location": [
+    "Magdeburg"
+  ],
+  "open_questions": true,
+  "items": [
+    {
+      "text": "ground screw 1600",
+      "sku": "PV-GSCREW-1600",
+      "quantity": 150,
+      "unit": "pcs"
+    },
+    {
+      "text": "rails 40x40 6.0 m",
+      "sku": "PV-RAIL-40X40-6000",
+      "quantity": 75,
+      "unit": "pcs"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "rfq-040",
+  "source": "rfqs/rfq-040.eml",
+  "received": "2026-10-28",
+  "hard": "'respectively': quantities listed apart from products",
+  "split": "holdout",
+  "customer_name": "Alpine Solar Partners GmbH",
+  "customer_email": "projects@alpine-solar-partners.example",
+  "delivery_date": "2026-11-20",
+  "delivery_location": [
+    "Rosenheim"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "Mid clamps for 40 mm frames, black",
+      "sku": "PV-MID-40-BLK",
+      "quantity": 300,
+      "unit": "pcs"
+    },
+    {
+      "text": "End clamps for 40 mm frames, black",
+      "sku": "PV-END-40-BLK",
+      "quantity": 60,
+      "unit": "pcs"
+    },
+    {
+      "text": "Hanger bolts M12x300",
+      "sku": "PV-BOLT-M12X300",
+      "quantity": 150,
+      "unit": "pcs"
+    }
+  ]
+}

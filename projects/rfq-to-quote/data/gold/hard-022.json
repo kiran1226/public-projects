@@ -1,0 +1,40 @@
+{
+  "id": "hard-022",
+  "source": "rfqs/hard-022.eml",
+  "received": "2026-11-05",
+  "hard": "German and English number formats mixed; typos and trade abbreviations",
+  "split": "hard",
+  "customer_name": "Jorvend Anlagenbau AG",
+  "customer_email": "f.wiegand@jorvend-anlagenbau-ag.example",
+  "delivery_date": "2026-11-29",
+  "delivery_location": [
+    "Kassel"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "cbl tray 100x60 galv. 3m",
+      "sku": "ACC-TRAY-100",
+      "quantity": 40,
+      "unit": "pcs"
+    },
+    {
+      "text": "H07RN-F 5G1.5",
+      "sku": "CAB-H07-5G1.5",
+      "quantity": 1800,
+      "unit": "m"
+    },
+    {
+      "text": "cable tray 500 mm wide, 60 mm high, 3 m long, galvanised",
+      "sku": "ACC-TRAY-500",
+      "quantity": 12,
+      "unit": "pcs"
+    },
+    {
+      "text": "H07RN-F 3G2.5",
+      "sku": "CAB-H07-3G2.5",
+      "quantity": 1200,
+      "unit": "m"
+    }
+  ]
+}

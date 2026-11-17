@@ -1,0 +1,28 @@
+{
+  "id": "rfq-006",
+  "source": "rfqs/rfq-006.eml",
+  "received": "2026-09-21",
+  "hard": "no quantities given",
+  "split": "dev",
+  "customer_name": "Greenfield Electrical Ltd",
+  "customer_email": "orders@greenfield-electrical.example",
+  "delivery_date": null,
+  "delivery_location": [
+    "Hamburg"
+  ],
+  "open_questions": true,
+  "items": [
+    {
+      "text": "NYM-J 3x1.5",
+      "sku": "CAB-NYM-3X1.5",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "text": "NYM-J 5x2.5",
+      "sku": "CAB-NYM-5X2.5",
+      "quantity": null,
+      "unit": null
+    }
+  ]
+}

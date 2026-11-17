@@ -1,0 +1,34 @@
+{
+  "id": "hard-025",
+  "source": "rfqs/hard-025.eml",
+  "received": "2026-11-09",
+  "hard": "item mentioned only as context",
+  "split": "hard",
+  "customer_name": "Nettelau Anlagenbau AG",
+  "customer_email": "h.brandes@nettelau-anlagenbau-ag.example",
+  "delivery_date": "2027-02-10",
+  "delivery_location": [
+    "Bielefeld"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "Presskabelschuh 120 mm², Kupfer verzinnt, M12",
+      "sku": "ACC-LUG-CU-120",
+      "quantity": 150,
+      "unit": "pcs"
+    },
+    {
+      "text": "Erdungsstab 1500 mm, Ø 20 mm, verzinkt",
+      "sku": "ACC-EROD-1500",
+      "quantity": 4,
+      "unit": "pcs"
+    },
+    {
+      "text": "Gießharztransformator 630 kVA, 20/0,4 kV",
+      "sku": "TRF-DRY-630-20",
+      "quantity": 1,
+      "unit": "pcs"
+    }
+  ]
+}

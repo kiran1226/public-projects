@@ -1,0 +1,22 @@
+{
+  "id": "hard-003",
+  "source": "rfqs/hard-003.eml",
+  "received": "2026-11-04",
+  "hard": "unit conversion",
+  "split": "hard",
+  "customer_name": "Brindel Netzbau GmbH",
+  "customer_email": "h.sommerfeld@brindel-netzbau-gmbh.example",
+  "delivery_date": "2026-11-27",
+  "delivery_location": [
+    "Ulm"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "NYY-J 5x6 mm²",
+      "sku": "CAB-NYY-5X6",
+      "quantity": 400,
+      "unit": "m"
+    }
+  ]
+}

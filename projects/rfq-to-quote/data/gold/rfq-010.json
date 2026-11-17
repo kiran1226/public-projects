@@ -1,0 +1,29 @@
+{
+  "id": "rfq-010",
+  "source": "rfqs/rfq-010.eml",
+  "received": "2026-09-25",
+  "hard": "customer corrects a quantity in the same mail",
+  "split": "dev",
+  "customer_name": "Eventtechnik Sommer GmbH",
+  "customer_email": "lager@eventtechnik-sommer.example",
+  "delivery_date": "2026-10-07",
+  "delivery_location": [
+    "Köln",
+    "Cologne"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "H07RN-F 5G4",
+      "sku": "CAB-H07-5G4",
+      "quantity": 250,
+      "unit": "m"
+    },
+    {
+      "text": "H07RN-F 3G2,5",
+      "sku": "CAB-H07-3G2.5",
+      "quantity": 100,
+      "unit": "m"
+    }
+  ]
+}

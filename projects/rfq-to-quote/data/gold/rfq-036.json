@@ -1,0 +1,28 @@
+{
+  "id": "rfq-036",
+  "source": "rfqs/rfq-036.pdf",
+  "received": "2026-10-23",
+  "hard": "a cancelled position must be left out; week in next year",
+  "split": "holdout",
+  "customer_name": "Molkerei Sonnenalm eG",
+  "customer_email": "technik@molkerei-sonnenalm.example",
+  "delivery_date": "2027-02-08",
+  "delivery_location": [
+    "Kempten"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "Gießharztransformator 400 kVA, 20/0,4 kV",
+      "sku": "TRF-DRY-400-20",
+      "quantity": 1,
+      "unit": "pcs"
+    },
+    {
+      "text": "Überspannungsschutz Typ 2",
+      "sku": "ACC-SPD-T2",
+      "quantity": 2,
+      "unit": "pcs"
+    }
+  ]
+}

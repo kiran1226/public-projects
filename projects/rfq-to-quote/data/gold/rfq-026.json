@@ -1,0 +1,40 @@
+{
+  "id": "rfq-026",
+  "source": "rfqs/rfq-026.xlsx",
+  "received": "2026-10-06",
+  "hard": "specification spread over several columns; high value",
+  "split": "dev",
+  "customer_name": "Stahlwerk Oberpfalz AG",
+  "customer_email": "procurement@stahlwerk-oberpfalz.example",
+  "delivery_date": "2027-01-18",
+  "delivery_location": [
+    "Amberg"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "Transformer oil-immersed 1600 kVA 20/0.4 kV",
+      "sku": "TRF-OIL-1600-20",
+      "quantity": 1,
+      "unit": "pcs"
+    },
+    {
+      "text": "Transformer oil-immersed 400 kVA 20/0.4 kV",
+      "sku": "TRF-OIL-400-20",
+      "quantity": 2,
+      "unit": "pcs"
+    },
+    {
+      "text": "Circuit breaker MCCB 3-pole 630 A",
+      "sku": "ACC-MCCB-630",
+      "quantity": 3,
+      "unit": "pcs"
+    },
+    {
+      "text": "Earth rod galvanised 1500 mm",
+      "sku": "ACC-EROD-1500",
+      "quantity": 12,
+      "unit": "pcs"
+    }
+  ]
+}

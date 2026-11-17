@@ -1,0 +1,34 @@
+{
+  "id": "hard-011",
+  "source": "rfqs/hard-011.eml",
+  "received": "2026-11-09",
+  "hard": "product not in the catalog",
+  "split": "hard",
+  "customer_name": "Rostal Energietechnik GmbH",
+  "customer_email": "h.wiegand@rostal-energietechnik-gmbh.example",
+  "delivery_date": "2026-12-11",
+  "delivery_location": [
+    "Paderborn"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "Wechselrichter 50 kW, dreiphasig",
+      "sku": null,
+      "quantity": 6,
+      "unit": "pcs"
+    },
+    {
+      "text": "Kabelrinne 400 mm breit, 60 mm hoch, 3 m lang, verzinkt",
+      "sku": "ACC-TRAY-400",
+      "quantity": 24,
+      "unit": "pcs"
+    },
+    {
+      "text": "Montageschiene 40x60 mm, Länge 2,2 m",
+      "sku": "PV-RAIL-40X60-2200",
+      "quantity": 50,
+      "unit": "pcs"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "rfq-029",
+  "source": "rfqs/rfq-029.pdf",
+  "received": "2026-10-09",
+  "hard": "descriptions wrap over two lines, quantity at the end",
+  "split": "dev",
+  "customer_name": "Alpen Seilbahn Technik GmbH",
+  "customer_email": "e.huber@alpen-seilbahn.example",
+  "delivery_date": "2026-11-13",
+  "delivery_location": [
+    "Garmisch-Partenkirchen",
+    "Garmisch"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "Copper power cable NYY-J 4x240",
+      "sku": "CAB-NYY-4X240",
+      "quantity": 350,
+      "unit": "m"
+    },
+    {
+      "text": "Cable lugs 240 mm2 copper",
+      "sku": "ACC-LUG-CU-240",
+      "quantity": 16,
+      "unit": "pcs"
+    },
+    {
+      "text": "LV straight joints suitable for 4x240, heat-shrink",
+      "sku": "ACC-JOINT-LV-185-240",
+      "quantity": 2,
+      "unit": "pcs"
+    },
+    {
+      "text": "Moulded case circuit breaker 400 A",
+      "sku": "ACC-MCCB-400",
+      "quantity": 1,
+      "unit": "pcs"
+    },
+    {
+      "text": "Cable glands M63",
+      "sku": "ACC-GLAND-M63",
+      "quantity": 8,
+      "unit": "pcs"
+    }
+  ]
+}

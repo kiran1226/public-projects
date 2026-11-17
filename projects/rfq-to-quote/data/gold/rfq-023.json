@@ -1,0 +1,64 @@
+{
+  "id": "rfq-023",
+  "source": "rfqs/rfq-023.xlsx",
+  "received": "2026-09-30",
+  "hard": "clean German bill of quantities",
+  "split": "dev",
+  "customer_name": "Industriemontage Weber GmbH",
+  "customer_email": "c.weber@im-weber.example",
+  "delivery_date": "2026-10-26",
+  "delivery_location": [
+    "Chemnitz"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "NYY-J 5x16 mm²",
+      "sku": "CAB-NYY-5X16",
+      "quantity": 400,
+      "unit": "m"
+    },
+    {
+      "text": "NYY-J 4x35 mm²",
+      "sku": "CAB-NYY-4X35",
+      "quantity": 250,
+      "unit": "m"
+    },
+    {
+      "text": "NYM-J 5x2,5 mm²",
+      "sku": "CAB-NYM-5X2.5",
+      "quantity": 600,
+      "unit": "m"
+    },
+    {
+      "text": "NYM-J 3x1,5 mm²",
+      "sku": "CAB-NYM-3X1.5",
+      "quantity": 800,
+      "unit": "m"
+    },
+    {
+      "text": "H07RN-F 5G6",
+      "sku": "CAB-H07-5G6",
+      "quantity": 150,
+      "unit": "m"
+    },
+    {
+      "text": "Kabelverschraubung M32",
+      "sku": "ACC-GLAND-M32",
+      "quantity": 60,
+      "unit": "pcs"
+    },
+    {
+      "text": "Kabelverschraubung M40",
+      "sku": "ACC-GLAND-M40",
+      "quantity": 40,
+      "unit": "pcs"
+    },
+    {
+      "text": "Kabelrinne 300 mm, 3 m",
+      "sku": "ACC-TRAY-300",
+      "quantity": 25,
+      "unit": "pcs"
+    }
+  ]
+}

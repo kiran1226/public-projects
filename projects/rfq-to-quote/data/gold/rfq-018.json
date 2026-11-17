@@ -1,0 +1,34 @@
+{
+  "id": "rfq-018",
+  "source": "rfqs/rfq-018.eml",
+  "received": "2026-10-09",
+  "hard": "German thousands separator (1.500 m is 1500 m); total over the sign-off limit",
+  "split": "dev",
+  "customer_name": "Netzservice Harz GmbH",
+  "customer_email": "einkauf@netzservice-harz.example",
+  "delivery_date": "2026-11-02",
+  "delivery_location": [
+    "Wernigerode"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "NYY-J 4x50 mm²",
+      "sku": "CAB-NYY-4X50",
+      "quantity": 1500,
+      "unit": "m"
+    },
+    {
+      "text": "NYY-J 4x35 mm²",
+      "sku": "CAB-NYY-4X35",
+      "quantity": 1200,
+      "unit": "m"
+    },
+    {
+      "text": "Erdungsband 30x3,5 verzinkt",
+      "sku": "ACC-ETAPE-30X3.5",
+      "quantity": 2000,
+      "unit": "m"
+    }
+  ]
+}

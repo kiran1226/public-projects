@@ -1,0 +1,22 @@
+{
+  "id": "hard-009",
+  "source": "rfqs/hard-009.eml",
+  "received": "2026-11-06",
+  "hard": "ambiguous on purpose",
+  "split": "hard",
+  "customer_name": "Mirelda Netzbau GmbH",
+  "customer_email": "s.sommerfeld@mirelda-netzbau-gmbh.example",
+  "delivery_date": "2026-12-15",
+  "delivery_location": [
+    "Trier"
+  ],
+  "open_questions": true,
+  "items": [
+    {
+      "text": "Montageschiene 40x40 mm",
+      "sku": null,
+      "quantity": 40,
+      "unit": "pcs"
+    }
+  ]
+}

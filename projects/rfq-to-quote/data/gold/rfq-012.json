@@ -1,0 +1,22 @@
+{
+  "id": "rfq-012",
+  "source": "rfqs/rfq-012.eml",
+  "received": "2026-10-01",
+  "hard": "calendar week; delivery earlier than the lead time (the only reason to hold)",
+  "split": "dev",
+  "customer_name": "DC Main GmbH",
+  "customer_email": "facility@dc-main.example",
+  "delivery_date": "2026-12-07",
+  "delivery_location": [
+    "Frankfurt"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "250 kVA dry-type (cast resin) transformer, 10 kV primary / 0.4 kV",
+      "sku": "TRF-DRY-250-10",
+      "quantity": 1,
+      "unit": "pcs"
+    }
+  ]
+}

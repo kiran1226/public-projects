@@ -1,0 +1,28 @@
+{
+  "id": "rfq-017",
+  "source": "rfqs/rfq-017.eml",
+  "received": "2026-10-08",
+  "hard": "English thousands separator; project size as distractor",
+  "split": "dev",
+  "customer_name": "Solarpark Lausitz Projekt GmbH",
+  "customer_email": "procurement@solarpark-lausitz.example",
+  "delivery_date": "2026-10-31",
+  "delivery_location": [
+    "Cottbus"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "H1Z2Z2-K 1x10 mm² black",
+      "sku": "CAB-PV-10-BK",
+      "quantity": 5000,
+      "unit": "m"
+    },
+    {
+      "text": "H1Z2Z2-K 1x10 mm² red",
+      "sku": "CAB-PV-10-RD",
+      "quantity": 2500,
+      "unit": "m"
+    }
+  ]
+}

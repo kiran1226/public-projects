@@ -1,0 +1,182 @@
+sku,category,description,keywords,unit,unit_cost,list_price,moq,lead_time_days
+CAB-NYY-3X1.5,cable,"NYY-J 3x1.5 mm² power cable 0.6/1 kV, copper, PVC, black",NYY NYYJ Erdkabel Starkstromkabel Kupfer underground power cable,m,0.78,0.93,100,5
+CAB-NYY-3X2.5,cable,"NYY-J 3x2.5 mm² power cable 0.6/1 kV, copper, PVC, black",NYY NYYJ Erdkabel Starkstromkabel Kupfer underground power cable,m,1.06,1.26,100,5
+CAB-NYY-5X1.5,cable,"NYY-J 5x1.5 mm² power cable 0.6/1 kV, copper, PVC, black",NYY NYYJ Erdkabel Starkstromkabel Kupfer underground power cable,m,1.06,1.26,100,5
+CAB-NYY-5X2.5,cable,"NYY-J 5x2.5 mm² power cable 0.6/1 kV, copper, PVC, black",NYY NYYJ Erdkabel Starkstromkabel Kupfer underground power cable,m,1.54,1.83,100,5
+CAB-NYY-5X4,cable,"NYY-J 5x4 mm² power cable 0.6/1 kV, copper, PVC, black",NYY NYYJ Erdkabel Starkstromkabel Kupfer underground power cable,m,2.25,2.68,100,5
+CAB-NYY-5X6,cable,"NYY-J 5x6 mm² power cable 0.6/1 kV, copper, PVC, black",NYY NYYJ Erdkabel Starkstromkabel Kupfer underground power cable,m,3.2,3.81,100,5
+CAB-NYY-5X10,cable,"NYY-J 5x10 mm² power cable 0.6/1 kV, copper, PVC, black",NYY NYYJ Erdkabel Starkstromkabel Kupfer underground power cable,m,5.1,6.07,100,5
+CAB-NYY-5X16,cable,"NYY-J 5x16 mm² power cable 0.6/1 kV, copper, PVC, black",NYY NYYJ Erdkabel Starkstromkabel Kupfer underground power cable,m,7.95,9.46,100,5
+CAB-NYY-5X25,cable,"NYY-J 5x25 mm² power cable 0.6/1 kV, copper, PVC, black",NYY NYYJ Erdkabel Starkstromkabel Kupfer underground power cable,m,12.22,14.55,100,5
+CAB-NYY-4X25,cable,"NYY-J 4x25 mm² power cable 0.6/1 kV, copper, PVC, black",NYY NYYJ Erdkabel Starkstromkabel Kupfer underground power cable,m,9.85,11.73,100,5
+CAB-NYY-4X35,cable,"NYY-J 4x35 mm² power cable 0.6/1 kV, copper, PVC, black",NYY NYYJ Erdkabel Starkstromkabel Kupfer underground power cable,m,13.65,16.25,100,5
+CAB-NYY-4X50,cable,"NYY-J 4x50 mm² power cable 0.6/1 kV, copper, PVC, black",NYY NYYJ Erdkabel Starkstromkabel Kupfer underground power cable,m,19.35,23.04,100,5
+CAB-NYY-4X70,cable,"NYY-J 4x70 mm² power cable 0.6/1 kV, copper, PVC, black",NYY NYYJ Erdkabel Starkstromkabel Kupfer underground power cable,m,26.95,32.08,100,5
+CAB-NYY-4X95,cable,"NYY-J 4x95 mm² power cable 0.6/1 kV, copper, PVC, black",NYY NYYJ Erdkabel Starkstromkabel Kupfer underground power cable,m,36.45,43.39,100,15
+CAB-NYY-4X120,cable,"NYY-J 4x120 mm² power cable 0.6/1 kV, copper, PVC, black",NYY NYYJ Erdkabel Starkstromkabel Kupfer underground power cable,m,45.95,54.7,100,15
+CAB-NYY-4X150,cable,"NYY-J 4x150 mm² power cable 0.6/1 kV, copper, PVC, black",NYY NYYJ Erdkabel Starkstromkabel Kupfer underground power cable,m,57.35,68.27,100,15
+CAB-NYY-4X185,cable,"NYY-J 4x185 mm² power cable 0.6/1 kV, copper, PVC, black",NYY NYYJ Erdkabel Starkstromkabel Kupfer underground power cable,m,70.65,84.11,100,15
+CAB-NYY-4X240,cable,"NYY-J 4x240 mm² power cable 0.6/1 kV, copper, PVC, black",NYY NYYJ Erdkabel Starkstromkabel Kupfer underground power cable,m,91.55,108.99,100,15
+CAB-NYM-3X1.5,cable,"NYM-J 3x1.5 mm² installation cable 300/500 V, copper, PVC, grey",NYM NYMJ Mantelleitung Installationsleitung indoor sheathed cable,m,0.66,0.78,100,5
+CAB-NYM-3X2.5,cable,"NYM-J 3x2.5 mm² installation cable 300/500 V, copper, PVC, grey",NYM NYMJ Mantelleitung Installationsleitung indoor sheathed cable,m,0.92,1.1,100,5
+CAB-NYM-5X1.5,cable,"NYM-J 5x1.5 mm² installation cable 300/500 V, copper, PVC, grey",NYM NYMJ Mantelleitung Installationsleitung indoor sheathed cable,m,0.92,1.1,100,5
+CAB-NYM-5X2.5,cable,"NYM-J 5x2.5 mm² installation cable 300/500 V, copper, PVC, grey",NYM NYMJ Mantelleitung Installationsleitung indoor sheathed cable,m,1.38,1.64,100,5
+CAB-NYM-5X4,cable,"NYM-J 5x4 mm² installation cable 300/500 V, copper, PVC, grey",NYM NYMJ Mantelleitung Installationsleitung indoor sheathed cable,m,2.05,2.44,100,5
+CAB-NYM-5X6,cable,"NYM-J 5x6 mm² installation cable 300/500 V, copper, PVC, grey",NYM NYMJ Mantelleitung Installationsleitung indoor sheathed cable,m,2.95,3.51,100,5
+CAB-NYM-5X10,cable,"NYM-J 5x10 mm² installation cable 300/500 V, copper, PVC, grey",NYM NYMJ Mantelleitung Installationsleitung indoor sheathed cable,m,4.75,5.65,100,5
+CAB-NYM-5X16,cable,"NYM-J 5x16 mm² installation cable 300/500 V, copper, PVC, grey",NYM NYMJ Mantelleitung Installationsleitung indoor sheathed cable,m,7.45,8.87,100,5
+CAB-H07-3G1.5,cable,H07RN-F 3G1.5 mm² heavy rubber flexible cable 450/750 V,H07RNF Gummischlauchleitung Gummileitung rubber flex cable site cable,m,1.12,1.33,100,5
+CAB-H07-3G2.5,cable,H07RN-F 3G2.5 mm² heavy rubber flexible cable 450/750 V,H07RNF Gummischlauchleitung Gummileitung rubber flex cable site cable,m,1.46,1.74,100,5
+CAB-H07-5G1.5,cable,H07RN-F 5G1.5 mm² heavy rubber flexible cable 450/750 V,H07RNF Gummischlauchleitung Gummileitung rubber flex cable site cable,m,1.46,1.74,100,5
+CAB-H07-5G2.5,cable,H07RN-F 5G2.5 mm² heavy rubber flexible cable 450/750 V,H07RNF Gummischlauchleitung Gummileitung rubber flex cable site cable,m,2.04,2.43,100,5
+CAB-H07-5G4,cable,H07RN-F 5G4 mm² heavy rubber flexible cable 450/750 V,H07RNF Gummischlauchleitung Gummileitung rubber flex cable site cable,m,2.9,3.45,100,5
+CAB-H07-5G6,cable,H07RN-F 5G6 mm² heavy rubber flexible cable 450/750 V,H07RNF Gummischlauchleitung Gummileitung rubber flex cable site cable,m,4.05,4.82,100,5
+CAB-H07-5G10,cable,H07RN-F 5G10 mm² heavy rubber flexible cable 450/750 V,H07RNF Gummischlauchleitung Gummileitung rubber flex cable site cable,m,6.35,7.56,100,5
+CAB-H07-5G16,cable,H07RN-F 5G16 mm² heavy rubber flexible cable 450/750 V,H07RNF Gummischlauchleitung Gummileitung rubber flex cable site cable,m,9.8,11.67,100,5
+CAB-NAYY-4X35,cable,"NAYY-J 4x35 mm² power cable 0.6/1 kV, aluminium, PVC, black",NAYY NAYYJ Aluminium Alu Erdkabel aluminium underground power cable,m,3.74,4.45,100,5
+CAB-NAYY-4X50,cable,"NAYY-J 4x50 mm² power cable 0.6/1 kV, aluminium, PVC, black",NAYY NAYYJ Aluminium Alu Erdkabel aluminium underground power cable,m,5.0,5.95,100,5
+CAB-NAYY-4X70,cable,"NAYY-J 4x70 mm² power cable 0.6/1 kV, aluminium, PVC, black",NAYY NAYYJ Aluminium Alu Erdkabel aluminium underground power cable,m,6.68,7.95,100,5
+CAB-NAYY-4X95,cable,"NAYY-J 4x95 mm² power cable 0.6/1 kV, aluminium, PVC, black",NAYY NAYYJ Aluminium Alu Erdkabel aluminium underground power cable,m,8.78,10.45,100,15
+CAB-NAYY-4X120,cable,"NAYY-J 4x120 mm² power cable 0.6/1 kV, aluminium, PVC, black",NAYY NAYYJ Aluminium Alu Erdkabel aluminium underground power cable,m,10.88,12.95,100,15
+CAB-NAYY-4X150,cable,"NAYY-J 4x150 mm² power cable 0.6/1 kV, aluminium, PVC, black",NAYY NAYYJ Aluminium Alu Erdkabel aluminium underground power cable,m,13.4,15.95,100,15
+CAB-NAYY-4X185,cable,"NAYY-J 4x185 mm² power cable 0.6/1 kV, aluminium, PVC, black",NAYY NAYYJ Aluminium Alu Erdkabel aluminium underground power cable,m,16.34,19.45,100,15
+CAB-NAYY-4X240,cable,"NAYY-J 4x240 mm² power cable 0.6/1 kV, aluminium, PVC, black",NAYY NAYYJ Aluminium Alu Erdkabel aluminium underground power cable,m,20.96,24.95,100,15
+CAB-MV-1X50-10KV,cable,"NA2XS(F)2Y 1x50 mm² medium-voltage cable 6/10 kV, aluminium, XLPE",NA2XSF2Y NA2XS2Y Mittelspannungskabel MV cable VPE single core,m,5.7,6.79,100,20
+CAB-MV-1X50-20KV,cable,"NA2XS(F)2Y 1x50 mm² medium-voltage cable 12/20 kV, aluminium, XLPE",NA2XSF2Y NA2XS2Y Mittelspannungskabel MV cable VPE single core,m,6.73,8.01,100,20
+CAB-MV-1X95-10KV,cable,"NA2XS(F)2Y 1x95 mm² medium-voltage cable 6/10 kV, aluminium, XLPE",NA2XSF2Y NA2XS2Y Mittelspannungskabel MV cable VPE single core,m,7.23,8.61,100,20
+CAB-MV-1X95-20KV,cable,"NA2XS(F)2Y 1x95 mm² medium-voltage cable 12/20 kV, aluminium, XLPE",NA2XSF2Y NA2XS2Y Mittelspannungskabel MV cable VPE single core,m,8.53,10.16,100,20
+CAB-MV-1X150-10KV,cable,"NA2XS(F)2Y 1x150 mm² medium-voltage cable 6/10 kV, aluminium, XLPE",NA2XSF2Y NA2XS2Y Mittelspannungskabel MV cable VPE single core,m,9.1,10.83,100,20
+CAB-MV-1X150-20KV,cable,"NA2XS(F)2Y 1x150 mm² medium-voltage cable 12/20 kV, aluminium, XLPE",NA2XSF2Y NA2XS2Y Mittelspannungskabel MV cable VPE single core,m,10.74,12.78,100,20
+CAB-MV-1X240-10KV,cable,"NA2XS(F)2Y 1x240 mm² medium-voltage cable 6/10 kV, aluminium, XLPE",NA2XSF2Y NA2XS2Y Mittelspannungskabel MV cable VPE single core,m,12.16,14.48,100,20
+CAB-MV-1X240-20KV,cable,"NA2XS(F)2Y 1x240 mm² medium-voltage cable 12/20 kV, aluminium, XLPE",NA2XSF2Y NA2XS2Y Mittelspannungskabel MV cable VPE single core,m,14.35,17.08,100,20
+CAB-MV-1X300-10KV,cable,"NA2XS(F)2Y 1x300 mm² medium-voltage cable 6/10 kV, aluminium, XLPE",NA2XSF2Y NA2XS2Y Mittelspannungskabel MV cable VPE single core,m,14.2,16.9,100,20
+CAB-MV-1X300-20KV,cable,"NA2XS(F)2Y 1x300 mm² medium-voltage cable 12/20 kV, aluminium, XLPE",NA2XSF2Y NA2XS2Y Mittelspannungskabel MV cable VPE single core,m,16.76,19.95,100,20
+CAB-MV-1X500-10KV,cable,"NA2XS(F)2Y 1x500 mm² medium-voltage cable 6/10 kV, aluminium, XLPE",NA2XSF2Y NA2XS2Y Mittelspannungskabel MV cable VPE single core,m,21.0,25.0,100,20
+CAB-MV-1X500-20KV,cable,"NA2XS(F)2Y 1x500 mm² medium-voltage cable 12/20 kV, aluminium, XLPE",NA2XSF2Y NA2XS2Y Mittelspannungskabel MV cable VPE single core,m,24.78,29.5,100,20
+CAB-PV-4-BK,cable,"H1Z2Z2-K 1x4 mm² solar cable 1.5 kV DC, tinned copper, black",H1Z2Z2K Solarkabel Solarleitung PV cable photovoltaic DC string cable schwarz,m,0.56,0.67,100,5
+CAB-PV-4-RD,cable,"H1Z2Z2-K 1x4 mm² solar cable 1.5 kV DC, tinned copper, red",H1Z2Z2K Solarkabel Solarleitung PV cable photovoltaic DC string cable rot,m,0.56,0.67,100,5
+CAB-PV-6-BK,cable,"H1Z2Z2-K 1x6 mm² solar cable 1.5 kV DC, tinned copper, black",H1Z2Z2K Solarkabel Solarleitung PV cable photovoltaic DC string cable schwarz,m,0.78,0.93,100,5
+CAB-PV-6-RD,cable,"H1Z2Z2-K 1x6 mm² solar cable 1.5 kV DC, tinned copper, red",H1Z2Z2K Solarkabel Solarleitung PV cable photovoltaic DC string cable rot,m,0.78,0.93,100,5
+CAB-PV-10-BK,cable,"H1Z2Z2-K 1x10 mm² solar cable 1.5 kV DC, tinned copper, black",H1Z2Z2K Solarkabel Solarleitung PV cable photovoltaic DC string cable schwarz,m,1.22,1.45,100,5
+CAB-PV-10-RD,cable,"H1Z2Z2-K 1x10 mm² solar cable 1.5 kV DC, tinned copper, red",H1Z2Z2K Solarkabel Solarleitung PV cable photovoltaic DC string cable rot,m,1.22,1.45,100,5
+TRF-OIL-100-10,transformer,"Oil-immersed distribution transformer 100 kVA, 10/0.4 kV, Dyn5, ONAN",Trafo Transformator Öltransformator Oeltransformator Verteiltransformator oil filled hermetically sealed,pcs,4400.0,5116.28,1,70
+TRF-OIL-100-20,transformer,"Oil-immersed distribution transformer 100 kVA, 20/0.4 kV, Dyn5, ONAN",Trafo Transformator Öltransformator Oeltransformator Verteiltransformator oil filled hermetically sealed,pcs,4620.0,5372.09,1,70
+TRF-OIL-160-10,transformer,"Oil-immersed distribution transformer 160 kVA, 10/0.4 kV, Dyn5, ONAN",Trafo Transformator Öltransformator Oeltransformator Verteiltransformator oil filled hermetically sealed,pcs,5240.0,6093.02,1,70
+TRF-OIL-160-20,transformer,"Oil-immersed distribution transformer 160 kVA, 20/0.4 kV, Dyn5, ONAN",Trafo Transformator Öltransformator Oeltransformator Verteiltransformator oil filled hermetically sealed,pcs,5502.0,6397.67,1,70
+TRF-OIL-250-10,transformer,"Oil-immersed distribution transformer 250 kVA, 10/0.4 kV, Dyn5, ONAN",Trafo Transformator Öltransformator Oeltransformator Verteiltransformator oil filled hermetically sealed,pcs,6500.0,7558.14,1,70
+TRF-OIL-250-20,transformer,"Oil-immersed distribution transformer 250 kVA, 20/0.4 kV, Dyn5, ONAN",Trafo Transformator Öltransformator Oeltransformator Verteiltransformator oil filled hermetically sealed,pcs,6825.0,7936.05,1,70
+TRF-OIL-400-10,transformer,"Oil-immersed distribution transformer 400 kVA, 10/0.4 kV, Dyn5, ONAN",Trafo Transformator Öltransformator Oeltransformator Verteiltransformator oil filled hermetically sealed,pcs,8600.0,10000.0,1,70
+TRF-OIL-400-20,transformer,"Oil-immersed distribution transformer 400 kVA, 20/0.4 kV, Dyn5, ONAN",Trafo Transformator Öltransformator Oeltransformator Verteiltransformator oil filled hermetically sealed,pcs,9030.0,10500.0,1,70
+TRF-OIL-630-10,transformer,"Oil-immersed distribution transformer 630 kVA, 10/0.4 kV, Dyn5, ONAN",Trafo Transformator Öltransformator Oeltransformator Verteiltransformator oil filled hermetically sealed,pcs,11820.0,13744.19,1,70
+TRF-OIL-630-20,transformer,"Oil-immersed distribution transformer 630 kVA, 20/0.4 kV, Dyn5, ONAN",Trafo Transformator Öltransformator Oeltransformator Verteiltransformator oil filled hermetically sealed,pcs,12411.0,14431.4,1,70
+TRF-OIL-800-10,transformer,"Oil-immersed distribution transformer 800 kVA, 10/0.4 kV, Dyn5, ONAN",Trafo Transformator Öltransformator Oeltransformator Verteiltransformator oil filled hermetically sealed,pcs,14200.0,16511.63,1,70
+TRF-OIL-800-20,transformer,"Oil-immersed distribution transformer 800 kVA, 20/0.4 kV, Dyn5, ONAN",Trafo Transformator Öltransformator Oeltransformator Verteiltransformator oil filled hermetically sealed,pcs,14910.0,17337.21,1,70
+TRF-OIL-1000-10,transformer,"Oil-immersed distribution transformer 1000 kVA, 10/0.4 kV, Dyn5, ONAN",Trafo Transformator Öltransformator Oeltransformator Verteiltransformator oil filled hermetically sealed,pcs,17000.0,19767.44,1,70
+TRF-OIL-1000-20,transformer,"Oil-immersed distribution transformer 1000 kVA, 20/0.4 kV, Dyn5, ONAN",Trafo Transformator Öltransformator Oeltransformator Verteiltransformator oil filled hermetically sealed,pcs,17850.0,20755.81,1,70
+TRF-OIL-1250-10,transformer,"Oil-immersed distribution transformer 1250 kVA, 10/0.4 kV, Dyn5, ONAN",Trafo Transformator Öltransformator Oeltransformator Verteiltransformator oil filled hermetically sealed,pcs,20500.0,23837.21,1,70
+TRF-OIL-1250-20,transformer,"Oil-immersed distribution transformer 1250 kVA, 20/0.4 kV, Dyn5, ONAN",Trafo Transformator Öltransformator Oeltransformator Verteiltransformator oil filled hermetically sealed,pcs,21525.0,25029.07,1,70
+TRF-OIL-1600-10,transformer,"Oil-immersed distribution transformer 1600 kVA, 10/0.4 kV, Dyn5, ONAN",Trafo Transformator Öltransformator Oeltransformator Verteiltransformator oil filled hermetically sealed,pcs,25400.0,29534.88,1,70
+TRF-OIL-1600-20,transformer,"Oil-immersed distribution transformer 1600 kVA, 20/0.4 kV, Dyn5, ONAN",Trafo Transformator Öltransformator Oeltransformator Verteiltransformator oil filled hermetically sealed,pcs,26670.0,31011.63,1,70
+TRF-OIL-2000-10,transformer,"Oil-immersed distribution transformer 2000 kVA, 10/0.4 kV, Dyn5, ONAN",Trafo Transformator Öltransformator Oeltransformator Verteiltransformator oil filled hermetically sealed,pcs,31000.0,36046.51,1,70
+TRF-OIL-2000-20,transformer,"Oil-immersed distribution transformer 2000 kVA, 20/0.4 kV, Dyn5, ONAN",Trafo Transformator Öltransformator Oeltransformator Verteiltransformator oil filled hermetically sealed,pcs,32550.0,37848.84,1,70
+TRF-OIL-2500-10,transformer,"Oil-immersed distribution transformer 2500 kVA, 10/0.4 kV, Dyn5, ONAN",Trafo Transformator Öltransformator Oeltransformator Verteiltransformator oil filled hermetically sealed,pcs,38000.0,44186.05,1,70
+TRF-OIL-2500-20,transformer,"Oil-immersed distribution transformer 2500 kVA, 20/0.4 kV, Dyn5, ONAN",Trafo Transformator Öltransformator Oeltransformator Verteiltransformator oil filled hermetically sealed,pcs,39900.0,46395.35,1,70
+TRF-DRY-250-10,transformer,"Cast-resin dry-type transformer 250 kVA, 10/0.4 kV, Dyn5, AN",Trafo Transformator Gießharztransformator Giessharz Trockentransformator cast resin dry type,pcs,8775.0,10203.49,1,80
+TRF-DRY-250-20,transformer,"Cast-resin dry-type transformer 250 kVA, 20/0.4 kV, Dyn5, AN",Trafo Transformator Gießharztransformator Giessharz Trockentransformator cast resin dry type,pcs,9213.75,10713.66,1,80
+TRF-DRY-400-10,transformer,"Cast-resin dry-type transformer 400 kVA, 10/0.4 kV, Dyn5, AN",Trafo Transformator Gießharztransformator Giessharz Trockentransformator cast resin dry type,pcs,11610.0,13500.0,1,80
+TRF-DRY-400-20,transformer,"Cast-resin dry-type transformer 400 kVA, 20/0.4 kV, Dyn5, AN",Trafo Transformator Gießharztransformator Giessharz Trockentransformator cast resin dry type,pcs,12190.5,14175.0,1,80
+TRF-DRY-630-10,transformer,"Cast-resin dry-type transformer 630 kVA, 10/0.4 kV, Dyn5, AN",Trafo Transformator Gießharztransformator Giessharz Trockentransformator cast resin dry type,pcs,15957.0,18554.65,1,80
+TRF-DRY-630-20,transformer,"Cast-resin dry-type transformer 630 kVA, 20/0.4 kV, Dyn5, AN",Trafo Transformator Gießharztransformator Giessharz Trockentransformator cast resin dry type,pcs,16754.85,19482.38,1,80
+TRF-DRY-800-10,transformer,"Cast-resin dry-type transformer 800 kVA, 10/0.4 kV, Dyn5, AN",Trafo Transformator Gießharztransformator Giessharz Trockentransformator cast resin dry type,pcs,19170.0,22290.7,1,80
+TRF-DRY-800-20,transformer,"Cast-resin dry-type transformer 800 kVA, 20/0.4 kV, Dyn5, AN",Trafo Transformator Gießharztransformator Giessharz Trockentransformator cast resin dry type,pcs,20128.5,23405.23,1,80
+TRF-DRY-1000-10,transformer,"Cast-resin dry-type transformer 1000 kVA, 10/0.4 kV, Dyn5, AN",Trafo Transformator Gießharztransformator Giessharz Trockentransformator cast resin dry type,pcs,22950.0,26686.05,1,80
+TRF-DRY-1000-20,transformer,"Cast-resin dry-type transformer 1000 kVA, 20/0.4 kV, Dyn5, AN",Trafo Transformator Gießharztransformator Giessharz Trockentransformator cast resin dry type,pcs,24097.5,28020.35,1,80
+TRF-DRY-1250-10,transformer,"Cast-resin dry-type transformer 1250 kVA, 10/0.4 kV, Dyn5, AN",Trafo Transformator Gießharztransformator Giessharz Trockentransformator cast resin dry type,pcs,27675.0,32180.23,1,80
+TRF-DRY-1250-20,transformer,"Cast-resin dry-type transformer 1250 kVA, 20/0.4 kV, Dyn5, AN",Trafo Transformator Gießharztransformator Giessharz Trockentransformator cast resin dry type,pcs,29058.75,33789.24,1,80
+TRF-DRY-1600-10,transformer,"Cast-resin dry-type transformer 1600 kVA, 10/0.4 kV, Dyn5, AN",Trafo Transformator Gießharztransformator Giessharz Trockentransformator cast resin dry type,pcs,34290.0,39872.09,1,80
+TRF-DRY-1600-20,transformer,"Cast-resin dry-type transformer 1600 kVA, 20/0.4 kV, Dyn5, AN",Trafo Transformator Gießharztransformator Giessharz Trockentransformator cast resin dry type,pcs,36004.5,41865.7,1,80
+TRF-DRY-2000-10,transformer,"Cast-resin dry-type transformer 2000 kVA, 10/0.4 kV, Dyn5, AN",Trafo Transformator Gießharztransformator Giessharz Trockentransformator cast resin dry type,pcs,41850.0,48662.79,1,80
+TRF-DRY-2000-20,transformer,"Cast-resin dry-type transformer 2000 kVA, 20/0.4 kV, Dyn5, AN",Trafo Transformator Gießharztransformator Giessharz Trockentransformator cast resin dry type,pcs,43942.5,51095.93,1,80
+TRF-DRY-2500-10,transformer,"Cast-resin dry-type transformer 2500 kVA, 10/0.4 kV, Dyn5, AN",Trafo Transformator Gießharztransformator Giessharz Trockentransformator cast resin dry type,pcs,51300.0,59651.16,1,80
+TRF-DRY-2500-20,transformer,"Cast-resin dry-type transformer 2500 kVA, 20/0.4 kV, Dyn5, AN",Trafo Transformator Gießharztransformator Giessharz Trockentransformator cast resin dry type,pcs,53865.0,62633.72,1,80
+PV-RAIL-40X40-2200,solar,"Aluminium mounting rail 40x40 mm, length 2.2 m",Montageschiene Profilschiene Modulschiene Tragschiene mounting rail 2200 mm,pcs,7.48,10.39,10,7
+PV-RAIL-40X40-3300,solar,"Aluminium mounting rail 40x40 mm, length 3.3 m",Montageschiene Profilschiene Modulschiene Tragschiene mounting rail 3300 mm,pcs,11.22,15.58,10,7
+PV-RAIL-40X40-4400,solar,"Aluminium mounting rail 40x40 mm, length 4.4 m",Montageschiene Profilschiene Modulschiene Tragschiene mounting rail 4400 mm,pcs,14.96,20.78,10,7
+PV-RAIL-40X40-6000,solar,"Aluminium mounting rail 40x40 mm, length 6 m",Montageschiene Profilschiene Modulschiene Tragschiene mounting rail 6000 mm,pcs,20.4,28.33,10,7
+PV-RAILCON-40X40,solar,Rail connector (splice) for mounting rail 40x40 mm,Schienenverbinder Verbinder rail splice joiner,pcs,1.9,2.64,10,7
+PV-RAIL-40X60-2200,solar,"Aluminium mounting rail 40x60 mm, length 2.2 m",Montageschiene Profilschiene Modulschiene Tragschiene mounting rail 2200 mm,pcs,10.12,14.06,10,7
+PV-RAIL-40X60-3300,solar,"Aluminium mounting rail 40x60 mm, length 3.3 m",Montageschiene Profilschiene Modulschiene Tragschiene mounting rail 3300 mm,pcs,15.18,21.08,10,7
+PV-RAIL-40X60-4400,solar,"Aluminium mounting rail 40x60 mm, length 4.4 m",Montageschiene Profilschiene Modulschiene Tragschiene mounting rail 4400 mm,pcs,20.24,28.11,10,7
+PV-RAIL-40X60-6000,solar,"Aluminium mounting rail 40x60 mm, length 6 m",Montageschiene Profilschiene Modulschiene Tragschiene mounting rail 6000 mm,pcs,27.6,38.33,10,7
+PV-RAILCON-40X60,solar,Rail connector (splice) for mounting rail 40x60 mm,Schienenverbinder Verbinder rail splice joiner,pcs,1.9,2.64,10,7
+PV-MID-30-SIL,solar,"Module mid clamp for 30 mm frame, silver",Mittelklemme Modulklemme mid clamp middle clamp silber,pcs,0.85,1.18,10,7
+PV-END-30-SIL,solar,"Module end clamp for 30 mm frame, silver",Endklemme Modulendklemme end clamp silber,pcs,0.95,1.32,10,7
+PV-MID-30-BLK,solar,"Module mid clamp for 30 mm frame, black",Mittelklemme Modulklemme mid clamp middle clamp schwarz,pcs,0.95,1.32,10,7
+PV-END-30-BLK,solar,"Module end clamp for 30 mm frame, black",Endklemme Modulendklemme end clamp schwarz,pcs,1.05,1.46,10,7
+PV-MID-35-SIL,solar,"Module mid clamp for 35 mm frame, silver",Mittelklemme Modulklemme mid clamp middle clamp silber,pcs,0.85,1.18,10,7
+PV-END-35-SIL,solar,"Module end clamp for 35 mm frame, silver",Endklemme Modulendklemme end clamp silber,pcs,0.95,1.32,10,7
+PV-MID-35-BLK,solar,"Module mid clamp for 35 mm frame, black",Mittelklemme Modulklemme mid clamp middle clamp schwarz,pcs,0.95,1.32,10,7
+PV-END-35-BLK,solar,"Module end clamp for 35 mm frame, black",Endklemme Modulendklemme end clamp schwarz,pcs,1.05,1.46,10,7
+PV-MID-40-SIL,solar,"Module mid clamp for 40 mm frame, silver",Mittelklemme Modulklemme mid clamp middle clamp silber,pcs,0.85,1.18,10,7
+PV-END-40-SIL,solar,"Module end clamp for 40 mm frame, silver",Endklemme Modulendklemme end clamp silber,pcs,0.95,1.32,10,7
+PV-MID-40-BLK,solar,"Module mid clamp for 40 mm frame, black",Mittelklemme Modulklemme mid clamp middle clamp schwarz,pcs,0.95,1.32,10,7
+PV-END-40-BLK,solar,"Module end clamp for 40 mm frame, black",Endklemme Modulendklemme end clamp schwarz,pcs,1.05,1.46,10,7
+PV-HOOK-TILE,solar,"Roof hook for pantile roofs, stainless steel",Dachhaken Pfanne Ziegel tile,pcs,4.2,5.83,10,7
+PV-HOOK-SLATE,solar,"Roof hook for slate roofs, stainless steel",Dachhaken Schiefer slate,pcs,5.1,7.08,10,7
+PV-HOOK-FLAT,solar,"Roof hook for plain tile roofs, stainless steel",Dachhaken Biberschwanz plain tile flat tile,pcs,4.8,6.67,10,7
+PV-HOOK-ADJ,solar,"Roof hook, height adjustable, stainless steel",Dachhaken verstellbar höhenverstellbar adjustable,pcs,6.3,8.75,10,7
+PV-BOLT-M10X200,solar,"Hanger bolt M10x200 mm with EPDM seal, stainless steel",Stockschraube hanger bolt double threaded screw,pcs,1.6,2.22,10,7
+PV-BOLT-M10X250,solar,"Hanger bolt M10x250 mm with EPDM seal, stainless steel",Stockschraube hanger bolt double threaded screw,pcs,1.8,2.5,10,7
+PV-BOLT-M12X300,solar,"Hanger bolt M12x300 mm with EPDM seal, stainless steel",Stockschraube hanger bolt double threaded screw,pcs,2.6,3.61,10,7
+PV-GSCREW-1200,solar,"Ground screw 1200 mm for ground-mount systems, galvanised",Erdschraube Schraubfundament Bodenschraube ground screw foundation,pcs,23.4,32.5,10,10
+PV-GSCREW-1600,solar,"Ground screw 1600 mm for ground-mount systems, galvanised",Erdschraube Schraubfundament Bodenschraube ground screw foundation,pcs,28.2,39.17,10,10
+PV-GSCREW-2000,solar,"Ground screw 2000 mm for ground-mount systems, galvanised",Erdschraube Schraubfundament Bodenschraube ground screw foundation,pcs,33.0,45.83,10,10
+PV-TRAP-CLAMP,solar,Trapezoidal sheet metal roof clamp with EPDM,Trapezblech Trapezblechklemme Blechdach trapezoidal sheet clamp,pcs,2.3,3.19,10,7
+PV-EARTH-CLIP,solar,"Module earthing clip, stainless steel",Erdungsklemme Erdungsclip Potentialausgleich grounding clip bonding,pcs,0.45,0.62,10,7
+PV-MC4-PAIR,solar,"MC4 connector pair (male + female), 4-6 mm², 1500 V DC",MC4 Stecker Steckverbinder Paar Set connector pair,pcs,1.1,1.53,10,5
+PV-MC4-M,solar,"MC4 connector male, 4-6 mm², 1500 V DC",MC4 Stecker male plug,pcs,0.6,0.83,10,5
+PV-MC4-F,solar,"MC4 connector female, 4-6 mm², 1500 V DC",MC4 Buchse female socket,pcs,0.6,0.83,10,5
+PV-CLIP-CABLE,solar,"Cable clip for module frame, stainless steel, 2 cables",Kabelclip Kabelklemme Edelstahl cable clip,pcs,0.18,0.25,100,5
+ACC-MCCB-100,accessory,"Moulded case circuit breaker (MCCB) 100 A, 3-pole, 50 kA",Leistungsschalter Kompaktleistungsschalter MCCB circuit breaker 3P,pcs,145.0,223.08,1,10
+ACC-MCCB-160,accessory,"Moulded case circuit breaker (MCCB) 160 A, 3-pole, 50 kA",Leistungsschalter Kompaktleistungsschalter MCCB circuit breaker 3P,pcs,196.0,301.54,1,10
+ACC-MCCB-250,accessory,"Moulded case circuit breaker (MCCB) 250 A, 3-pole, 50 kA",Leistungsschalter Kompaktleistungsschalter MCCB circuit breaker 3P,pcs,272.5,419.23,1,10
+ACC-MCCB-400,accessory,"Moulded case circuit breaker (MCCB) 400 A, 3-pole, 50 kA",Leistungsschalter Kompaktleistungsschalter MCCB circuit breaker 3P,pcs,400.0,615.38,1,10
+ACC-MCCB-630,accessory,"Moulded case circuit breaker (MCCB) 630 A, 3-pole, 50 kA",Leistungsschalter Kompaktleistungsschalter MCCB circuit breaker 3P,pcs,595.5,916.15,1,10
+ACC-MCCB-800,accessory,"Moulded case circuit breaker (MCCB) 800 A, 3-pole, 50 kA",Leistungsschalter Kompaktleistungsschalter MCCB circuit breaker 3P,pcs,740.0,1138.46,1,10
+ACC-MCCB-1000,accessory,"Moulded case circuit breaker (MCCB) 1000 A, 3-pole, 50 kA",Leistungsschalter Kompaktleistungsschalter MCCB circuit breaker 3P,pcs,910.0,1400.0,1,10
+ACC-MCCB-1250,accessory,"Moulded case circuit breaker (MCCB) 1250 A, 3-pole, 50 kA",Leistungsschalter Kompaktleistungsschalter MCCB circuit breaker 3P,pcs,1122.5,1726.92,1,10
+ACC-MCCB-1600,accessory,"Moulded case circuit breaker (MCCB) 1600 A, 3-pole, 50 kA",Leistungsschalter Kompaktleistungsschalter MCCB circuit breaker 3P,pcs,1420.0,2184.62,1,10
+ACC-LUG-CU-16,accessory,"Compression cable lug 16 mm², copper, tinned, M12",Kabelschuh Presskabelschuh Rohrkabelschuh crimp lug,pcs,0.65,1.0,10,3
+ACC-LUG-CU-25,accessory,"Compression cable lug 25 mm², copper, tinned, M12",Kabelschuh Presskabelschuh Rohrkabelschuh crimp lug,pcs,0.85,1.31,10,3
+ACC-LUG-CU-35,accessory,"Compression cable lug 35 mm², copper, tinned, M12",Kabelschuh Presskabelschuh Rohrkabelschuh crimp lug,pcs,1.07,1.65,10,3
+ACC-LUG-CU-50,accessory,"Compression cable lug 50 mm², copper, tinned, M12",Kabelschuh Presskabelschuh Rohrkabelschuh crimp lug,pcs,1.4,2.15,10,3
+ACC-LUG-CU-70,accessory,"Compression cable lug 70 mm², copper, tinned, M12",Kabelschuh Presskabelschuh Rohrkabelschuh crimp lug,pcs,1.84,2.83,10,3
+ACC-LUG-CU-95,accessory,"Compression cable lug 95 mm², copper, tinned, M12",Kabelschuh Presskabelschuh Rohrkabelschuh crimp lug,pcs,2.39,3.68,10,3
+ACC-LUG-CU-120,accessory,"Compression cable lug 120 mm², copper, tinned, M12",Kabelschuh Presskabelschuh Rohrkabelschuh crimp lug,pcs,2.94,4.52,10,3
+ACC-LUG-CU-150,accessory,"Compression cable lug 150 mm², copper, tinned, M12",Kabelschuh Presskabelschuh Rohrkabelschuh crimp lug,pcs,3.6,5.54,10,3
+ACC-LUG-CU-185,accessory,"Compression cable lug 185 mm², copper, tinned, M12",Kabelschuh Presskabelschuh Rohrkabelschuh crimp lug,pcs,4.37,6.72,10,3
+ACC-LUG-CU-240,accessory,"Compression cable lug 240 mm², copper, tinned, M12",Kabelschuh Presskabelschuh Rohrkabelschuh crimp lug,pcs,5.58,8.58,10,3
+ACC-GLAND-M16,accessory,"Cable gland M16, polyamide, IP68, with locknut",Kabelverschraubung Verschraubung cable gland,pcs,0.73,1.12,10,3
+ACC-GLAND-M20,accessory,"Cable gland M20, polyamide, IP68, with locknut",Kabelverschraubung Verschraubung cable gland,pcs,0.85,1.31,10,3
+ACC-GLAND-M25,accessory,"Cable gland M25, polyamide, IP68, with locknut",Kabelverschraubung Verschraubung cable gland,pcs,1.0,1.54,10,3
+ACC-GLAND-M32,accessory,"Cable gland M32, polyamide, IP68, with locknut",Kabelverschraubung Verschraubung cable gland,pcs,1.21,1.86,10,3
+ACC-GLAND-M40,accessory,"Cable gland M40, polyamide, IP68, with locknut",Kabelverschraubung Verschraubung cable gland,pcs,1.45,2.23,10,3
+ACC-GLAND-M50,accessory,"Cable gland M50, polyamide, IP68, with locknut",Kabelverschraubung Verschraubung cable gland,pcs,1.75,2.69,10,3
+ACC-GLAND-M63,accessory,"Cable gland M63, polyamide, IP68, with locknut",Kabelverschraubung Verschraubung cable gland,pcs,2.14,3.29,10,3
+ACC-TRAY-100,accessory,"Cable tray 100 mm wide, 60 mm high, length 3 m, galvanised, perforated",Kabelrinne Kabelkanal Rinne cable tray,pcs,12.5,19.23,1,7
+ACC-TRAY-200,accessory,"Cable tray 200 mm wide, 60 mm high, length 3 m, galvanised, perforated",Kabelrinne Kabelkanal Rinne cable tray,pcs,17.0,26.15,1,7
+ACC-TRAY-300,accessory,"Cable tray 300 mm wide, 60 mm high, length 3 m, galvanised, perforated",Kabelrinne Kabelkanal Rinne cable tray,pcs,21.5,33.08,1,7
+ACC-TRAY-400,accessory,"Cable tray 400 mm wide, 60 mm high, length 3 m, galvanised, perforated",Kabelrinne Kabelkanal Rinne cable tray,pcs,26.0,40.0,1,7
+ACC-TRAY-500,accessory,"Cable tray 500 mm wide, 60 mm high, length 3 m, galvanised, perforated",Kabelrinne Kabelkanal Rinne cable tray,pcs,30.5,46.92,1,7
+ACC-TRAY-600,accessory,"Cable tray 600 mm wide, 60 mm high, length 3 m, galvanised, perforated",Kabelrinne Kabelkanal Rinne cable tray,pcs,35.0,53.85,1,7
+ACC-LADDER-200,accessory,"Cable ladder 200 mm wide, length 3 m, hot-dip galvanised",Kabelleiter Kabelbahn Leiter cable ladder,pcs,36.0,55.38,1,7
+ACC-LADDER-300,accessory,"Cable ladder 300 mm wide, length 3 m, hot-dip galvanised",Kabelleiter Kabelbahn Leiter cable ladder,pcs,43.0,66.15,1,7
+ACC-LADDER-400,accessory,"Cable ladder 400 mm wide, length 3 m, hot-dip galvanised",Kabelleiter Kabelbahn Leiter cable ladder,pcs,50.0,76.92,1,7
+ACC-LADDER-600,accessory,"Cable ladder 600 mm wide, length 3 m, hot-dip galvanised",Kabelleiter Kabelbahn Leiter cable ladder,pcs,64.0,98.46,1,7
+ACC-SPD-T12,accessory,"Surge protection device type 1+2, 3-phase, TN-S",Überspannungsschutz Überspannungsableiter Blitzstromableiter Kombiableiter SPD,pcs,142,218.46,1,5
+ACC-SPD-T2,accessory,"Surge protection device type 2, 3-phase, TN-S",Überspannungsschutz Überspannungsableiter SPD surge arrester,pcs,58,89.23,1,5
+ACC-EROD-1500,accessory,"Earth rod 1500 mm, 20 mm diameter, galvanised steel",Erdungsstab Tiefenerder Staberder Erder earth rod ground rod,pcs,11.5,17.69,1,5
+ACC-ETAPE-30X3.5,accessory,"Earthing tape 30x3.5 mm, galvanised steel, per metre",Bandstahl Erdungsband Flachband Bandeisen earthing strip tape,m,1.35,2.08,50,5
+ACC-JOINT-LV-16-50,accessory,"Low-voltage heat-shrink straight joint for 4-core cable 16-50 mm², 1 kV",Verbindungsmuffe Muffe Schrumpfmuffe Kabelmuffe cable joint fits 16 25 35 50 mm²,pcs,14,21.54,1,5
+ACC-JOINT-LV-70-150,accessory,"Low-voltage heat-shrink straight joint for 4-core cable 70-150 mm², 1 kV",Verbindungsmuffe Muffe Schrumpfmuffe Kabelmuffe cable joint fits 70 95 120 150 mm²,pcs,27,41.54,1,5
+ACC-JOINT-LV-185-240,accessory,"Low-voltage heat-shrink straight joint for 4-core cable 185-240 mm², 1 kV",Verbindungsmuffe Muffe Schrumpfmuffe Kabelmuffe cable joint fits 185 240 mm²,pcs,41,63.08,1,5

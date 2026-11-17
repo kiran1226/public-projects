@@ -1,0 +1,28 @@
+{
+  "id": "hard-001",
+  "source": "rfqs/hard-001.eml",
+  "received": "2026-11-09",
+  "hard": "near-miss variant",
+  "split": "hard",
+  "customer_name": "Velkor Netzbau GmbH",
+  "customer_email": "j.hallberg@velkor-netzbau-gmbh.example",
+  "delivery_date": "2026-12-03",
+  "delivery_location": [
+    "Oldenburg"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "NYY-J, 5-adrig, je Ader 10 mm²",
+      "sku": "CAB-NYY-5X10",
+      "quantity": 500,
+      "unit": "m"
+    },
+    {
+      "text": "Solarkabel H1Z2Z2-K 1x4 mm² schwarz",
+      "sku": "CAB-PV-4-BK",
+      "quantity": 150,
+      "unit": "m"
+    }
+  ]
+}

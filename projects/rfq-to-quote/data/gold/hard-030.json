@@ -1,0 +1,34 @@
+{
+  "id": "hard-030",
+  "source": "rfqs/hard-030.eml",
+  "received": "2026-11-06",
+  "hard": "unit conversion; near-miss variant",
+  "split": "hard",
+  "customer_name": "Uhlberg Energietechnik GmbH",
+  "customer_email": "m.wiegand@uhlberg-energietechnik-gmbh.example",
+  "delivery_date": "2027-02-17",
+  "delivery_location": [
+    "Oldenburg"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "cast-resin dry-type transformer 400 kVA, primary 20,000 V, secondary 400 V",
+      "sku": "TRF-DRY-400-20",
+      "quantity": 1,
+      "unit": "pcs"
+    },
+    {
+      "text": "cable gland M40, polyamide, IP68",
+      "sku": "ACC-GLAND-M40",
+      "quantity": 300,
+      "unit": "pcs"
+    },
+    {
+      "text": "moulded case circuit breaker (MCCB) 1250 A, 3-pole",
+      "sku": "ACC-MCCB-1250",
+      "quantity": 1,
+      "unit": "pcs"
+    }
+  ]
+}

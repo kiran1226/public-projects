@@ -1,0 +1,40 @@
+{
+  "id": "hard-036",
+  "source": "rfqs/hard-036.eml",
+  "received": "2026-11-04",
+  "hard": "ambiguous on purpose; item mentioned only as context",
+  "split": "hard",
+  "customer_name": "Bodmar Elektrotechnik GmbH",
+  "customer_email": "j.brandes@bodmar-elektrotechnik-gmbh.example",
+  "delivery_date": "2026-12-08",
+  "delivery_location": [
+    "Ulm"
+  ],
+  "open_questions": true,
+  "items": [
+    {
+      "text": "NYM-J 2.5 mm²",
+      "sku": null,
+      "quantity": 300,
+      "unit": "m"
+    },
+    {
+      "text": "surge protection device type 1+2, 3-phase, TN-S",
+      "sku": "ACC-SPD-T12",
+      "quantity": 3,
+      "unit": "pcs"
+    },
+    {
+      "text": "NA2XS(F)2Y 1x500 mm² 12/20 kV",
+      "sku": "CAB-MV-1X500-20KV",
+      "quantity": 250,
+      "unit": "m"
+    },
+    {
+      "text": "earthing tape 30x3.5 mm, galvanised",
+      "sku": "ACC-ETAPE-30X3.5",
+      "quantity": 1500,
+      "unit": "m"
+    }
+  ]
+}

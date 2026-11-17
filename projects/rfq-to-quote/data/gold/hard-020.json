@@ -1,0 +1,46 @@
+{
+  "id": "hard-020",
+  "source": "rfqs/hard-020.eml",
+  "received": "2026-11-09",
+  "hard": "product not in the catalog; unit conversion",
+  "split": "hard",
+  "customer_name": "Eibenau Solarbau GmbH",
+  "customer_email": "r.sommerfeld@eibenau-solarbau-gmbh.example",
+  "delivery_date": "2026-12-17",
+  "delivery_location": [
+    "Oldenburg"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "ground screw 2000 mm, galvanised",
+      "sku": "PV-GSCREW-2000",
+      "quantity": 120,
+      "unit": "pcs"
+    },
+    {
+      "text": "NAYY-J 4x120 mm²",
+      "sku": "CAB-NAYY-4X120",
+      "quantity": 1500,
+      "unit": "m"
+    },
+    {
+      "text": "NAYY-J 4x35 mm²",
+      "sku": "CAB-NAYY-4X35",
+      "quantity": 200,
+      "unit": "m"
+    },
+    {
+      "text": "NYM-J 3x2.5 mm²",
+      "sku": "CAB-NYM-3X2.5",
+      "quantity": 1250,
+      "unit": "m"
+    },
+    {
+      "text": "EV wallbox 11 kW with type 2 socket",
+      "sku": null,
+      "quantity": 2,
+      "unit": "pcs"
+    }
+  ]
+}

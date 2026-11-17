@@ -1,0 +1,52 @@
+{
+  "id": "rfq-025",
+  "source": "rfqs/rfq-025.xlsx",
+  "received": "2026-10-05",
+  "hard": "subtotal rows that look like line items",
+  "split": "dev",
+  "customer_name": "Agrar Service Holm GmbH",
+  "customer_email": "technik@agrar-holm.example",
+  "delivery_date": "2026-11-02",
+  "delivery_location": [
+    "Schleswig"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "Trapezblechklemme",
+      "sku": "PV-TRAP-CLAMP",
+      "quantity": 320,
+      "unit": "pcs"
+    },
+    {
+      "text": "Montageschiene 40x40 2,2 m",
+      "sku": "PV-RAIL-40X40-2200",
+      "quantity": 160,
+      "unit": "pcs"
+    },
+    {
+      "text": "Mittelklemme 35 mm schwarz",
+      "sku": "PV-MID-35-BLK",
+      "quantity": 280,
+      "unit": "pcs"
+    },
+    {
+      "text": "Endklemme 35 mm schwarz",
+      "sku": "PV-END-35-BLK",
+      "quantity": 40,
+      "unit": "pcs"
+    },
+    {
+      "text": "Solarkabel 6 mm² schwarz H1Z2Z2-K",
+      "sku": "CAB-PV-6-BK",
+      "quantity": 600,
+      "unit": "m"
+    },
+    {
+      "text": "Solarkabel 6 mm² rot H1Z2Z2-K",
+      "sku": "CAB-PV-6-RD",
+      "quantity": 600,
+      "unit": "m"
+    }
+  ]
+}

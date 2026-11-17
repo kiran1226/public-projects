@@ -1,0 +1,22 @@
+{
+  "id": "rfq-039",
+  "source": "rfqs/rfq-039.eml",
+  "received": "2026-10-27",
+  "hard": "target price in the request must not become a quantity",
+  "split": "holdout",
+  "customer_name": "PV Montage Thüringen GmbH",
+  "customer_email": "einkauf@pv-montage-thueringen.example",
+  "delivery_date": "2026-11-16",
+  "delivery_location": [
+    "Gera"
+  ],
+  "open_questions": true,
+  "items": [
+    {
+      "text": "Solarkabel H1Z2Z2-K 6 mm² schwarz",
+      "sku": "CAB-PV-6-BK",
+      "quantity": 3000,
+      "unit": "m"
+    }
+  ]
+}

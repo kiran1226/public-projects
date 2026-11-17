@@ -1,0 +1,34 @@
+{
+  "id": "rfq-030",
+  "source": "rfqs/rfq-030.pdf",
+  "received": "2026-10-12",
+  "hard": "km to metres, 5x2.5 next to 5x25, relative date",
+  "split": "dev",
+  "customer_name": "Biogas Münsterland GmbH & Co. KG",
+  "customer_email": "a.terhorst@biogas-muensterland.example",
+  "delivery_date": "2026-11-02",
+  "delivery_location": [
+    "Coesfeld"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "NYY-J 5x2.5 mm²",
+      "sku": "CAB-NYY-5X2.5",
+      "quantity": 500,
+      "unit": "m"
+    },
+    {
+      "text": "NYY-J 5x25 mm²",
+      "sku": "CAB-NYY-5X25",
+      "quantity": 120,
+      "unit": "m"
+    },
+    {
+      "text": "Hanger bolts M10x200",
+      "sku": "PV-BOLT-M10X200",
+      "quantity": 100,
+      "unit": "pcs"
+    }
+  ]
+}

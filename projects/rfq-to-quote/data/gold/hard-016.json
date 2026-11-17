@@ -1,0 +1,22 @@
+{
+  "id": "hard-016",
+  "source": "rfqs/hard-016.eml",
+  "received": "2026-11-12",
+  "hard": "item mentioned only as context; product not in the catalog",
+  "split": "hard",
+  "customer_name": "Zellbach Elektrotechnik GmbH",
+  "customer_email": "a.achterberg@zellbach-elektrotechnik-gmbh.example",
+  "delivery_date": "2026-12-26",
+  "delivery_location": [
+    "Würzburg"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "EV wallbox 11 kW with type 2 socket",
+      "sku": null,
+      "quantity": 12,
+      "unit": "pcs"
+    }
+  ]
+}

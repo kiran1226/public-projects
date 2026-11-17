@@ -1,0 +1,28 @@
+{
+  "id": "rfq-004",
+  "source": "rfqs/rfq-004.eml",
+  "received": "2026-09-17",
+  "hard": "kilometres, calendar week, one product we do not sell",
+  "split": "dev",
+  "customer_name": "Netzbau Weser GmbH",
+  "customer_email": "p.lindqvist@netzbau-weser.example",
+  "delivery_date": "2026-10-26",
+  "delivery_location": [
+    "Bremen"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "NA2XS(F)2Y 1x150 RM/25 12/20 kV",
+      "sku": "CAB-MV-1X150-20KV",
+      "quantity": 1200,
+      "unit": "m"
+    },
+    {
+      "text": "outdoor terminations, heat-shrink, 24 kV",
+      "sku": null,
+      "quantity": 6,
+      "unit": "pcs"
+    }
+  ]
+}

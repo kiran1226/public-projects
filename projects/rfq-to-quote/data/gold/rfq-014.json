@@ -1,0 +1,22 @@
+{
+  "id": "rfq-014",
+  "source": "rfqs/rfq-014.eml",
+  "received": "2026-10-05",
+  "hard": "below the minimum order quantity",
+  "split": "dev",
+  "customer_name": "Tiny Homes Bavaria GmbH",
+  "customer_email": "build@tinyhomes-bavaria.example",
+  "delivery_date": null,
+  "delivery_location": [
+    "Augsburg"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "NYY-J 3x1.5",
+      "sku": "CAB-NYY-3X1.5",
+      "quantity": 30,
+      "unit": "m"
+    }
+  ]
+}

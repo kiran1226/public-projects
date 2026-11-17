@@ -1,0 +1,28 @@
+{
+  "id": "rfq-033",
+  "source": "rfqs/rfq-033.eml",
+  "received": "2026-10-21",
+  "hard": "rolls and boxes with a stated size each",
+  "split": "holdout",
+  "customer_name": "Hansa Elektroanlagen GmbH",
+  "customer_email": "einkauf@hansa-elektroanlagen.example",
+  "delivery_date": "2026-11-13",
+  "delivery_location": [
+    "Lübeck"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "NYM-J 3x2.5",
+      "sku": "CAB-NYM-3X2.5",
+      "quantity": 2500,
+      "unit": "m"
+    },
+    {
+      "text": "cable glands M20",
+      "sku": "ACC-GLAND-M20",
+      "quantity": 200,
+      "unit": "pcs"
+    }
+  ]
+}

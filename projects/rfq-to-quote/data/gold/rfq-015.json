@@ -1,0 +1,22 @@
+{
+  "id": "rfq-015",
+  "source": "rfqs/rfq-015.eml",
+  "received": "2026-10-06",
+  "hard": "request mixed with an unrelated invoice question",
+  "split": "dev",
+  "customer_name": "Kraftwerk Service Ruhr GmbH",
+  "customer_email": "h.yilmaz@ks-ruhr.example",
+  "delivery_date": "2026-10-23",
+  "delivery_location": [
+    "Essen"
+  ],
+  "open_questions": true,
+  "items": [
+    {
+      "text": "MCCB 250 A 3-pole",
+      "sku": "ACC-MCCB-250",
+      "quantity": 10,
+      "unit": "pcs"
+    }
+  ]
+}

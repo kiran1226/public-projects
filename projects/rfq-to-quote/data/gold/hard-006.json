@@ -1,0 +1,34 @@
+{
+  "id": "hard-006",
+  "source": "rfqs/hard-006.eml",
+  "received": "2026-11-10",
+  "hard": "pasted, misaligned table; German and English number formats mixed",
+  "split": "hard",
+  "customer_name": "Dorhagen Industrieservice GmbH",
+  "customer_email": "m.lohmann@dorhagen-industrieservice-gmbh.example",
+  "delivery_date": "2026-12-03",
+  "delivery_location": [
+    "Oldenburg"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "solar cable H1Z2Z2-K 1x6 mm² black",
+      "sku": "CAB-PV-6-BK",
+      "quantity": 1800,
+      "unit": "m"
+    },
+    {
+      "text": "solar cable H1Z2Z2-K 1x10 mm² red",
+      "sku": "CAB-PV-10-RD",
+      "quantity": 800,
+      "unit": "m"
+    },
+    {
+      "text": "module end clamp for 30 mm frame, black",
+      "sku": "PV-END-30-BLK",
+      "quantity": 3600,
+      "unit": "pcs"
+    }
+  ]
+}

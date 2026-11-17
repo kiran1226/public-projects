@@ -1,0 +1,28 @@
+{
+  "id": "rfq-037",
+  "source": "rfqs/rfq-037.eml",
+  "received": "2026-10-26",
+  "hard": "a size we do not carry, next to close neighbours",
+  "split": "holdout",
+  "customer_name": "Fjord Marine Services GmbH",
+  "customer_email": "tech@fjord-marine.example",
+  "delivery_date": "2026-11-18",
+  "delivery_location": [
+    "Stralsund"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "NYY-J 4x16",
+      "sku": null,
+      "quantity": 180,
+      "unit": "m"
+    },
+    {
+      "text": "MCCB 160 A",
+      "sku": "ACC-MCCB-160",
+      "quantity": 2,
+      "unit": "pcs"
+    }
+  ]
+}

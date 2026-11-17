@@ -1,0 +1,34 @@
+{
+  "id": "rfq-016",
+  "source": "rfqs/rfq-016.eml",
+  "received": "2026-10-07",
+  "hard": "items in a German sentence; joint chosen by cable size",
+  "split": "dev",
+  "customer_name": "Schaltanlagenbau Fink GmbH",
+  "customer_email": "bestellung@fink-schaltanlagen.example",
+  "delivery_date": "2026-10-21",
+  "delivery_location": [
+    "Ulm"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "Presskabelschuhe 95 mm² Cu",
+      "sku": "ACC-LUG-CU-95",
+      "quantity": 100,
+      "unit": "pcs"
+    },
+    {
+      "text": "Presskabelschuhe 150 mm² Cu",
+      "sku": "ACC-LUG-CU-150",
+      "quantity": 50,
+      "unit": "pcs"
+    },
+    {
+      "text": "Verbindungsmuffen für NYY 4x95",
+      "sku": "ACC-JOINT-LV-70-150",
+      "quantity": 4,
+      "unit": "pcs"
+    }
+  ]
+}

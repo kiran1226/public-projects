@@ -1,0 +1,28 @@
+{
+  "id": "hard-021",
+  "source": "rfqs/hard-021.eml",
+  "received": "2026-11-11",
+  "hard": "unit conversion",
+  "split": "hard",
+  "customer_name": "Gaulitz Anlagenbau AG",
+  "customer_email": "c.brandes@gaulitz-anlagenbau-ag.example",
+  "delivery_date": "2026-12-08",
+  "delivery_location": [
+    "Flensburg"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "Kabelleiter 400 mm breit, 3 m lang, feuerverzinkt",
+      "sku": "ACC-LADDER-400",
+      "quantity": 36,
+      "unit": "pcs"
+    },
+    {
+      "text": "NYY-J 4x35 mm²",
+      "sku": "CAB-NYY-4X35",
+      "quantity": 500,
+      "unit": "m"
+    }
+  ]
+}

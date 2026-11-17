@@ -1,0 +1,40 @@
+{
+  "id": "hard-013",
+  "source": "rfqs/hard-013.eml",
+  "received": "2026-11-02",
+  "hard": "German and English number formats mixed",
+  "split": "hard",
+  "customer_name": "Thalmoor Solarbau GmbH",
+  "customer_email": "c.renner@thalmoor-solarbau-gmbh.example",
+  "delivery_date": "2026-11-23",
+  "delivery_location": [
+    "Trier"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "Presskabelschuh 185 mm², Kupfer verzinnt, M12",
+      "sku": "ACC-LUG-CU-185",
+      "quantity": 3600,
+      "unit": "pcs"
+    },
+    {
+      "text": "Mittelklemme für 35 mm Rahmen, silber",
+      "sku": "PV-MID-35-SIL",
+      "quantity": 2400,
+      "unit": "pcs"
+    },
+    {
+      "text": "MC4-Steckerpaar (Stecker + Buchse)",
+      "sku": "PV-MC4-PAIR",
+      "quantity": 50,
+      "unit": "pcs"
+    },
+    {
+      "text": "H07RN-F 3G1,5",
+      "sku": "CAB-H07-3G1.5",
+      "quantity": 800,
+      "unit": "m"
+    }
+  ]
+}

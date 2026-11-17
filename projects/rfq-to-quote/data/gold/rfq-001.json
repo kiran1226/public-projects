@@ -1,0 +1,34 @@
+{
+  "id": "rfq-001",
+  "source": "rfqs/rfq-001.eml",
+  "received": "2026-09-14",
+  "hard": "clean English list",
+  "split": "dev",
+  "customer_name": "Solarbau Hartmann GmbH",
+  "customer_email": "t.hartmann@solarbau-hartmann.example",
+  "delivery_date": "2026-10-05",
+  "delivery_location": [
+    "Leipzig"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "H1Z2Z2-K 1x6 mm² black",
+      "sku": "CAB-PV-6-BK",
+      "quantity": 400,
+      "unit": "m"
+    },
+    {
+      "text": "H1Z2Z2-K 1x6 mm² red",
+      "sku": "CAB-PV-6-RD",
+      "quantity": 400,
+      "unit": "m"
+    },
+    {
+      "text": "MC4 connector pairs",
+      "sku": "PV-MC4-PAIR",
+      "quantity": 50,
+      "unit": "pcs"
+    }
+  ]
+}

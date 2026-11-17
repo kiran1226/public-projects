@@ -1,0 +1,34 @@
+{
+  "id": "rfq-027",
+  "source": "rfqs/rfq-027.pdf",
+  "received": "2026-10-07",
+  "hard": "formal letter, items in prose, a quantity in words",
+  "split": "dev",
+  "customer_name": "Bergmann Tunnelbau AG",
+  "customer_email": "purchasing@bergmann-tunnelbau.example",
+  "delivery_date": "2026-10-28",
+  "delivery_location": [
+    "Stuttgart"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "H07RN-F 5G16",
+      "sku": "CAB-H07-5G16",
+      "quantity": 400,
+      "unit": "m"
+    },
+    {
+      "text": "H07RN-F 5G10",
+      "sku": "CAB-H07-5G10",
+      "quantity": 250,
+      "unit": "m"
+    },
+    {
+      "text": "cable ladders, 600 mm wide, 3 m lengths",
+      "sku": "ACC-LADDER-600",
+      "quantity": 6,
+      "unit": "pcs"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "hard-018",
+  "source": "rfqs/hard-018.eml",
+  "received": "2026-11-03",
+  "hard": "ambiguous on purpose; item mentioned only as context",
+  "split": "hard",
+  "customer_name": "Belkamp Netzbau GmbH",
+  "customer_email": "a.lohmann@belkamp-netzbau-gmbh.example",
+  "delivery_date": "2026-12-08",
+  "delivery_location": [
+    "Bielefeld"
+  ],
+  "open_questions": true,
+  "items": [
+    {
+      "text": "solar cable H1Z2Z2-K 1x10 mm²",
+      "sku": null,
+      "quantity": 800,
+      "unit": "m"
+    }
+  ]
+}

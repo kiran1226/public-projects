@@ -1,0 +1,53 @@
+{
+  "id": "rfq-007",
+  "source": "rfqs/rfq-007.eml",
+  "received": "2026-09-22",
+  "hard": "table in an email, units implied",
+  "split": "dev",
+  "customer_name": "Sunroof Systems GmbH",
+  "customer_email": "purchasing@sunroof-systems.example",
+  "delivery_date": "2026-10-20",
+  "delivery_location": [
+    "Nuremberg",
+    "Nürnberg"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "Mounting rail 40x40, 3.3 m",
+      "sku": "PV-RAIL-40X40-3300",
+      "quantity": 120,
+      "unit": "pcs"
+    },
+    {
+      "text": "Mid clamp 35 mm silver",
+      "sku": "PV-MID-35-SIL",
+      "quantity": 400,
+      "unit": "pcs"
+    },
+    {
+      "text": "End clamp 35 mm silver",
+      "sku": "PV-END-35-SIL",
+      "quantity": 80,
+      "unit": "pcs"
+    },
+    {
+      "text": "Roof hook for pantiles",
+      "sku": "PV-HOOK-TILE",
+      "quantity": 240,
+      "unit": "pcs"
+    },
+    {
+      "text": "Rail connector 40x40",
+      "sku": "PV-RAILCON-40X40",
+      "quantity": 60,
+      "unit": "pcs"
+    },
+    {
+      "text": "Module earthing clip",
+      "sku": "PV-EARTH-CLIP",
+      "quantity": 100,
+      "unit": "pcs"
+    }
+  ]
+}

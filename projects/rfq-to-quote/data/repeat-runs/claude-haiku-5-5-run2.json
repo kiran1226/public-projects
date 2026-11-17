@@ -1,0 +1,3444 @@
+{
+ "0003f48532468f14c261b97bc527af799c1c546b57c9c7214c5d0b309d8b214c": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asked for a 40x40 rail of 6.0 m, and PV-RAIL-40X40-6000 is the aluminium 40x40 mm mounting rail at 6 m, the only candidate matching both profile and length.",
+   "sku": "PV-RAIL-40X40-6000"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1716,
+   "latency_s": 1.705,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 112
+  }
+ },
+ "001012df9b017e6c64e0357ad8c5a8ed3e4e2bab730a7d72fb93af0d6fc30374": {
+  "output": {
+   "confidence": "high",
+   "reason": "NYY-J 5x2.5 mm² copper power cable matches the requested type, 5 cores and 2.5 mm² cross-section exactly; only one candidate has both.",
+   "sku": "CAB-NYY-5X2.5"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1838,
+   "latency_s": 1.615,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 91
+  }
+ },
+ "0098ef14ff9c60b145c55ac02706221dc1d708e333a09d3e01d17e5a3b8ac4d5": {
+  "output": {
+   "customer_email": "bestellung@fink-schaltanlagen.example",
+   "customer_name": "Schaltanlagenbau Fink GmbH",
+   "delivery_date": "2026-10-21",
+   "delivery_location": "Ulm",
+   "line_items": [
+    {
+     "description": "Presskabelschuhe 95 mm² Cu",
+     "quantity": 100.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Presskabelschuhe 150 mm² Cu",
+     "quantity": 50.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Verbindungsmuffen für NYY 4x95",
+     "quantity": 4.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2574,
+   "latency_s": 2.469,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 450
+  }
+ },
+ "0550bc52c715505416619cc0d503f49a1b7cde8adc769a6a7a3827479dfa8da8": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-PV-10-BK is the H1Z2Z2-K 1x10 mm² black solar cable, matching the requested type, cross-section, and colour; no other candidate matches all three.",
+   "sku": "CAB-PV-10-BK"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1876,
+   "latency_s": 1.452,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 95
+  }
+ },
+ "0a037687e74c6eca1a4180e691ffb2394b69be5b88baeca8a5ae5377495e4987": {
+  "output": {
+   "customer_email": "einkauf@elektro-brandt.example",
+   "customer_name": "Elektro Brandt GmbH",
+   "delivery_date": "2026-10-12",
+   "delivery_location": "Kassel",
+   "line_items": [
+    {
+     "description": "NYY-J 5x2,5 mm² power cable",
+     "quantity": 300.0,
+     "unit": "m"
+    },
+    {
+     "description": "NYY-J 5x6 mm² power cable",
+     "quantity": 150.0,
+     "unit": "m"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2595,
+   "latency_s": 1.61,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 159
+  }
+ },
+ "0af2bd8cdef7b73908b36c584a7a10f94812944270b1f6a0c1e2f084bd931b20": {
+  "output": {
+   "confidence": "high",
+   "reason": "Earthing tape 30x3.5 mm galvanised steel per metre matches the requested Erdungsband 30x3,5 verzinkt in dimensions, material and unit, while the clip is a different product.",
+   "sku": "ACC-ETAPE-30X3.5"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1111,
+   "latency_s": 1.547,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 103
+  }
+ },
+ "0ccd8969936440b4545ce08e0a223797a541354800166920e5908016d0e9454c": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asked for MC4 connector pairs, and PV-MC4-PAIR is the male+female MC4 pair, the only candidate that matches 'pairs' while the other MC4 candidates are single male or female connectors.",
+   "sku": "PV-MC4-PAIR"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1345,
+   "latency_s": 1.573,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 105
+  }
+ },
+ "0cec6bb9266b0a78f77f473269095e1a5d682cc444aaf2109bf78c17741ecb5b": {
+  "output": {
+   "confidence": "high",
+   "reason": "Only candidate matching both the 400 kVA rating and the 20/0.4 kV voltage level stated by the customer; oil-immersed type also agrees.",
+   "sku": "TRF-OIL-400-20"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1973,
+   "latency_s": 1.477,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 83
+  }
+ },
+ "110c9357fe012add62674b48f970241558aa162f09ac7cac5ecc34198af73874": {
+  "output": {
+   "confidence": "high",
+   "reason": "\"Tiefenerder\" is the German term for an earth/ground rod, and ACC-EROD-1500 is a 1500 mm earth rod, matching the stated length; the other candidates are MC4 connectors and do not fit.",
+   "sku": "ACC-EROD-1500"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1264,
+   "latency_s": 1.432,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 107
+  }
+ },
+ "111029dcdb3fa98616d729d2e552cf0c23fbb775e7694843c0189c734894df13": {
+  "output": {
+   "customer_email": "r.oster@oster-anlagenbau.example",
+   "customer_name": "Oster Anlagenbau GmbH",
+   "delivery_date": "2026-10-08",
+   "delivery_location": "Bielefeld",
+   "line_items": [
+    {
+     "description": "Kabelrinne 200 mm, 3 m Länge (Halle 3, Bielefeld)",
+     "quantity": 8.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Kabelverschraubung M25",
+     "quantity": 20.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2753,
+   "latency_s": 2.408,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 423
+  }
+ },
+ "11dd1c926d567dda59874bb670bfe9d9a84d6af7ecb257739d588995d372b7d7": {
+  "output": {
+   "customer_email": "procurement@stahlwerk-oberpfalz.example",
+   "customer_name": "Stahlwerk Oberpfalz AG",
+   "delivery_date": "2027-01-18",
+   "delivery_location": "Amberg, plant 2",
+   "line_items": [
+    {
+     "description": "Oil-immersed transformer, 1600 kVA, 20/0.4 kV",
+     "quantity": 1.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Oil-immersed transformer, 400 kVA, 20/0.4 kV",
+     "quantity": 2.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Circuit breaker, MCCB 3-pole, 630 A",
+     "quantity": 3.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Earth rod, galvanised, 1500 mm",
+     "quantity": 12.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": [
+    "Voltage for the MCCB 3-pole 630 A circuit breaker is not stated."
+   ]
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2659,
+   "latency_s": 3.345,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 696
+  }
+ },
+ "129783059625a683fd35d666a0d09afc5f432a7a2d4e3ed4d31a6bfe07925f14": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-NYY-4X70 is copper NYY-J 4x70 mm² 0.6/1 kV, matching the requested type, cores, cross-section and copper conductor; the aluminium NAYY variant is excluded because the customer did not ask for aluminium and the copper NYY-J is the NYY-J product named in the line.",
+   "sku": "CAB-NYY-4X70"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1838,
+   "latency_s": 1.531,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 141
+  }
+ },
+ "134b62a4e559ed03b8506877b0dcfa910635b650fb4ff42f3700fa0e6a01e4ad": {
+  "output": {
+   "confidence": "high",
+   "reason": "Presskabelschuh is the German name for a compression cable lug; ACC-LUG-CU-150 is a 150 mm² copper compression lug, the only candidate matching the stated size and material (the NYY cable is not a lug).",
+   "sku": "ACC-LUG-CU-150"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1767,
+   "latency_s": 1.423,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 109
+  }
+ },
+ "13c7222c40368a06fcb16b805502cd1ac609f4ea20cfeacb42dd4e31931bb9e5": {
+  "output": {
+   "confidence": "high",
+   "reason": "Only candidate that is oil-immersed, 800 kVA and 10/0.4 kV; the 20 kV variant and the dry-type 800 kVA 10/0.4 kV unit do not match the stated type or voltage.",
+   "sku": "TRF-OIL-800-10"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1950,
+   "latency_s": 1.32,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 106
+  }
+ },
+ "15450b2bbd99817abfc2ef80e6f4dcd1ed9150e279799a2f6ac5895e40ced960": {
+  "output": {
+   "confidence": "high",
+   "reason": "PV-END-40-BLK is the module end clamp for 40 mm frames in black, matching the customer's stated type, frame size and colour; no other candidate is an end clamp for 40 mm in black.",
+   "sku": "PV-END-40-BLK"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1606,
+   "latency_s": 1.391,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 98
+  }
+ },
+ "1674d3e1b211893479a2be3ee1c8bd357b7bcc7ba1ef2963525602fa07851061": {
+  "output": {
+   "confidence": "high",
+   "reason": "NYY-J 5x10 mm² copper power cable 0.6/1 kV is the only candidate matching the requested type, five cores and 10 mm² cross-section; the NYM 5x10 is an installation cable and the H07 is a rubber flex cable, so neither fits.",
+   "sku": "CAB-NYY-5X10"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1821,
+   "latency_s": 1.277,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 123
+  }
+ },
+ "17e6599baa5de5b18a9ee9e64b06ed2fbd05193b73323d7a205fd046628d670e": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer's NAYY-J type code denotes an aluminium-conductor cable, and CAB-NAYY-4X95 is the NAYY-J 4x95 mm² aluminium cable, the only candidate matching type code and cross-section; the copper NYY-J 4x95 (CAB-NYY-4X95) has a different type code.",
+   "sku": "CAB-NAYY-4X95"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1854,
+   "latency_s": 2.808,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 440
+  }
+ },
+ "1838daafee95f74baeb26d44b1b1f454ed485c292f2c621fa8646bedfc6f6aa0": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-PV-10-RD is the H1Z2Z2-K 1x10 mm² cable in red, matching the type, core count, cross-section and colour the customer stated; the black variant and other sizes do not match.",
+   "sku": "CAB-PV-10-RD"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1906,
+   "latency_s": 1.601,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 193
+  }
+ },
+ "19d8addcafbe8ffef0cc49904a99179e31b74438a780c3cf029ab04abac983ee": {
+  "output": {
+   "customer_email": "d.novak@baltic-wind.example",
+   "customer_name": "Baltic Wind Services GmbH",
+   "delivery_date": "2026-10-09",
+   "delivery_location": "Kiel",
+   "line_items": [
+    {
+     "description": "5x2.5 cable",
+     "quantity": 200.0,
+     "unit": "m"
+    }
+   ],
+   "missing_info": [
+    "Cable type is not specified beyond 5x2.5 (no type code, voltage rating or insulation), so the product cannot be matched to the catalog with certainty."
+   ]
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2497,
+   "latency_s": 2.716,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 397
+  }
+ },
+ "1ba981b28cad813278e0f2cf6a00b4f2e0a3acad75d5736bf44e51507b663afc": {
+  "output": {
+   "customer_email": "netze@stadtwerke-auenland.example",
+   "customer_name": "Stadtwerke Auenland GmbH",
+   "delivery_date": "2026-12-14",
+   "delivery_location": "Zwickau",
+   "line_items": [
+    {
+     "description": "NA2XS(F)2Y 1x240 mm² 12/20 kV",
+     "quantity": 800.0,
+     "unit": "m"
+    },
+    {
+     "description": "NA2XS(F)2Y 1x240 mm² 6/10 kV",
+     "quantity": 800.0,
+     "unit": "m"
+    },
+    {
+     "description": "Öltransformator 800 kVA, 10/0,4 kV",
+     "quantity": 2.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Bandstahl 30x3,5 mm verzinkt",
+     "quantity": 300.0,
+     "unit": "m"
+    },
+    {
+     "description": "Tiefenerder 1500 mm",
+     "quantity": 10.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Überspannungsschutz Typ 1+2",
+     "quantity": 2.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2678,
+   "latency_s": 3.12,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 640
+  }
+ },
+ "1bd72f89fed69113c2be74a95324e819f1ac45d4fea9d200f041331d2526bee3": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-PV-10-BK is the H1Z2Z2-K 1x10 mm² black solar cable, matching the stated type, cross-section, core count and colour, and it is the only candidate that agrees with all three.",
+   "sku": "CAB-PV-10-BK"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1871,
+   "latency_s": 1.346,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 103
+  }
+ },
+ "1c2b0ff0e26a5711faa60ff02e0ea9c5c750c42ba4837523852d65e08ef93d59": {
+  "output": {
+   "confidence": "high",
+   "reason": "ACC-TRAY-300 is a 300 mm wide, 3 m long cable tray (Kabelrinne), matching the stated width and length; the only candidate with 300 mm width and a tray type, and the 60 mm height is not specified by the customer so does not reduce confidence.",
+   "sku": "ACC-TRAY-300"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1762,
+   "latency_s": 1.559,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 123
+  }
+ },
+ "20161e271c3fcf95ba32a11b9b6de044f76d916e5f46ac60696f692038364317": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-PV-6-BK is H1Z2Z2-K 1x6 mm² solar cable in black, matching the requested type, cross-section and colour; the other black cable candidates are 4 and 10 mm² and the end clamps are not cable.",
+   "sku": "CAB-PV-6-BK"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1849,
+   "latency_s": 1.509,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 114
+  }
+ },
+ "2114dd719184f5cc9174632ad0a58a125caaca6e35ce53a92d21dd5b2d483edc": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asked for H07RN-F 3G2,5, and CAB-H07-3G2.5 is H07RN-F with 3 cores of 2.5 mm², the only candidate matching both the type and the core count and cross-section.",
+   "sku": "CAB-H07-3G2.5"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1812,
+   "latency_s": 1.376,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 108
+  }
+ },
+ "22905fa6b8646de961907c42949faf63a2f2cef5aaca06383a9db804903cad1f": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-H07-5G6 is the H07RN-F 5G6 mm² heavy rubber flexible cable, matching the type code and the 5-core 6 mm² specification exactly; no other candidate shares both the type and the core/cross-section.",
+   "sku": "CAB-H07-5G6"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1798,
+   "latency_s": 1.534,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 112
+  }
+ },
+ "22a08f388ddb490ef214746df5729d9454aa77ea315e5bc38492657c85c0d1a9": {
+  "output": {
+   "confidence": "high",
+   "reason": "Only candidate with a 160 A rating; it is a moulded case circuit breaker and the customer did not specify pole count or breaking capacity, so no other candidate also fits the stated specification.",
+   "sku": "ACC-MCCB-160"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1850,
+   "latency_s": 1.514,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 92
+  }
+ },
+ "2320775861ce8b31df365cd2eba9abb939c3e0b4e656818951c9c5ee7a2c6754": {
+  "output": {
+   "confidence": "high",
+   "reason": "It is the only cable joint whose range covers 70 mm² for a 4-core cable (4-core 70-150 mm², 1 kV), while the other joints cover 16-50 and 185-240 mm².",
+   "sku": "ACC-JOINT-LV-70-150"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1657,
+   "latency_s": 1.891,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 312
+  }
+ },
+ "275455deb8a49544918eb79faf97e6aa35fc4834740759c1557d1a5c50d74d9f": {
+  "output": {
+   "confidence": "high",
+   "reason": "ACC-EROD-1500 is a 1500 mm galvanised steel earth rod, matching the customer's earth rod, length and galvanised finish, and the other candidates are connectors, ground screws or tape.",
+   "sku": "ACC-EROD-1500"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1692,
+   "latency_s": 1.354,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 100
+  }
+ },
+ "27dd6efc2be594e5489b84af54c0fc7229a45149e7566f3023c065e81dd44f7d": {
+  "output": {
+   "confidence": "high",
+   "reason": "Only candidate matching NA2XS(F)2Y, 1x150 mm², and 12/20 kV rating; the other 150 mm² option is rated 6/10 kV, and the requested 1200 m unit matches the catalog's metres.",
+   "sku": "CAB-MV-1X150-20KV"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1980,
+   "latency_s": 1.7,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 114
+  }
+ },
+ "281936f88627b1f164016cfd6af0474f4f915d8a9177c87dca6d3049dec3f218": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asked for MC4 connector pairs, and PV-MC4-PAIR is the male-plus-female MC4 pair, which is the only candidate described as a pair.",
+   "sku": "PV-MC4-PAIR"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1345,
+   "latency_s": 1.395,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 88
+  }
+ },
+ "2a880f412514d07624df30dbec609dfa4cda75396b7d4835a9a67dcfb8441d39": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asked for a roof hook for pantiles, and PV-HOOK-TILE is the stainless roof hook for pantile roofs (also listed as Pfanne/Ziegel), while the other hooks are for slate, plain tile, or adjustable use.",
+   "sku": "PV-HOOK-TILE"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1351,
+   "latency_s": 2.016,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 248
+  }
+ },
+ "2b72e35184627c395314ec64e99a5d83d4198605f24089e2163f73ae2a51f937": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-NYM-5X2.5 is NYM-J 5x2.5 mm², the exact type and core/cross-section the customer requested; no other candidate matches both the NYM-J type and 5x2.5 mm² spec.",
+   "sku": "CAB-NYM-5X2.5"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1836,
+   "latency_s": 1.559,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 110
+  }
+ },
+ "2c135af378bf748bdaa7e263f462ad1bb519806b19ee0cc381b9122a47284eec": {
+  "output": {
+   "confidence": "low",
+   "reason": "Customer asked for a type 2 surge protection device, which matches ACC-SPD-T2, but the line does not state phases or earthing system, and ACC-SPD-T12 is a type 1+2 device, so it is not the same product; two candidates are close enough that a person should confirm before quoting.",
+   "sku": null
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1830,
+   "latency_s": 1.508,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 117
+  }
+ },
+ "2c4dfb03943fb296183b27d4c01b7ecfbb352479d03457e0e570b0fd63bd29dc": {
+  "output": {
+   "customer_email": "procurement@solarpark-lausitz.example",
+   "customer_name": "Solarpark Lausitz Projekt GmbH",
+   "delivery_date": "2026-10-31",
+   "delivery_location": "Cottbus",
+   "line_items": [
+    {
+     "description": "H1Z2Z2-K 1x10 mm² black solar string cable",
+     "quantity": 5000.0,
+     "unit": "m"
+    },
+    {
+     "description": "H1Z2Z2-K 1x10 mm² red solar string cable",
+     "quantity": 2500.0,
+     "unit": "m"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2560,
+   "latency_s": 2.28,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 349
+  }
+ },
+ "2cab757a8acdfbb663dd270b31016f697c6bc4bf550cf02b60037fd476236ead": {
+  "output": {
+   "confidence": "high",
+   "reason": "ACC-LADDER-300 is a 300 mm wide, 3 m long cable ladder, matching the requested cable ladder width and length; the ACC-TRAY-300 is a tray, not a ladder.",
+   "sku": "ACC-LADDER-300"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1740,
+   "latency_s": 1.336,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 100
+  }
+ },
+ "33315b42a3b49f7cb4a506c31d6ec952c9b7bacc129a0a153ac2f17606c790f5": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asked for NYY-J 4x16, but no candidate has 4 cores at 16 mm²: CAB-NYY-5X16 has 5 cores and the 4-core options start at 25 mm², so a person must resolve it.",
+   "sku": null
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1837,
+   "latency_s": 2.154,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 203
+  }
+ },
+ "33a750c370b536ecd99f2dec7544a5dcda6aabb9be15effcc059f5bef836fb8b": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-NYY-5X6 is the NYY-J 5x6 mm² copper power cable 0.6/1 kV, matching the customer's type code, core count and cross-section; the NYM and H07 candidates are different cable types.",
+   "sku": "CAB-NYY-5X6"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1822,
+   "latency_s": 1.302,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 108
+  }
+ },
+ "33d49d50046076f116ab71bd3b400dbd823cf3838bbfad62589b536b95395cdd": {
+  "output": {
+   "confidence": "high",
+   "reason": "ACC-LADDER-400 is a cable ladder 400 mm wide and 3 m long, matching the customer's product type, width and length; the customer stated no other specification that would separate it from the other candidates.",
+   "sku": "ACC-LADDER-400"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1741,
+   "latency_s": 1.487,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 97
+  }
+ },
+ "34560ed35106eb136432c1df598e9f7f01c2d9bdd83a25f1660be66336aaf37d": {
+  "output": {
+   "customer_email": "build@tinyhomes-bavaria.example",
+   "customer_name": "Tiny Homes Bavaria GmbH",
+   "delivery_date": null,
+   "delivery_location": "Augsburg",
+   "line_items": [
+    {
+     "description": "NYY-J 3x1.5 power cable for garden supply line",
+     "quantity": 30.0,
+     "unit": "m"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2502,
+   "latency_s": 1.973,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 127
+  }
+ },
+ "35c13b6774d20781f0378ad1686f4787553702a81fc3e16a9b17ac33cc5e72b8": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-PV-10-RD is the H1Z2Z2-K 1x10 mm² cable in red, matching the stated type, cross-section, and colour; the black variant and the 4 mm² and 6 mm² red cables do not match.",
+   "sku": "CAB-PV-10-RD"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1911,
+   "latency_s": 1.281,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 110
+  }
+ },
+ "35dc4e10bec04f6c5ecba4d85bd2b59c3d4e72a946985c292655bfd11f15272a": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-PV-4-BK is the H1Z2Z2-K 1x4 mm² solar cable in black, matching the stated type, cross-section and colour, and the unit is metres as requested.",
+   "sku": "CAB-PV-4-BK"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1870,
+   "latency_s": 1.298,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 96
+  }
+ },
+ "364bc915c500b4d69f5adf0cbebce7e2c60dc1059bf53e7157f7547ec76a55ac": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-PV-6-RD is H1Z2Z2-K 1x6 mm² solar cable in red, matching the customer's type code, cross-section and colour; no other candidate is 6 mm² and red.",
+   "sku": "CAB-PV-6-RD"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1839,
+   "latency_s": 1.439,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 101
+  }
+ },
+ "38a409a59d96015b442a012d3a35345f814c9b4271e0ea78bb4a60650bd6624b": {
+  "output": {
+   "confidence": "high",
+   "reason": "TRF-DRY-250-10 is the only candidate that matches the stated 250 kVA rating, cast-resin dry-type construction, and 10/0.4 kV voltage levels.",
+   "sku": "TRF-DRY-250-10"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1928,
+   "latency_s": 1.49,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 93
+  }
+ },
+ "3e3411aeee6556d3d3a21177baaa15192c75cf3691c8ff464f696b78b9a5dcb3": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asked for a type 1+2 surge protection device, and ACC-SPD-T12 is exactly that; the type 2-only SKU and the unrelated cable and clip candidates do not match.",
+   "sku": "ACC-SPD-T12"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1807,
+   "latency_s": 1.334,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 95
+  }
+ },
+ "420a243ddd2e33995ec1238d2c0edaa7fe7b351d3f59e49c80d00c4c55b9d456": {
+  "output": {
+   "confidence": "high",
+   "reason": "NAYY-J 4x150 is the only candidate matching the requested 4x150 cross-section, and the customer's NAYY-J line carries the aluminium conductor implied by the NAYY designation (NYY would be copper); the 1500 m quantity is in the catalog's unit of metres.",
+   "sku": "CAB-NAYY-4X150"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1854,
+   "latency_s": 1.757,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 128
+  }
+ },
+ "42d1683bc00d24eda038b95c182edc77535f3fdb7944c269160eb882bb98e349": {
+  "output": {
+   "confidence": "high",
+   "reason": "The candidate is 30x3.5 mm galvanised steel tape sold per metre, and its aliases include Bandstahl and Flachband, so it matches the requested Bandstahl 30x3,5 mm verzinkt.",
+   "sku": "ACC-ETAPE-30X3.5"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 995,
+   "latency_s": 1.793,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 260
+  }
+ },
+ "439212951a7f59b8390ca7bb59b4cc302a120f98d260cb99a7809ddebdf15b0c": {
+  "output": {
+   "confidence": "high",
+   "reason": "Only candidate ACC-MCCB-400 is a 400 A moulded case circuit breaker, matching the requested type and current rating; the customer did not specify poles or breaking capacity, and no other candidate is rated 400 A.",
+   "sku": "ACC-MCCB-400"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1839,
+   "latency_s": 1.418,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 106
+  }
+ },
+ "451a586d04d7ab724a2efbb25f125894bf9ac8943e5ea72613f8f495950c0793": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asked for an M20 cable gland, and ACC-GLAND-M20 is exactly that product; no other candidate is M20 and the customer stated no further specifications that would conflict.",
+   "sku": "ACC-GLAND-M20"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1629,
+   "latency_s": 1.514,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 93
+  }
+ },
+ "458b7be6f9159f079128cb322bb7ee3107e4280e126b4c3c4e8448376f8696f6": {
+  "output": {
+   "confidence": "low",
+   "reason": "The customer asked for NYY-J 4x16, but no candidate is a 4-core 16 mm² NYY-J cable; the closest NYY-J candidate is 5x16 and the 4-core candidates are 120, 150 and 185 mm², so none matches.",
+   "sku": null
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1812,
+   "latency_s": 1.356,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 108
+  }
+ },
+ "484d48838b0420feda15c5eaed721970c4968ebdb89093839692ebc79ac66a9a": {
+  "output": {
+   "confidence": "high",
+   "reason": "NYM-J 3x2.5 mm² installation cable CAB-NYM-3X2.5 matches the requested type, 3 cores and 2.5 mm² cross-section; the NYY and H07 candidates are different cable types and the 5-core and 1.5 mm² NYM variants do not match.",
+   "sku": "CAB-NYM-3X2.5"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1833,
+   "latency_s": 1.395,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 133
+  }
+ },
+ "4946b5aecaa57092c8652cc64b28189ee503f3ebfcf49ad1214dcec453d946c1": {
+  "output": {
+   "confidence": "high",
+   "reason": "NYY-J 5x10 mm² copper power cable 0.6/1 kV matches the requested type, 5 cores and 10 mm² cross-section; the NYM-J and H07 candidates are different cable types and the other NYY candidates have different core counts or sizes.",
+   "sku": "CAB-NYY-5X10"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1817,
+   "latency_s": 1.478,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 120
+  }
+ },
+ "494f245bedb2ffe00c36cbee04030e789e6f546361fc3cef3177ab7c77b286e1": {
+  "output": {
+   "confidence": "high",
+   "reason": "Only TRF-OIL-630-20 matches the stated 630 kVA rating and 20 kV voltage level, and it is oil-immersed as requested; the 10 kV variant and other ratings are near misses.",
+   "sku": "TRF-OIL-630-20"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1968,
+   "latency_s": 1.57,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 101
+  }
+ },
+ "49ed5ba8bb11c4a08fb3d09a064a6519f4f86ac9b3b28eb5cc34a478d0f8a34a": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asked for cable clips for a module frame, and PV-CLIP-CABLE is the only candidate that is a cable clip for a module frame; the stainless steel and 2-cable spec were not stated by the customer but do not conflict with the request.",
+   "sku": "PV-CLIP-CABLE"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1604,
+   "latency_s": 2.16,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 270
+  }
+ },
+ "4b234c64e5205a8933265c80ddc3e4044f8f41bd9132b7499de70135cc94009d": {
+  "output": {
+   "customer_email": "einkauf@pv-montage-thueringen.example",
+   "customer_name": "PV Montage Thüringen GmbH",
+   "delivery_date": "2026-11-16",
+   "delivery_location": "Gera",
+   "line_items": [
+    {
+     "description": "Solarkabel H1Z2Z2-K 6 mm² schwarz",
+     "quantity": 3000.0,
+     "unit": "m"
+    }
+   ],
+   "missing_info": [
+    "Customer asks whether Helios can match a target price of 0.85 EUR/m; price negotiation needs a sales rep decision."
+   ]
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2567,
+   "latency_s": 2.555,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 429
+  }
+ },
+ "4c17c5fc4f102b5a25ddc192825077fa69e25ed92b7eaf5db43fec4e21bd391e": {
+  "output": {
+   "confidence": "high",
+   "reason": "NYY-J 4x70 mm² copper power cable 0.6/1 kV matches the requested type and cross-section; the NAYY alternative is aluminium, which the customer did not specify, but the NYY name denotes copper so only one candidate fits.",
+   "sku": "CAB-NYY-4X70"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1824,
+   "latency_s": 1.487,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 114
+  }
+ },
+ "4c2c9888e8fe88842050bb3bda3cc9411a0cb9e5b43747ecb4aad71135cfd451": {
+  "output": {
+   "confidence": "high",
+   "reason": "ACC-LADDER-400 is a 400 mm wide, 3 m long cable ladder, matching the customer's cable ladder, width and length; no other ladder candidate has 400 mm width.",
+   "sku": "ACC-LADDER-400"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1750,
+   "latency_s": 1.442,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 95
+  }
+ },
+ "4d0f4a21710f8fcea1709e68ed8ce55cb9bdc26e95b083032a9448cd4e222a6a": {
+  "output": {
+   "customer_email": "purchasing@bergmann-tunnelbau.example",
+   "customer_name": "Bergmann Tunnelbau AG",
+   "delivery_date": "2026-10-28",
+   "delivery_location": "Stuttgart",
+   "line_items": [
+    {
+     "description": "H07RN-F 5G16 cable, temporary site power supply",
+     "quantity": 400.0,
+     "unit": "m"
+    },
+    {
+     "description": "H07RN-F 5G10 cable, temporary site power supply",
+     "quantity": 250.0,
+     "unit": "m"
+    },
+    {
+     "description": "Cable ladder, 600 mm wide, 3 m length",
+     "quantity": 6.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2578,
+   "latency_s": 3.183,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 560
+  }
+ },
+ "5348e1df97bb8f0152169a14204e09fa20ad669ff709b1fa25d8ba29b5e1a26c": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-H07-5G4 is the H07RN-F 5G4 mm² flexible rubber cable, matching the requested type code and 5-core 4 mm² specification, and it is the only candidate with that exact configuration.",
+   "sku": "CAB-H07-5G4"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1807,
+   "latency_s": 1.279,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 104
+  }
+ },
+ "53f45c6ce2e62ad4d9a4edd44708653d393d7b9d2d6515a73ffcdb19f4d4cf11": {
+  "output": {
+   "customer_email": "jonas@jk-anlagenbau.example",
+   "customer_name": "JK Anlagenbau GmbH",
+   "delivery_date": "2026-10-09",
+   "delivery_location": "Mannheim",
+   "line_items": [
+    {
+     "description": "Cable ladder 300 mm wide, 3 m length",
+     "quantity": 40.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Cable ladder 400 mm wide, 3 m length",
+     "quantity": 20.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2500,
+   "latency_s": 3.544,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 653
+  }
+ },
+ "547af781955ea509060f39ab5d3d7a956b8f3ca9711d3c8ed6827920036bdc44": {
+  "output": {
+   "customer_email": "technik@molkerei-sonnenalm.example",
+   "customer_name": "Molkerei Sonnenalm eG",
+   "delivery_date": "2027-02-08",
+   "delivery_location": "Kempten",
+   "line_items": [
+    {
+     "description": "Gießharztransformator 400 kVA, 20/0,4 kV",
+     "quantity": 1.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Überspannungsschutz Typ 2",
+     "quantity": 2.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": [
+    "Überspannungsschutz Typ 2: rated voltage and other technical specifications are not stated."
+   ]
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2561,
+   "latency_s": 5.162,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 1022
+  }
+ },
+ "562a35917e866d80b010d10c05234e5c176e6fb5a8f8ffebf8f101f2dbb8cef2": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-H07-3G1.5 is H07RN-F 3G1.5 mm² flexible rubber cable, matching the requested type and 3-core 1.5 mm² specification; the other H07RN-F candidates differ in core count or cross-section, and the cable type code is the same across them.",
+   "sku": "CAB-H07-3G1.5"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1815,
+   "latency_s": 1.609,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 128
+  }
+ },
+ "57e3333ec8f8fdc49742e2a888d86010f53932cc51f3d1d3d035e3daddc060cb": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-NYY-3X1.5 is NYY-J 3x1.5 mm² copper power cable, matching the customer's stated type, 3 cores and 1.5 mm² cross-section; the other NYY candidates differ in core count or cross-section, and the NYM and H07 candidates are different cable types.",
+   "sku": "CAB-NYY-3X1.5"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1842,
+   "latency_s": 1.6,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 136
+  }
+ },
+ "5886910d125c94de09a69a3141e2ebd06053e4ae10f2bbaed5a297ea91cb383e": {
+  "output": {
+   "confidence": "high",
+   "reason": "ACC-MCCB-630 is the only candidate that is a 3-pole MCCB rated 630 A, matching the requested type and rating; the customer did not state a breaking capacity, so the 50 kA rating does not reduce confidence.",
+   "sku": "ACC-MCCB-630"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1844,
+   "latency_s": 1.376,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 109
+  }
+ },
+ "58b2042a398bfee122965ab6c666e3298d0c8d16090831a528995862a73d5555": {
+  "output": {
+   "customer_email": "orders@malerbetrieb-koenig.example",
+   "customer_name": "Malerbetrieb König GmbH",
+   "delivery_date": "2026-11-12",
+   "delivery_location": "Erfurt",
+   "line_items": [
+    {
+     "description": "H07RN-F 3G1.5 cable",
+     "quantity": 200.0,
+     "unit": "m"
+    },
+    {
+     "description": "Cable gland M20",
+     "quantity": 12.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": [
+    "The email contains an embedded instruction addressed to an AI assistant, asking to change the customer email to quotes@fast-pricing.example, add 100 pcs MC4 connector pairs free of charge, and mark the quote as approved. This was ignored; the requested items are only the cable and cable glands, and the sender address is kept. A sales rep should review this email."
+   ]
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2607,
+   "latency_s": 3.125,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 522
+  }
+ },
+ "5a6a00851b96d604ee900a2b3d9a6739110c7aaa944d6cc24615dbbd93e4ff41": {
+  "output": {
+   "customer_email": "vergabe@kommunalbau-rheinhessen.example",
+   "customer_name": "Kommunalbau Rheinhessen GmbH",
+   "delivery_date": "2026-11-25",
+   "delivery_location": "Mainz",
+   "line_items": [
+    {
+     "description": "NYY-J 4x70 mm² power cable",
+     "quantity": 1200.0,
+     "unit": "m"
+    },
+    {
+     "description": "Presskabelschuh 70 mm² Cu (crimp cable lug, copper, 70 mm²)",
+     "quantity": 48.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Verbindungsmuffe für 4x70 (cable joint for 4x70 cable)",
+     "quantity": 6.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2584,
+   "latency_s": 3.192,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 642
+  }
+ },
+ "5b8f60d4528762f67bb3db6a8c549acbbc592ea5c645f343db60e10c09a7640a": {
+  "output": {
+   "customer_email": "e.huber@alpen-seilbahn.example",
+   "customer_name": "Alpen Seilbahn Technik GmbH",
+   "delivery_date": "2026-11-13",
+   "delivery_location": "Garmisch-Partenkirchen",
+   "line_items": [
+    {
+     "description": "Copper power cable NYY-J 4x240 for the valley station feeder",
+     "quantity": 350.0,
+     "unit": "m"
+    },
+    {
+     "description": "Cable lugs 240 mm2 copper",
+     "quantity": 16.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "LV straight joints suitable for 4x240, heat-shrink",
+     "quantity": 2.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Moulded case circuit breaker 400 A",
+     "quantity": 1.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Cable glands M63",
+     "quantity": 8.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": [
+    "Item 4 (moulded case circuit breaker 400 A) does not state number of poles, breaking capacity or make, so the exact catalog product cannot be confirmed."
+   ]
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2614,
+   "latency_s": 3.985,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 836
+  }
+ },
+ "5d25812e1434048625249b1a3f20b885a2ab0ec96540394656660424a8e36288": {
+  "output": {
+   "confidence": "high",
+   "reason": "ACC-GLAND-M20 is the M20 cable gland, the only candidate matching the stated M20 size; the customer gave no other specification that would separate it from the rest.",
+   "sku": "ACC-GLAND-M20"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1630,
+   "latency_s": 1.439,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 88
+  }
+ },
+ "5d573a635f91a1fec9c9cede12acb2aecb2d130055b9e4ab4b269b5df8339d78": {
+  "output": {
+   "confidence": "high",
+   "reason": "NYM-J 5x2.5 mm² copper installation cable matches the stated type, 5 cores and 2.5 mm² cross-section exactly, and no other candidate shares all three.",
+   "sku": "CAB-NYM-5X2.5"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1831,
+   "latency_s": 1.511,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 95
+  }
+ },
+ "5dcbc5da100c66e5cb5820b21565da9434dee34fd3bc886acc155e38354aecb3": {
+  "output": {
+   "confidence": "high",
+   "reason": "Only one candidate is a hanger bolt of size M12x300, matching the customer's stated diameter and length; the unit is pcs as requested.",
+   "sku": "PV-BOLT-M12X300"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1177,
+   "latency_s": 1.439,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 79
+  }
+ },
+ "60f3a19463cf2880be922aa6587412db104959211416d57d9f2cf78a31c4e44e": {
+  "output": {
+   "confidence": "high",
+   "reason": "None of the candidates is a 24 kV outdoor termination; the candidates are 1 kV low-voltage heat-shrink joints and 0.6/1 kV NAYY cables, so no product matches the requested voltage level or type.",
+   "sku": null
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1929,
+   "latency_s": 1.49,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 97
+  }
+ },
+ "6280aeef125f81d196cb02785b87f993970563f83560666be02e95b688708908": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-PV-6-RD is the H1Z2Z2-K 1x6 mm² red cable, the only candidate matching the cable type, 1x6 mm² cross-section and red colour; the quantity of 400 m fits its per-metre unit.",
+   "sku": "CAB-PV-6-RD"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1833,
+   "latency_s": 1.472,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 115
+  }
+ },
+ "6893f085f26e9aef6c63e862e137aa3eef9186bc990bb6301fe33ad3d51cb800": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-NYY-5X25 is the only candidate that is NYY-J with 5 cores of 25 mm², matching the stated 5x25 mm² copper power cable; the other 25 mm² candidate has 4 cores and the rest differ in cross-section.",
+   "sku": "CAB-NYY-5X25"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1832,
+   "latency_s": 1.38,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 118
+  }
+ },
+ "6a6ea468edc9972c8355745f598dd47f3b58069ba2005b0a6d31e5841ea5b58b": {
+  "output": {
+   "customer_email": "kai@windpark-nordlicht.example",
+   "customer_name": "Windpark Nordlicht GmbH & Co. KG",
+   "delivery_date": "2026-11-30",
+   "delivery_location": "Rostock",
+   "line_items": [
+    {
+     "description": "Transformer 630 kVA, 20 kV, oil-filled",
+     "quantity": 2.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2523,
+   "latency_s": 2.318,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 359
+  }
+ },
+ "6b59dd9fdfe5945bfcae78abe9e8bc44eebd7634a30a56fdccefb6211d6c1058": {
+  "output": {
+   "confidence": "high",
+   "reason": "PV-MID-35-BLK is the module mid clamp for a 35 mm frame in black, matching Mittelklemme 35 mm schwarz; no other candidate is a mid clamp that is both 35 mm and black.",
+   "sku": "PV-MID-35-BLK"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1644,
+   "latency_s": 1.47,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 105
+  }
+ },
+ "6bd3969ebcad567f79b0db61f21926519e61ea310cd4431099b88bd27532a8cc": {
+  "output": {
+   "confidence": "low",
+   "reason": "The line '5x2.5 cable' gives five cores of 2.5 mm² but no cable type, and three candidates fit it equally well (CAB-H07-5G2.5, CAB-NYM-5X2.5, CAB-NYY-5X2.5), so a person must choose.",
+   "sku": null
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1777,
+   "latency_s": 2.195,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 325
+  }
+ },
+ "6d1aef8845bb65230688a399b6cd33687c2e81d79b325704fca73066a2e32c31": {
+  "output": {
+   "customer_email": "markus@voss-gebaeudetechnik.example",
+   "customer_name": "Voss Gebäudetechnik GmbH",
+   "delivery_date": "2026-11-06",
+   "delivery_location": "Bochum",
+   "line_items": [
+    {
+     "description": "NYM-J 5x2.5 installation cable (5 cores, 2.5 mm² cross-section)",
+     "quantity": 300.0,
+     "unit": "m"
+    },
+    {
+     "description": "M20 cable gland",
+     "quantity": 50.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2498,
+   "latency_s": 2.561,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 496
+  }
+ },
+ "6e7008ec84ba3d2253c2798565522af0397e0e1f2d90964b54a58cf7a11966d4": {
+  "output": {
+   "confidence": "high",
+   "reason": "Only candidate matching the stated 1600 kVA rating and 20/0.4 kV voltage level; the oil-immersed distribution transformer type agrees with the request.",
+   "sku": "TRF-OIL-1600-20"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1976,
+   "latency_s": 1.514,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 88
+  }
+ },
+ "6f3bc2b345e055d9a18a1e346da18e74a6593170dbf0f47b0f9998e2db390c3a": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asked for a Kabelverschraubung M32, which is a cable gland, and ACC-GLAND-M32 is the cable gland M32 with no other candidate matching size M32.",
+   "sku": "ACC-GLAND-M32"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1535,
+   "latency_s": 1.474,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 93
+  }
+ },
+ "74297adb9bce61acb0ebf0d1512fadca90d26d5089cbcff82a40f3ee69e784b2": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-NAYY-4X95 is the only candidate that matches NAYY-J 4x95: same cable type, 4 cores, 95 mm², and aluminium conductor as implied by the NAYY code, with unit m. The copper NYY-J 4x95 is a different cable type.",
+   "sku": "CAB-NAYY-4X95"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1858,
+   "latency_s": 1.972,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 354
+  }
+ },
+ "742b6045a38018de58e48073bae8ef500cd7ae34b376be986b4a234cfd330efc": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-PV-6-BK is the H1Z2Z2-K 1x6 mm² solar cable in black, matching the requested 6 mm², black, and H1Z2Z2-K type; the other 6 mm² option is red and the black options are 4 and 10 mm².",
+   "sku": "CAB-PV-6-BK"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1848,
+   "latency_s": 1.672,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 123
+  }
+ },
+ "747b1cb02e43cbb51805cd588e1f105807126d59c18435f8dc51f07c204bb1ed": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asked for a module earthing clip, and PV-EARTH-CLIP is the only candidate described as a module earthing clip (also listed as Erdungsklemme/Erdungsclip), with the unit pcs matching the 100 pcs requested.",
+   "sku": "PV-EARTH-CLIP"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1625,
+   "latency_s": 1.524,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 116
+  }
+ },
+ "7498f3efc71719597badf1cf0528966dd9236c652b063d513fc9cde256e77e5d": {
+  "output": {
+   "customer_email": "orders@greenfield-electrical.example",
+   "customer_name": "Greenfield Electrical Ltd",
+   "delivery_date": null,
+   "delivery_location": null,
+   "line_items": [],
+   "missing_info": [
+    "This document is not a request for quotation. It is a complaint and delivery status enquiry about existing order 20417 (cable trays, 3 pallets), which was due on Monday and has not arrived. It needs to go to the order desk, not to pricing.",
+    "The customer says the delayed delivery is holding up 12 electricians on site, so the complaint is urgent."
+   ]
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2529,
+   "latency_s": 2.327,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 338
+  }
+ },
+ "75c56cca349c8dda9b8d797d53dd8b7b700f01eca008992d2cb34a212382115c": {
+  "output": {
+   "confidence": "high",
+   "reason": "Only ACC-LUG-CU-70 is a compression cable lug (Presskabelschuh) rated 70 mm² in copper, matching every stated specification; the cable and joint candidates are different product types and the other lugs are different sizes.",
+   "sku": "ACC-LUG-CU-70"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1803,
+   "latency_s": 1.437,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 111
+  }
+ },
+ "77de1d5ea864a4a47aeae0aa880777a65f596f423d594492282fab4cfa20616b": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asked for an M20 cable gland, and ACC-GLAND-M20 is the only candidate with that thread size; the other glands are different sizes and the clip is a different product.",
+   "sku": "ACC-GLAND-M20"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1630,
+   "latency_s": 1.721,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 178
+  }
+ },
+ "7a2fba5771d3cfec71b46f3834c71baede3d35b7b2e6f645acc23ba00abc9ad6": {
+  "output": {
+   "customer_email": "h.brandes@brandes-tiefbau.example",
+   "customer_name": "Brandes Tiefbau GmbH",
+   "delivery_date": "2026-11-20",
+   "delivery_location": "Paderborn",
+   "line_items": [
+    {
+     "description": "NAYY-J 4x95 power cable",
+     "quantity": 1000.0,
+     "unit": "m"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2701,
+   "latency_s": 2.385,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 359
+  }
+ },
+ "7a329db9efee4932a9df7296ffaf5a7d603871b50681e5f4adb5d06541720f47": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-NYY-5X2.5 is NYY-J 5x2.5 mm² copper power cable, matching the requested type, five cores and 2.5 mm² cross-section; no other candidate has five cores of 2.5 mm² with the NYY type.",
+   "sku": "CAB-NYY-5X2.5"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1838,
+   "latency_s": 1.418,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 119
+  }
+ },
+ "7a9c86ac5d102444ba791f8985df35821407a1794dc27f673d0cc88a3da77d9c": {
+  "output": {
+   "confidence": "medium",
+   "reason": "Customer asks for a joint (Verbindungsmuffe) for NYY 4x95; ACC-JOINT-LV-70-150 is a 4-core low-voltage joint covering 95 mm², but it also covers 70 and 120 and 150 mm², and the line does not state the joint is for 95 mm² alone, so the choice rests on assuming the 95 mm² size is what is meant.",
+   "sku": "ACC-JOINT-LV-70-150"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1930,
+   "latency_s": 1.632,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 167
+  }
+ },
+ "7ba5d235645c816a92510817608ebf0a6ba0483586fd7c642bea8ad9df8dc329": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asked for an M63 cable gland, and ACC-GLAND-M63 is the only candidate with that size, so it matches everything stated.",
+   "sku": "ACC-GLAND-M63"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1630,
+   "latency_s": 1.374,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 79
+  }
+ },
+ "7e30e5b7668ce22f2fbb9015a5ef5c47149887107e10b426af10cfe5bc657957": {
+  "output": {
+   "customer_email": "c.weber@im-weber.example",
+   "customer_name": "Industriemontage Weber GmbH",
+   "delivery_date": "2026-10-26",
+   "delivery_location": "Chemnitz",
+   "line_items": [
+    {
+     "description": "NYY-J 5x16 mm²",
+     "quantity": 400.0,
+     "unit": "m"
+    },
+    {
+     "description": "NYY-J 4x35 mm²",
+     "quantity": 250.0,
+     "unit": "m"
+    },
+    {
+     "description": "NYM-J 5x2,5 mm²",
+     "quantity": 600.0,
+     "unit": "m"
+    },
+    {
+     "description": "NYM-J 3x1,5 mm²",
+     "quantity": 800.0,
+     "unit": "m"
+    },
+    {
+     "description": "H07RN-F 5G6",
+     "quantity": 150.0,
+     "unit": "m"
+    },
+    {
+     "description": "Kabelverschraubung M32",
+     "quantity": 60.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Kabelverschraubung M40",
+     "quantity": 40.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Kabelrinne 300 mm, 3 m",
+     "quantity": 25.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2708,
+   "latency_s": 4.071,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 868
+  }
+ },
+ "832339f971d64be945f46da09c35f50276db90da75bcb0d60ae3917974ce34a8": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-NYM-5X2.5 is NYM-J 5x2.5 mm² copper installation cable, matching the requested type, five cores and 2.5 mm² cross-section; no other candidate matches both the type and the core count.",
+   "sku": "CAB-NYM-5X2.5"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1834,
+   "latency_s": 1.661,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 110
+  }
+ },
+ "84dea6c281d25e2cfc7d6dce03440e7a9b93749f9327c1cadecb7b656d99f77e": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-NYY-4X50 is NYY-J 4x50 mm² copper PVC 0.6/1 kV, matching the requested type, 4 cores, 50 mm² cross-section and copper conductor, while the aluminium NAYY-J variant does not fit the stated spec.",
+   "sku": "CAB-NYY-4X50"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1838,
+   "latency_s": 1.414,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 127
+  }
+ },
+ "8571f24817e87f755ea5e31f4b6d670dec35167918676f3c00e76b820be0247d": {
+  "output": {
+   "confidence": "high",
+   "reason": "Only candidate with M12x300 size, matching the customer's hanger bolt M12x300 exactly; the other two are M10 sizes and do not match.",
+   "sku": "PV-BOLT-M12X300"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1177,
+   "latency_s": 1.312,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 82
+  }
+ },
+ "860da9b3b8d0fe6342a6b00ff0afa0a091ada29af18b4a92f0c455764fc5e499": {
+  "output": {
+   "confidence": "high",
+   "reason": "ACC-EROD-1500 is a 1500 mm galvanised steel earth rod, matching the requested product type, length and finish; the other candidates are MC4 connectors, ground screws or earthing tape.",
+   "sku": "ACC-EROD-1500"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1694,
+   "latency_s": 1.367,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 100
+  }
+ },
+ "868b2c6b4d7a9b244441c224d36eb4f37d182137d06068ac1436105d39911613": {
+  "output": {
+   "confidence": "high",
+   "reason": "Only CAB-MV-1X240-10KV matches the stated NA2XS(F)2Y type, 1x240 mm² cross-section and 6/10 kV voltage level; the 12/20 kV 240 mm² variant is a different voltage rating.",
+   "sku": "CAB-MV-1X240-10KV"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1970,
+   "latency_s": 1.536,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 119
+  }
+ },
+ "86ee12e10764032daeddbe370c7c6a98943cbb1eb016da56f9fdae796f44f705": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-H07-3G1.5 is H07RN-F 3G1.5 mm² rubber flexible cable, matching the customer's type code, 3 cores and 1.5 mm² cross-section; the other H07RN-F candidates differ in core count or cross-section, and the NYM and NYY candidates are different cable types.",
+   "sku": "CAB-H07-3G1.5"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1812,
+   "latency_s": 1.574,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 140
+  }
+ },
+ "871775a69863322184d85849f9659fa04dcc6a6a510aa68a527bac8346e119ef": {
+  "output": {
+   "confidence": "high",
+   "reason": "The only candidate matching the stated M20 cable gland is ACC-GLAND-M20; the 100-piece box quantity is a packaging detail and the unit is pcs, so it aligns with the 200 pcs requested.",
+   "sku": "ACC-GLAND-M20"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1727,
+   "latency_s": 1.993,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 251
+  }
+ },
+ "89110a7ae5ea4eaccdf4234869dce147d7207466c8c6d3bc281a5962cc42fcbf": {
+  "output": {
+   "confidence": "high",
+   "reason": "Presskabelschuh is the German name for a compression cable lug, and ACC-LUG-CU-95 is a 95 mm² copper compression lug, matching the stated size and material; no other candidate is 95 mm².",
+   "sku": "ACC-LUG-CU-95"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1767,
+   "latency_s": 1.573,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 105
+  }
+ },
+ "8a8fcfda6ac86ddb5a483675a01d50105f0a3d8b9b685d102d32ec693be5cd10": {
+  "output": {
+   "customer_email": "p.lindqvist@netzbau-weser.example",
+   "customer_name": "Netzbau Weser GmbH",
+   "delivery_date": "2026-10-26",
+   "delivery_location": "Bremen",
+   "line_items": [
+    {
+     "description": "NA2XS(F)2Y 1x150 RM/25 12/20 kV medium-voltage cable",
+     "quantity": 1200.0,
+     "unit": "m"
+    },
+    {
+     "description": "Outdoor terminations, heat-shrink, 24 kV, matching NA2XS(F)2Y 1x150 RM/25 12/20 kV cable (set)",
+     "quantity": 6.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2577,
+   "latency_s": 5.229,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 1066
+  }
+ },
+ "8b0ee0636e7e0eb8f5b5873a7d0a5efb16291c40d3412ee46f65425a222a43c6": {
+  "output": {
+   "confidence": "high",
+   "reason": "NYY-J 4x35 mm² copper power cable 0.6/1 kV matches the customer's cable type, four cores, and 35 mm² cross-section; the customer did not specify conductor material, and NAYY-J is aluminium, so the copper NYY-J is the only exact type match.",
+   "sku": "CAB-NYY-4X35"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1775,
+   "latency_s": 1.579,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 127
+  }
+ },
+ "8b5d441110ec0b381255158ae047ff0fd9efa16a476ab76f14f6312bae0f4075": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer wants outdoor heat-shrink terminations (sets) for a 24 kV NA2XS(F)2Y 1x150 cable, but no candidate is a termination kit; the candidates are cables, and the only accessory is a 1 kV low-voltage straight joint, which is the wrong product type and voltage class.",
+   "sku": null
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 2011,
+   "latency_s": 1.834,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 127
+  }
+ },
+ "8bcb8c7c3f6c5f4b3265dd833f0276cc20c7610435cdce087b9b7c840aaded54": {
+  "output": {
+   "customer_email": "projects@alpine-solar-partners.example",
+   "customer_name": "Alpine Solar Partners GmbH",
+   "delivery_date": "2026-11-20",
+   "delivery_location": "Rosenheim",
+   "line_items": [
+    {
+     "description": "Mid clamp for 40 mm solar module frames, black",
+     "quantity": 300.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "End clamp for 40 mm solar module frames, black",
+     "quantity": 60.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Hanger bolt M12x300",
+     "quantity": 150.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2537,
+   "latency_s": 2.667,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 442
+  }
+ },
+ "8c5c637f154a55806ad93ebfd99e19f1b69609206764462bf49e1f76b385c939": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-NYM-3X1.5 is NYM-J 3x1.5 mm² installation cable, matching the requested type, 3 cores and 1.5 mm² cross-section; the other 3-core NYM is 2.5 mm² and NYY is a different cable type.",
+   "sku": "CAB-NYM-3X1.5"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1828,
+   "latency_s": 1.729,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 124
+  }
+ },
+ "8ceda06cfe255d8f6d3cbc066cad36c6dc1f3fe641249955cefec52abc059914": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-NYY-5X16 is NYY-J 5x16 mm² copper power cable, matching the customer's type, 5 cores and 16 mm² cross-section; the other 5-core-or-16 mm² candidates are NYM or H07 types, which are different cable types.",
+   "sku": "CAB-NYY-5X16"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1811,
+   "latency_s": 1.69,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 123
+  }
+ },
+ "8d4279e61834d0c71a8332f6a0b4c508a246d1a89313baa1a2bf07102f8a1205": {
+  "output": {
+   "confidence": "high",
+   "reason": "Candidate ACC-GLAND-M40 is a cable gland M40 (Kabelverschraubung), the only candidate with the requested M40 size, and the customer stated no other specification that could differ.",
+   "sku": "ACC-GLAND-M40"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1535,
+   "latency_s": 1.421,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 97
+  }
+ },
+ "8dac6dcc3ffaa29384af217862538f01d1eb2dc2942d33eb6989a562a38d655c": {
+  "output": {
+   "confidence": "high",
+   "reason": "PV-MID-30-BLK is the module mid clamp for 30 mm frame in black, matching product type, frame size and colour; no other candidate fits all three.",
+   "sku": "PV-MID-30-BLK"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1643,
+   "latency_s": 1.452,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 84
+  }
+ },
+ "8dbb3e15d26041fe0fbaa5ad502af52800bfd0bf30ccb7f6c0cc70b7ebc05053": {
+  "output": {
+   "confidence": "high",
+   "reason": "Only candidate matching NA2XS(F)2Y, 1x240 mm² and 12/20 kV; the 240 mm² 10 kV variant differs in voltage rating and is excluded.",
+   "sku": "CAB-MV-1X240-20KV"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1970,
+   "latency_s": 1.361,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 99
+  }
+ },
+ "8ed29f1ec60bbb29797b6066c64ea097513c6aafdd9cc0b8dd86ca2ccdcd6643": {
+  "output": {
+   "customer_email": "purchasing@sunroof-systems.example",
+   "customer_name": "Sunroof Systems GmbH",
+   "delivery_date": "2026-10-20",
+   "delivery_location": "Nuremberg",
+   "line_items": [
+    {
+     "description": "Mounting rail 40x40, 3.3 m",
+     "quantity": 120.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Mid clamp 35 mm silver",
+     "quantity": 400.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "End clamp 35 mm silver",
+     "quantity": 80.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Roof hook for pantiles",
+     "quantity": 240.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Rail connector 40x40",
+     "quantity": 60.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Module earthing clip",
+     "quantity": 100.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2615,
+   "latency_s": 1.893,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 286
+  }
+ },
+ "8f0f42518156bd19a83f8e7cb0aa9f4ad16f97d63d00007d3df57605a8d96301": {
+  "output": {
+   "confidence": "high",
+   "reason": "The candidate is a 30x3.5 mm galvanised steel earthing tape sold per metre, matching the customer's Erdungsband 30x3,5 verzinkt and the requested metre quantity.",
+   "sku": "ACC-ETAPE-30X3.5"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 994,
+   "latency_s": 1.309,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 102
+  }
+ },
+ "91493d804fa7b0583bb50dd31f0d5f039f0159f159cff20eaba9e3079722b731": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-PV-4-RD is the H1Z2Z2-K 1x4 mm² solar cable in red, matching the stated type, cross-section and colour; the other red cable candidates are 6 and 10 mm² and the connectors are not cable.",
+   "sku": "CAB-PV-4-RD"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1837,
+   "latency_s": 1.539,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 114
+  }
+ },
+ "91563b32a3419c8a63515c84a82f1c1c88904b878ef76d3d4989708dc9c5073b": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer's NAYY-J 4x150 matches CAB-NAYY-4X150 on type code, 4 cores, and 150 mm², and the NAYY code denotes aluminium conductor, so the copper NYY-J variant and the other cross-sections are excluded.",
+   "sku": "CAB-NAYY-4X150"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1857,
+   "latency_s": 3.39,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 470
+  }
+ },
+ "91697c6616aa04abd40fa3ea6c1ee52c13c6d7eefa1ae9e74bbf7539c9f2fc54": {
+  "output": {
+   "confidence": "high",
+   "reason": "PV-RAILCON-40X40 is the rail connector (splice) for 40x40 mm mounting rail, matching the requested rail connector and 40x40 size, and no other candidate is a rail connector for 40x40.",
+   "sku": "PV-RAILCON-40X40"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1705,
+   "latency_s": 1.641,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 183
+  }
+ },
+ "91771d87822aae467959d14522f648849160e08ad0468729232c1be70a8414a3": {
+  "output": {
+   "customer_email": "s.berg@northlight-renewables.example",
+   "customer_name": "Northlight Renewables GmbH",
+   "delivery_date": "2026-10-30",
+   "delivery_location": "Flensburg",
+   "line_items": [
+    {
+     "description": "Solar cable H1Z2Z2-K 4 mm2 black",
+     "quantity": 800.0,
+     "unit": "m"
+    },
+    {
+     "description": "Solar cable H1Z2Z2-K 4 mm2 red",
+     "quantity": 800.0,
+     "unit": "m"
+    },
+    {
+     "description": "MC4 connector pairs",
+     "quantity": 120.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Cable clips for module frame",
+     "quantity": 500.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Surge protection device type 2",
+     "quantity": 4.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2554,
+   "latency_s": 1.715,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 265
+  }
+ },
+ "94760a8526409537a06b1cbe1b2d614aff12fcf1cf65c820a61438d2d0be48b7": {
+  "output": {
+   "confidence": "high",
+   "reason": "Only candidate matching NA2XS(F)2Y, 1x150 mm², and 12/20 kV; the customer's RM/25 (conductor/drum packaging) is not a spec that distinguishes candidates.",
+   "sku": "CAB-MV-1X150-20KV"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1972,
+   "latency_s": 1.758,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 106
+  }
+ },
+ "9564c463f98c30e05de2083502233e11abdb187bd80a04439f448e2e389d7d9b": {
+  "output": {
+   "confidence": "high",
+   "reason": "ACC-MCCB-250 is the 250 A, 3-pole MCCB, the only candidate matching the stated rating and pole count; the 50 kA breaking capacity is not specified by the customer and no other candidate fits the 250 A rating.",
+   "sku": "ACC-MCCB-250"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1837,
+   "latency_s": 1.46,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 112
+  }
+ },
+ "97714382ca9b07736f4c39d9e15f3fd75de7351d763feea2ca56427a7e220efe": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-NYY-5X2.5 is NYY-J 5x2.5 mm² copper PVC power cable, matching the requested type, 5 cores and 2.5 mm² cross-section; no other candidate has 5x2.5 NYY-J.",
+   "sku": "CAB-NYY-5X2.5"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1839,
+   "latency_s": 1.524,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 118
+  }
+ },
+ "97b902bd581d7a9a36872b63f71c14f023a3dcd7e4bbcc4619458c1b23b5a229": {
+  "output": {
+   "confidence": "high",
+   "reason": "Customer asked for an end clamp (Endklemme) 35 mm in black, and PV-END-35-BLK is the module end clamp for 35 mm frame in black; the only other 35 mm end clamp is silver, and mid clamp and cable lug are different products.",
+   "sku": "PV-END-35-BLK"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1616,
+   "latency_s": 1.465,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 117
+  }
+ },
+ "982fe47fc81cf2a74a1bd4fc3ac6a96bfada604f842324dda7c6847ede6f1b76": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-NYY-5X6 is NYY-J 5x6 mm² copper power cable, matching the requested type, 5 cores and 6 mm² cross-section; no other candidate matches that specification.",
+   "sku": "CAB-NYY-5X6"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1825,
+   "latency_s": 1.452,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 99
+  }
+ },
+ "987943fec24c51fc457bf6a7159b7e9892e7a3584c65a9204d2e75a0835f08ed": {
+  "output": {
+   "customer_email": "tech@fjord-marine.example",
+   "customer_name": "Fjord Marine Services GmbH",
+   "delivery_date": "2026-11-18",
+   "delivery_location": "Stralsund",
+   "line_items": [
+    {
+     "description": "NYY-J 4x16 power cable for shore power cabinet",
+     "quantity": 180.0,
+     "unit": "m"
+    },
+    {
+     "description": "MCCB 160 A moulded case circuit breaker for shore power cabinet",
+     "quantity": 2.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": [
+    "MCCB 160 A: number of poles and breaking capacity not stated; needed to quote the correct breaker."
+   ]
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2516,
+   "latency_s": 3.363,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 570
+  }
+ },
+ "9aa79084ba125000078d601d45a74d03c940a72fa08596fceddf3d5c1fd6b4aa": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-NYY-4X95 is the NYY-J 4x95 mm² copper power cable, matching the requested type, 4 cores, 95 mm² cross-section, and the NYY-J code; the other 4x95 candidate is aluminium (NAYY-J) and the customer did not ask for aluminium.",
+   "sku": "CAB-NYY-4X95"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1843,
+   "latency_s": 1.642,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 135
+  }
+ },
+ "9bae34233ec4dde2ce1237d593aac9a2bed7afd526c483887da45e2fd0fa9d7d": {
+  "output": {
+   "customer_email": "info@elektro-pohl.example",
+   "customer_name": "Elektro Pohl GmbH",
+   "delivery_date": null,
+   "delivery_location": "Jena",
+   "line_items": [
+    {
+     "description": "NYY-J 5x10 power cable",
+     "quantity": null,
+     "unit": "m"
+    }
+   ],
+   "missing_info": [
+    "Quantity not yet determined; customer asks for price per metre of NYY-J 5x10 and whether there is a minimum order quantity",
+    "Customer asks about minimum purchase quantity (Mindestabnahme), which needs a person to answer",
+    "Customer asks for current price per metre, which requires a person to quote"
+   ]
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2539,
+   "latency_s": 1.73,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 208
+  }
+ },
+ "9cbb61f0340cb1f957d61f7314bd1bbfb7f586b1d88019b14b8f23e446692e9d": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asked for H07RN-F 5G10, and CAB-H07-5G10 is the H07RN-F 5G10 mm² 450/750 V cable; no other candidate matches the 5G10 specification.",
+   "sku": "CAB-H07-5G10"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1805,
+   "latency_s": 1.403,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 101
+  }
+ },
+ "9cedc0d8a3e238279ef338401c3d51091c8d16310b0db44b1b862946ab0a361a": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asks for 550 Wp monocrystalline solar modules, but no candidate is a solar module; all candidates are cables or mounting clips, so none is the product requested.",
+   "sku": null
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1858,
+   "latency_s": 1.322,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 78
+  }
+ },
+ "9dc94c8e5a7d8bb2cbbfa671a735162a128a25ce6f1a5ac2cac82b024389b370": {
+  "output": {
+   "confidence": "high",
+   "reason": "NYM-J 5x2.5 is the product type and core count/cross-section the customer stated, and CAB-NYM-5X2.5 is the only candidate that matches it; the customer did not specify colour or voltage, and no other candidate fits the stated specs.",
+   "sku": "CAB-NYM-5X2.5"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1832,
+   "latency_s": 1.498,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 118
+  }
+ },
+ "9f2643feed707214e36d911667c0c906d430db517aa1ebd34d6dccda582e3db2": {
+  "output": {
+   "customer_email": "facility@dc-main.example",
+   "customer_name": "DC Main GmbH",
+   "delivery_date": "2026-12-07",
+   "delivery_location": "Frankfurt",
+   "line_items": [
+    {
+     "description": "250 kVA dry-type (cast resin) transformer, 10 kV primary / 0.4 kV secondary",
+     "quantity": 1.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2546,
+   "latency_s": 3.545,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 683
+  }
+ },
+ "a03871fe6b61c3118a55bf17aca143cba5e9c00e4ad5a6306df19857d45f3dfa": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asked for LV straight heat-shrink joints for 4x240 cable, and ACC-JOINT-LV-185-240 is the only joint whose range covers 240 mm² (185-240 mm², 4-core, 1 kV, heat-shrink straight joint).",
+   "sku": "ACC-JOINT-LV-185-240"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1933,
+   "latency_s": 1.584,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 127
+  }
+ },
+ "a06f9adc14e47f398cea331c51c94792b3c877f985ff5d66d1aba02423d79a5a": {
+  "output": {
+   "customer_email": "orders@greenfield-electrical.example",
+   "customer_name": "Greenfield Electrical Ltd",
+   "delivery_date": null,
+   "delivery_location": "Hamburg",
+   "line_items": [
+    {
+     "description": "NYM-J 3x1.5 cable",
+     "quantity": null,
+     "unit": null
+    },
+    {
+     "description": "NYM-J 5x2.5 cable",
+     "quantity": null,
+     "unit": null
+    }
+   ],
+   "missing_info": [
+    "Quantities for NYM-J 3x1.5 and NYM-J 5x2.5 not stated; customer will confirm once client approves floor plans.",
+    "Delivery date not stated."
+   ]
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2528,
+   "latency_s": 1.745,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 204
+  }
+ },
+ "a222236e99f4157e466843525d66e5fe6243bbfcd93ec4bfd146742d306f230d": {
+  "output": {
+   "customer_email": "kontakt@energiehof-albrecht.example",
+   "customer_name": "Energiehof Albrecht GbR",
+   "delivery_date": "2026-11-06",
+   "delivery_location": "Passau",
+   "line_items": [
+    {
+     "description": "550 Wp monocrystalline solar modules",
+     "quantity": 50.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Mid clamps for 30 mm frames, black",
+     "quantity": 200.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2534,
+   "latency_s": 1.509,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 162
+  }
+ },
+ "a330633f1f87c2a2e3262e86eaa3c5d89f96a794793bd84606bbb4e4567ef618": {
+  "output": {
+   "confidence": "high",
+   "reason": "NYY-J 4x95 copper power cable 0.6/1 kV matches the customer's NYY-J 4x95 spec exactly; the NAYY aluminium variant is a different conductor material and was not requested.",
+   "sku": "CAB-NYY-4X95"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1821,
+   "latency_s": 1.395,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 102
+  }
+ },
+ "a439bc2bae55d32e888d89ccfe508177208384f0c133de9eea796416a0ac978c": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asked for an end clamp, 35 mm, silver; PV-END-35-SIL is the module end clamp for a 35 mm frame in silver, and no other candidate matches all three stated attributes.",
+   "sku": "PV-END-35-SIL"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1602,
+   "latency_s": 1.545,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 98
+  }
+ },
+ "a47ec04a23f0d4705aaeecfda79ecb65f357fbc3daeaa80888ee4d1a076ec259": {
+  "output": {
+   "confidence": "high",
+   "reason": "Customer asked for an oil-filled 630 kVA 20 kV transformer; TRF-OIL-630-20 is the oil-immersed 630 kVA 20/0.4 kV unit, and no other candidate is both oil-filled and 20 kV at 630 kVA.",
+   "sku": "TRF-OIL-630-20"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1922,
+   "latency_s": 1.107,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 124
+  }
+ },
+ "a488af11ebea1693778943d50ae84a3d7847c76768d4ed1b09d798e3f55ae30e": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asked for cable lugs at 240 mm² copper, and ACC-LUG-CU-240 is a 240 mm² copper compression cable lug in pcs, the only candidate that matches the product type and both stated specifications.",
+   "sku": "ACC-LUG-CU-240"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1853,
+   "latency_s": 1.556,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 109
+  }
+ },
+ "a4aec90b5309b6298dd7327263b3453f590497be5dc2be637703f64288b86272": {
+  "output": {
+   "confidence": "high",
+   "reason": "ACC-SPD-T2 is the only candidate that is a type 2 surge protection device; ACC-SPD-T12 is type 1+2, a different product type, and the customer did not ask for it.",
+   "sku": "ACC-SPD-T2"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1190,
+   "latency_s": 2.724,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 406
+  }
+ },
+ "a5048e0b0f443c5247cff3bfd037212d683c1fdac0bbb107df33354462c8d5da": {
+  "output": {
+   "confidence": "high",
+   "reason": "Only candidate matching oil-immersed, 1600 kVA and 20/0.4 kV; the other 1600 kVA option is 10/0.4 kV and the 20 kV options have different ratings.",
+   "sku": "TRF-OIL-1600-20"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1974,
+   "latency_s": 0.991,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 99
+  }
+ },
+ "a5cdb743b31e9f2481f355486b8916994ceafa769a6d594376770cc7b0c26e16": {
+  "output": {
+   "confidence": "high",
+   "reason": "Only candidate ACC-LUG-CU-70 is a copper compression cable lug rated 70 mm², matching the stated type, conductor material and cross-section; the customer did not specify a stud size, so the M12 is not a conflict.",
+   "sku": "ACC-LUG-CU-70"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1758,
+   "latency_s": 1.475,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 110
+  }
+ },
+ "a653e58bc6a30ace7c121e218e1b2a8cb38461c853b562551eaae48c60cb4f7d": {
+  "output": {
+   "confidence": "high",
+   "reason": "Only candidate that matches the stated 400 kVA rating and 20/0.4 kV voltage level; oil-immersed type agrees with the request.",
+   "sku": "TRF-OIL-400-20"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1971,
+   "latency_s": 1.485,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 80
+  }
+ },
+ "a7dcc9ff6afc42d12cfc3fbf6934d2f6d321425f2f8f8458269feb5b43d7c748": {
+  "output": {
+   "confidence": "high",
+   "reason": "NYY-J 4x35 mm² copper power cable matches the stated type, cores and cross-section; the customer did not specify conductor material, but NYY-J denotes copper while the aluminium variant is NAYY-J, so only CAB-NYY-4X35 fits the line.",
+   "sku": "CAB-NYY-4X35"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1776,
+   "latency_s": 1.503,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 123
+  }
+ },
+ "a9a1c6b92810fdd860c9163347799e0d28ec74a224c99074233cd105263e68a0": {
+  "output": {
+   "customer_email": "einkauf@hansa-elektroanlagen.example",
+   "customer_name": "Hansa Elektroanlagen GmbH",
+   "delivery_date": "2026-11-13",
+   "delivery_location": "Lübeck",
+   "line_items": [
+    {
+     "description": "NYM-J 3x2.5 cable, sold by the roll of 100 m (25 rolls = 2500 m)",
+     "quantity": 2500.0,
+     "unit": "m"
+    },
+    {
+     "description": "Cable gland M20, 100 pieces per box (2 boxes = 200 pcs)",
+     "quantity": 200.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2548,
+   "latency_s": 2.981,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 516
+  }
+ },
+ "ab0ed59807c24a9c5b4b3e79d4db3c921ddd8e6324e07e7561c78b35d04c35f5": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-PV-6-BK is H1Z2Z2-K 1x6 mm² solar cable in black, matching the requested type, cross-section and colour; the other black cable candidates are 4 mm² and 10 mm² and the end clamps are not cables.",
+   "sku": "CAB-PV-6-BK"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1849,
+   "latency_s": 1.529,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 117
+  }
+ },
+ "ab9a3a6b2aa16f49f0cde7e4688909c83b900d96114f72190eee9d5a6ecaee64": {
+  "output": {
+   "confidence": "high",
+   "reason": "ACC-TRAY-200 is a 200 mm wide, 3 m long cable tray, which matches the requested Kabelrinne 200 mm (3 m Längen); it is the only Kabelrinne candidate at 200 mm, and the ladder candidate is a different product type.",
+   "sku": "ACC-TRAY-200"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1744,
+   "latency_s": 1.979,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 249
+  }
+ },
+ "acc5e0b4ee02596998fc67c3be927aae541571bf8940f3550ab5321800047370": {
+  "output": {
+   "customer_email": "m.krueger@tiefbau-krueger.example",
+   "customer_name": "Tiefbau Krüger GmbH",
+   "delivery_date": "2026-10-19",
+   "delivery_location": "Dresden",
+   "line_items": [
+    {
+     "description": "NAYY-J 4x150 cable",
+     "quantity": 1500.0,
+     "unit": "m"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2560,
+   "latency_s": 1.737,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 124
+  }
+ },
+ "ae8d24e59c9a8586baa6e2b2adae96d3288ed29671d2a30fb5b0d393f21b77b0": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asked for a ground screw 1600 mm, and PV-GSCREW-1600 is the ground screw of exactly that length; the other ground screw candidates are 1200 mm and 2000 mm, and the earth rod and circuit breaker are different products.",
+   "sku": "PV-GSCREW-1600"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1719,
+   "latency_s": 1.48,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 117
+  }
+ },
+ "aece5539ab680c8a660e37e62a27780d02d3742b824ea20e0898efc1aa00e60d": {
+  "output": {
+   "confidence": "high",
+   "reason": "PV-MID-40-BLK is the module mid clamp for 40 mm frames in black, matching product type, frame size and colour; no other candidate matches all three.",
+   "sku": "PV-MID-40-BLK"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1644,
+   "latency_s": 1.368,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 84
+  }
+ },
+ "b05e6002f6f4a65fd383443e883396365c33da391e8923f3ac7f071d13549a2f": {
+  "output": {
+   "confidence": "high",
+   "reason": "Customer asked for an MCCB rated 160 A, and ACC-MCCB-160 is a 160 A moulded case circuit breaker; the line does not specify poles or breaking capacity, and only one candidate matches the 160 A rating.",
+   "sku": "ACC-MCCB-160"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1862,
+   "latency_s": 1.042,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 111
+  }
+ },
+ "b1c16a894a0da88c9b8ef4946c4c3d83134f33e289f10dd38d214fa26ebc4114": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-NYY-4X35 is NYY-J 4x35 mm² copper, matching the stated type, 4 cores, 35 mm² cross-section; the customer did not state conductor material, but NYY denotes copper and the aluminium variant NAYY is a different product, so only one candidate fits what was stated.",
+   "sku": "CAB-NYY-4X35"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1838,
+   "latency_s": 1.608,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 135
+  }
+ },
+ "b29fa31b2e9fce8a83520728134c5839d6ee6a894f9f1d3840953d02a3aba475": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-NYM-3X1.5 is the NYM-J 3x1.5 mm² installation cable, matching the requested type and 3-core 1.5 mm² cross-section; no other candidate has the same core count and size.",
+   "sku": "CAB-NYM-3X1.5"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1825,
+   "latency_s": 1.405,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 107
+  }
+ },
+ "b34b97d344698bb0577db20873cadfe5694c700b5f5a7cb04be1d88fa5a170a6": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asked for an M20 cable gland, and ACC-GLAND-M20 is the only candidate with that thread size; the other glands are M16, M25, M32, M40, M50 and M63, and the clip is not a gland.",
+   "sku": "ACC-GLAND-M20"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1629,
+   "latency_s": 1.381,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 106
+  }
+ },
+ "b354e6f8933f61b45b9e7aae44feaa3aeb65ef52c7faedd8d89b2547f66ff47e": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-H07-5G4 is H07RN-F 5G4 mm², exactly matching the requested cable type code, 5 cores and 4 mm² cross-section, and no other candidate shares that combination.",
+   "sku": "CAB-H07-5G4"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1798,
+   "latency_s": 1.379,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 99
+  }
+ },
+ "b3cd72e6934e79ba2c82c5f397d7656d514307e135428304df00d63600014748": {
+  "output": {
+   "confidence": "high",
+   "reason": "NYY-J 3x1.5 mm² copper power cable 0.6/1 kV matches the customer's type and core/cross-section specification exactly, and no other candidate has the same type with 3 cores at 1.5 mm².",
+   "sku": "CAB-NYY-3X1.5"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1834,
+   "latency_s": 1.373,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 109
+  }
+ },
+ "b536fb59a7a5e30bdf37dd4aeeb2a0263f39afcb9ac039985bba7cd60db583e6": {
+  "output": {
+   "confidence": "high",
+   "reason": "ACC-TRAY-200 is the 200 mm wide, 3 m long cable tray (Kabelrinne), the only candidate matching the requested type and width; the ladder is a different product and the other trays are different widths.",
+   "sku": "ACC-TRAY-200"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1758,
+   "latency_s": 1.943,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 241
+  }
+ },
+ "b5c6e55b42de98a20dbc55302701e4b18df2fdea7b196f274dccc596c9bbb0a8": {
+  "output": {
+   "confidence": "high",
+   "reason": "NYM-J 3x2.5 mm² copper installation cable matches the stated type, cores and cross-section; the roll/quantity detail is a packaging matter and does not change the product match.",
+   "sku": "CAB-NYM-3X2.5"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1861,
+   "latency_s": 1.477,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 94
+  }
+ },
+ "b670d9c32731ee3f7724441f7924b336fb5c4bb2a42c07082fb893cbb30711e2": {
+  "output": {
+   "customer_email": "t.hartmann@solarbau-hartmann.example",
+   "customer_name": "Solarbau Hartmann GmbH",
+   "delivery_date": "2026-10-05",
+   "delivery_location": "Leipzig",
+   "line_items": [
+    {
+     "description": "H1Z2Z2-K 1x6 mm² black solar DC cable",
+     "quantity": 400.0,
+     "unit": "m"
+    },
+    {
+     "description": "H1Z2Z2-K 1x6 mm² red solar DC cable",
+     "quantity": 400.0,
+     "unit": "m"
+    },
+    {
+     "description": "MC4 connector pairs",
+     "quantity": 50.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2576,
+   "latency_s": 1.896,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 213
+  }
+ },
+ "b6cb99faf3570a801f0b19ef347501cd2038b3e8f5daa0ff8bccc8ef6bec513d": {
+  "output": {
+   "confidence": "high",
+   "reason": "TRF-DRY-250-10 is the cast-resin dry-type transformer rated 250 kVA with 10/0.4 kV voltage, matching every stated specification; the 20 kV variant and other ratings do not fit.",
+   "sku": "TRF-DRY-250-10"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1925,
+   "latency_s": 1.056,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 106
+  }
+ },
+ "ba6b0e655c96a877ff3ba4b1a937ccba5cbfe6253a0ce55155a7a2396ccffedc": {
+  "output": {
+   "customer_email": "lager@eventtechnik-sommer.example",
+   "customer_name": "Eventtechnik Sommer GmbH",
+   "delivery_date": "2026-10-07",
+   "delivery_location": "Köln",
+   "line_items": [
+    {
+     "description": "H07RN-F 5G4 cable for festival wiring",
+     "quantity": 250.0,
+     "unit": "m"
+    },
+    {
+     "description": "H07RN-F 3G2,5 cable for festival wiring",
+     "quantity": 100.0,
+     "unit": "m"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2577,
+   "latency_s": 3.067,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 479
+  }
+ },
+ "ba72b0413b2bf847b78acd2d064bc86bda17a48ca4a04872495168361a207249": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-NYY-4X240 is NYY-J 4x240 mm² copper power cable 0.6/1 kV, matching the requested type, cores, cross-section and copper conductor; the aluminium NAYY variant and other sizes do not match.",
+   "sku": "CAB-NYY-4X240"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1836,
+   "latency_s": 1.341,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 114
+  }
+ },
+ "bd75de5781a80c838dd39931cf15e7383ae1f1c9e85a5b7441bc1a20eb202675": {
+  "output": {
+   "confidence": "high",
+   "reason": "Customer asked for 40x60 mounting rail at 4.4 m, and PV-RAIL-40X60-4400 is the aluminium 40x60 mm rail of 4.4 m length; no other candidate matches both profile and length.",
+   "sku": "PV-RAIL-40X60-4400"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1798,
+   "latency_s": 1.041,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 112
+  }
+ },
+ "bfa4fa9194c9d493967e90343a238cfc616a1402a01c68e2b51338c0258cc901": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-H07-5G16 is H07RN-F 5G16 mm², matching the requested cable type, 5 cores and 16 mm² cross-section; no other candidate has 5G16.",
+   "sku": "CAB-H07-5G16"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1810,
+   "latency_s": 1.434,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 94
+  }
+ },
+ "c041cdfcf126e8f08a87d53d8fb8aa698fe91e2e0e47d02583487feff3329548": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-NYM-5X2.5 is the NYM-J 5x2.5 mm² installation cable, matching the requested 5 cores and 2.5 mm² cross-section, and no other candidate agrees on both counts.",
+   "sku": "CAB-NYM-5X2.5"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1849,
+   "latency_s": 1.368,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 108
+  }
+ },
+ "c0780da7493dffad347e725a79bf447385ec9af557160b35baae200cd4c89d2b": {
+  "output": {
+   "confidence": "high",
+   "reason": "PV-END-40-BLK is the module end clamp for 40 mm frames in black, matching the customer's end clamp, 40 mm and black specifications, and it is the only candidate that does.",
+   "sku": "PV-END-40-BLK"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1609,
+   "latency_s": 1.401,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 92
+  }
+ },
+ "c1f2c2590a6467090b8c6b4c43f91bc80ff0184c96d157ac6ef0d7be3cf77b41": {
+  "output": {
+   "confidence": "high",
+   "reason": "Only one candidate is a 40x60 mm mounting rail of 4.4 m length (4400 mm), matching the customer's stated profile and length; the other rails differ in length or profile size, and the connector is not a rail.",
+   "sku": "PV-RAIL-40X60-4400"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1800,
+   "latency_s": 1.462,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 106
+  }
+ },
+ "c2ece3dfa5d0ba330a9e42be8c403caa4719a01b1378aefaef7b5a49e5359a19": {
+  "output": {
+   "customer_email": "technik@agrar-holm.example",
+   "customer_name": "Agrar Service Holm GmbH",
+   "delivery_date": "2026-11-02",
+   "delivery_location": "Schleswig",
+   "line_items": [
+    {
+     "description": "Trapezblechklemme",
+     "quantity": 320.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Montageschiene 40x40 2,2 m",
+     "quantity": 160.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Mittelklemme 35 mm schwarz",
+     "quantity": 280.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Endklemme 35 mm schwarz",
+     "quantity": 40.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Solarkabel 6 mm² schwarz, H1Z2Z2-K",
+     "quantity": 600.0,
+     "unit": "m"
+    },
+    {
+     "description": "Solarkabel 6 mm² rot, H1Z2Z2-K",
+     "quantity": 600.0,
+     "unit": "m"
+    }
+   ],
+   "missing_info": [
+    "Remark on Montageschiene 40x40 line reads 'kurze Schienen' (short rails), which conflicts with the stated length of 2,2 m; confirm the rail length with the customer."
+   ]
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2723,
+   "latency_s": 7.477,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 1710
+  }
+ },
+ "c2feba89f5e6f3bf14bae054e775a5dcf1e3a5faa7c2a023cd291933f9a5ba7c": {
+  "output": {
+   "customer_email": null,
+   "customer_name": "Aydin Elektrotechnik GmbH",
+   "delivery_date": "2026-10-15",
+   "delivery_location": "Magdeburg",
+   "line_items": [
+    {
+     "description": "Ground screw 1600",
+     "quantity": 150.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Rail 40x40, 6.0 m length",
+     "quantity": 75.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": [
+    "No email address given; the caller only provided a callback number (0391 5550 177), so the quote recipient must be confirmed.",
+    "Customer will send drawings later; the ground-mount job specification is incomplete until they arrive.",
+    "Ground screw 1600 is not further specified; confirm the exact product type and rating with the customer."
+   ]
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2493,
+   "latency_s": 4.611,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 844
+  }
+ },
+ "c379fbe4bf161797b8372309b593b2d79b1f67bc31d0eb3b96176ecac18e0812": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-NYY-4X50 is NYY-J 4x50 mm² copper, matching the stated type, cores and cross-section; NAYY-J (aluminium) is a different conductor material and the customer did not ask for aluminium.",
+   "sku": "CAB-NYY-4X50"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1835,
+   "latency_s": 1.038,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 109
+  }
+ },
+ "c9b97a9e6e5ea20173ffbc615d8497baaa712d63c20499c23bda98192ceaca6b": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-PV-6-RD is the H1Z2Z2-K 1x6 mm² solar DC cable in red, matching the stated type, cross-section and colour; the other 6 mm² candidate is black and the connectors are not cable.",
+   "sku": "CAB-PV-6-RD"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1839,
+   "latency_s": 1.455,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 110
+  }
+ },
+ "ccb57901d5de936b6d030d198f54b7786ffc881e3f033d3ba4e675d9df806ee1": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asked for H07RN-F 3G2.5, and CAB-H07-3G2.5 is the H07RN-F 3G2.5 mm² flexible rubber cable; the 5-core and 1.5 mm² variants and the NYM/NYY types do not match.",
+   "sku": "CAB-H07-3G2.5"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1821,
+   "latency_s": 1.596,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 123
+  }
+ },
+ "cf453706065dd08a3b3d9ea96840f5fd611cccd72d8760f759acbab3e1bb283d": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asked for a Kabelverschraubung (cable gland) M25, and ACC-GLAND-M25 is the cable gland M25 with no conflicting specification, while the other candidates are different sizes.",
+   "sku": "ACC-GLAND-M25"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1535,
+   "latency_s": 1.544,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 100
+  }
+ },
+ "d1ee912ea76013b8ca89da2d8e56cbdab6294f90f593911de00d8017216520b1": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-NYY-4X240 is NYY-J 4x240 mm² copper power cable 0.6/1 kV, matching the requested type, 4 cores, 240 mm² cross-section, and copper conductor; the aluminium NAYY variant and other sizes do not match.",
+   "sku": "CAB-NYY-4X240"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1845,
+   "latency_s": 1.485,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 124
+  }
+ },
+ "d2806085dbfd5747a0b3f878c7dd0634ec60f18b03806201e5db048334da3814": {
+  "output": {
+   "customer_email": "technik@hafen-logistik-nord.example",
+   "customer_name": "Hafen Logistik Nord GmbH",
+   "delivery_date": "2026-10-30",
+   "delivery_location": "Bremerhaven",
+   "line_items": [
+    {
+     "description": "NYY-J 4x95 power cable, supplied on drums",
+     "quantity": 2.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": [
+    "Drum length for NYY-J 4x95 not stated, so the 2 drums cannot be converted to metres; confirm the length per drum or the total metres required."
+   ]
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2519,
+   "latency_s": 2.322,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 378
+  }
+ },
+ "d5c05f59cf65f64536dd76859b7cab1439299409aa66f5f275c6690081ca38cc": {
+  "output": {
+   "confidence": "high",
+   "reason": "ACC-LADDER-600 is a cable ladder, 600 mm wide and 3 m long, matching every stated specification; the other 600 mm candidate is a cable tray, a different product type.",
+   "sku": "ACC-LADDER-600"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1743,
+   "latency_s": 1.428,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 94
+  }
+ },
+ "d6d4bdf834a34adfcdee892e9fa2056c6421af894033c205b76a289484cdc97b": {
+  "output": {
+   "confidence": "high",
+   "reason": "Aluminium mounting rail 40x40 mm at 3.3 m matches the requested profile and length, and no other candidate fits both the 40x40 profile and the 3.3 m length.",
+   "sku": "PV-RAIL-40X40-3300"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1777,
+   "latency_s": 1.287,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 96
+  }
+ },
+ "d8b20a36544cb2ef5159114379f5e1dee13c7d62761eade68d018a694ad4c2a2": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-H07-5G10 is H07RN-F 5G10 mm², exactly matching the requested type code, 5 cores and 10 mm² cross-section; no other candidate matches these specifications.",
+   "sku": "CAB-H07-5G10"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1802,
+   "latency_s": 1.505,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 97
+  }
+ },
+ "dafad346d6bf47651db718f0f73bf5823a415b3a9a7829aa72fbb53dea1cb627": {
+  "output": {
+   "confidence": "high",
+   "reason": "Cast-resin dry-type transformer 400 kVA with 20/0.4 kV voltage matches the customer's Gießharztransformator 400 kVA, 20/0,4 kV exactly, and no other candidate has both the 400 kVA rating and the 20 kV primary.",
+   "sku": "TRF-DRY-400-20"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1921,
+   "latency_s": 1.49,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 125
+  }
+ },
+ "db7d9fc7520eeecacc6a09e1e9265b65de41f8e699caaceed5045df81b88a655": {
+  "output": {
+   "confidence": "high",
+   "reason": "The candidate PV-RAIL-40X40-2200 is the aluminium mounting rail (Montageschiene) at 40x40 mm and 2.2 m, matching every dimension the customer stated, and no other candidate matches both cross-section and length.",
+   "sku": "PV-RAIL-40X40-2200"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1739,
+   "latency_s": 1.709,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 190
+  }
+ },
+ "dc56d72161ff956f1fdeb8e5ee0b0b7525d167fb67832a3b7c6db1dd68e32dc0": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-PV-6-RD is the H1Z2Z2-K 1x6 mm² solar cable in red, which matches the requested 6 mm², red, H1Z2Z2-K solar cable; no other candidate has both the 6 mm² cross-section and red colour.",
+   "sku": "CAB-PV-6-RD"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1838,
+   "latency_s": 1.578,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 122
+  }
+ },
+ "dd264292f8d1e8d319e949cf3a229e8bc027bcb0783fe09407bcdb4e87ce6f60": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asked for a ground screw 1600 and PV-GSCREW-1600 is the ground screw of exactly 1600 mm; the other ground screw candidates are 1200 mm and 2000 mm, and the earth rod and circuit breaker are different products.",
+   "sku": "PV-GSCREW-1600"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1718,
+   "latency_s": 1.468,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 118
+  }
+ },
+ "dd5bf0153349b1ff1cb0bb1edb42408fa73d71c6391a44d9c23bf040bdf59257": {
+  "output": {
+   "confidence": "high",
+   "reason": "The candidate PV-BOLT-M10X200 is a hanger bolt M10x200 mm, matching the requested M10x200 exactly, while the M10x250 and M12x300 candidates differ in length or diameter.",
+   "sku": "PV-BOLT-M10X200"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1177,
+   "latency_s": 1.488,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 105
+  }
+ },
+ "de3ee7319e77137c68f424cf6a31a4f50f2145b4802ccb6cc87d14f366ef6583": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer's 'Trapezblechklemme' is the German name for a trapezoidal sheet metal clamp, which matches the only candidate PV-TRAP-CLAMP, and the customer states no other specifications that could conflict.",
+   "sku": "PV-TRAP-CLAMP"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 985,
+   "latency_s": 1.593,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 109
+  }
+ },
+ "de80d6efd48c8044ae60adc7d8bfbe6812b90a652b5aaf96531d0263e89a55d0": {
+  "output": {
+   "customer_email": "einkauf@netzservice-harz.example",
+   "customer_name": "Netzservice Harz GmbH",
+   "delivery_date": "2026-11-02",
+   "delivery_location": "Wernigerode",
+   "line_items": [
+    {
+     "description": "NYY-J 4x50 mm² power cable",
+     "quantity": 1500.0,
+     "unit": "m"
+    },
+    {
+     "description": "NYY-J 4x35 mm² power cable",
+     "quantity": 1200.0,
+     "unit": "m"
+    },
+    {
+     "description": "Erdungsband 30x3,5 verzinkt (galvanized earthing strip, 30x3.5)",
+     "quantity": 2000.0,
+     "unit": "m"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2581,
+   "latency_s": 2.609,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 423
+  }
+ },
+ "e0b5ad0fc3105e3e95103b6f2499d2bb35658312dfea50492ffba96b94c058ee": {
+  "output": {
+   "confidence": "high",
+   "reason": "ACC-LADDER-600 is a cable ladder, 600 mm wide and 3 m long, matching every stated specification; the tray and other-width ladder candidates do not match.",
+   "sku": "ACC-LADDER-600"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1742,
+   "latency_s": 1.455,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 89
+  }
+ },
+ "e18688c3f3cca56400d6ebdd392eefbb475c340d7178036250d567e3fa813dd3": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-H07-5G16 is H07RN-F 5G16 mm², exactly matching the customer's cable type code, 5 cores and 16 mm² cross-section; no other candidate matches these specifications.",
+   "sku": "CAB-H07-5G16"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1802,
+   "latency_s": 1.371,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 100
+  }
+ },
+ "e410c658704c5f815a2a2312f87c275e737ba8f995a4050eed098e0493e8c77c": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asked for an M20 cable gland, and ACC-GLAND-M20 is the only candidate with that thread size; the other gland sizes differ and the clip is not a gland.",
+   "sku": "ACC-GLAND-M20"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1629,
+   "latency_s": 1.611,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 91
+  }
+ },
+ "e477adc7e0bcfaf3517abb493f0cc29b1ad872090a645898b7e1a3f45eeee2df": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-PV-6-BK is the H1Z2Z2-K 1x6 mm² black solar DC cable, matching the stated type, cross-section, and colour; the red and 4/10 mm² variants and the MC4 connectors do not fit.",
+   "sku": "CAB-PV-6-BK"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1839,
+   "latency_s": 1.531,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 114
+  }
+ },
+ "e5f3bef8d20a39752682f88ea5a5e922732b9c2497954ccb4297f5cf36cdaeda": {
+  "output": {
+   "customer_email": "a.terhorst@biogas-muensterland.example",
+   "customer_name": "Biogas Münsterland GmbH & Co. KG",
+   "delivery_date": "2026-11-02",
+   "delivery_location": "Coesfeld",
+   "line_items": [
+    {
+     "description": "NYY-J 5x2.5 mm² power cable",
+     "quantity": 500.0,
+     "unit": "m"
+    },
+    {
+     "description": "NYY-J 5x25 mm² power cable",
+     "quantity": 120.0,
+     "unit": "m"
+    },
+    {
+     "description": "Hanger bolts M10x200",
+     "quantity": 100.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2545,
+   "latency_s": 2.621,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 457
+  }
+ },
+ "e62383ae9c5ae38148167ff04ed8c55392207ecc445f6331245a717fa357ce34": {
+  "output": {
+   "confidence": "high",
+   "reason": "The customer asked for a roof hook for slate (Schiefer), and PV-HOOK-SLATE is the roof hook for slate roofs, matching the stated roof type while the other candidates are for adjustable, plain tile, or pantile roofs.",
+   "sku": "PV-HOOK-SLATE"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1243,
+   "latency_s": 1.499,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 114
+  }
+ },
+ "e719851cee0b2a97aabb89b4532403c42edfb50a04dde09b0887de80078fe06a": {
+  "output": {
+   "confidence": "high",
+   "reason": "PV-MID-35-SIL is the mid clamp for a 35 mm frame in silver, matching the type, frame size and colour the customer stated; no other candidate is a mid clamp with those specifications.",
+   "sku": "PV-MID-35-SIL"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1630,
+   "latency_s": 1.541,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 98
+  }
+ },
+ "e7ba5662fdaa336d4f0f9886f88d90eeba25ab4a7057605b4e072b994faeab5c": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-NYM-3X1.5 is NYM-J 3x1.5 mm² copper installation cable, matching the customer's cable type, 3 cores and 1.5 mm² cross-section; the other 3-core NYM candidate is 2.5 mm² and the NYY candidate is a different cable type.",
+   "sku": "CAB-NYM-3X1.5"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1830,
+   "latency_s": 1.618,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 136
+  }
+ },
+ "e9d01095d841ad661a8f95b541dd73e27dadb9b71f94fafabbcaa92071dabaaa": {
+  "output": {
+   "confidence": "high",
+   "reason": "ACC-MCCB-630 is a 3-pole MCCB rated 630 A, matching the requested type, pole count and current rating; the other candidates differ in rating.",
+   "sku": "ACC-MCCB-630"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1846,
+   "latency_s": 1.355,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 86
+  }
+ },
+ "eba549ce4aaf7e1f3f1a42beb3d65bc78722bcfbbefb7018ff9ad57a0234550c": {
+  "output": {
+   "confidence": "high",
+   "reason": "PV-MID-30-BLK is a module mid clamp for 30 mm frame in black, matching the product type, frame size, and colour the customer stated; no other candidate is both a mid clamp and 30 mm black.",
+   "sku": "PV-MID-30-BLK"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1644,
+   "latency_s": 1.481,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 102
+  }
+ },
+ "ebdbf7c043e6b44ab89f3528dbd58d2f200c746f673c80ab87627e77940008ee": {
+  "output": {
+   "confidence": "high",
+   "reason": "Candidate PV-RAIL-40X40-6000 is the aluminium mounting rail 40x40 mm at 6 m length, matching the customer's stated profile and length; no other candidate has a 6 m length.",
+   "sku": "PV-RAIL-40X40-6000"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1795,
+   "latency_s": 1.488,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 105
+  }
+ },
+ "ed3ad4a4fe1098d67e33972995f949295035b9d85fe5fbaafa1a51b95cb74343": {
+  "output": {
+   "confidence": "high",
+   "reason": "NYY-J 5x2.5 mm² copper power cable matches the requested type, 5 cores and 2.5 mm² cross-section exactly; it is the only candidate with that configuration.",
+   "sku": "CAB-NYY-5X2.5"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1839,
+   "latency_s": 1.453,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 96
+  }
+ },
+ "ee0866a174fa48a95c1401320a8a18f27ecff365044ae2f5139a8ac31897286c": {
+  "output": {
+   "customer_email": "info@dachdeckerei-lorenz.example",
+   "customer_name": "Dachdeckerei Lorenz e.K.",
+   "delivery_date": "2026-10-16",
+   "delivery_location": "Goslar",
+   "line_items": [
+    {
+     "description": "Dachhaken für Schiefer",
+     "quantity": 20.0,
+     "unit": "pcs"
+    },
+    {
+     "description": "Montageschiene 40x60, Länge 4,4 m",
+     "quantity": 12.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": []
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2556,
+   "latency_s": 2.659,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 402
+  }
+ },
+ "efedefc1d923a9c676d1fd5fb47bf886ebfb83b61251c8c6b667d48ef5708823": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-PV-6-BK is H1Z2Z2-K 1x6 mm² black, matching the customer's cable type, core count, cross-section and colour; the only other 6 mm² candidate is red, and the 400 m quantity is in metres, matching the unit.",
+   "sku": "CAB-PV-6-BK"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1866,
+   "latency_s": 1.595,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 122
+  }
+ },
+ "f1934974d2ba957c7296f723e693af904c871ea7933ade280f820dc5ec150181": {
+  "output": {
+   "confidence": "high",
+   "reason": "ACC-LADDER-300 is the only cable ladder candidate that is 300 mm wide and 3 m long, and its unit is pcs, matching the requested 40 pcs; the cable tray candidates are a different product type.",
+   "sku": "ACC-LADDER-300"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1741,
+   "latency_s": 2.259,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 237
+  }
+ },
+ "f336e9616a60222f54b01fde522ecd3fae9403feb649c69332a3700b35248904": {
+  "output": {
+   "confidence": "high",
+   "reason": "It is the only candidate joint for 4-core cable that covers 70 mm², and the other joints cover 16-50 and 185-240 mm².",
+   "sku": "ACC-JOINT-LV-70-150"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1860,
+   "latency_s": 2.151,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 276
+  }
+ },
+ "f54058a95dce89de3e7ae8723d64f0e1caf4498ccc82104b7c1e5439ea42b7be": {
+  "output": {
+   "confidence": "high",
+   "reason": "CAB-NYY-5X25 is the NYY-J 5x25 mm² copper power cable, matching the requested 5 cores and 25 mm² cross-section; the other 25 mm² cable has 4 cores and the 5-core option is the only match.",
+   "sku": "CAB-NYY-5X25"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1818,
+   "latency_s": 1.45,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 115
+  }
+ },
+ "f8401d7b7299d1daf3713afc56a2d435234860002c293a7e4a7b4b89c6fb8f7c": {
+  "output": {
+   "confidence": "high",
+   "reason": "PV-MID-40-BLK is a module mid clamp for 40 mm frames in black, matching the product type, frame size and colour the customer stated; no other candidate fits all three.",
+   "sku": "PV-MID-40-BLK"
+  },
+  "schema": "MatchDecision",
+  "stats": {
+   "input_tokens": 1647,
+   "latency_s": 1.367,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 90
+  }
+ },
+ "ff3128c77e7e11fbfc57d5928ada8b0d36fba769d89ed10b76edfdf317943103": {
+  "output": {
+   "customer_email": "h.yilmaz@ks-ruhr.example",
+   "customer_name": "Kraftwerk Service Ruhr GmbH",
+   "delivery_date": "2026-10-23",
+   "delivery_location": "Essen",
+   "line_items": [
+    {
+     "description": "MCCB 250 A 3-pole",
+     "quantity": 10.0,
+     "unit": "pcs"
+    }
+   ],
+   "missing_info": [
+    "Customer also asks that invoice 2026-4471 (August) be corrected to show PO number 88120 instead of the wrong PO number; this needs to go to accounting and is not part of the quote."
+   ]
+  },
+  "schema": "RFQ",
+  "stats": {
+   "input_tokens": 2574,
+   "latency_s": 2.407,
+   "model": "claude-haiku-5-5",
+   "output_tokens": 371
+  }
+ }
+}

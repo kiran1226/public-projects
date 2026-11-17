@@ -1,0 +1,46 @@
+{
+  "id": "hard-017",
+  "source": "rfqs/hard-017.eml",
+  "received": "2026-11-03",
+  "hard": "typos and trade abbreviations",
+  "split": "hard",
+  "customer_name": "Arvenau Gebäudetechnik GmbH",
+  "customer_email": "m.dreyer@arvenau-gebaeudetechnik-gmbh.example",
+  "delivery_date": "2026-11-24",
+  "delivery_location": [
+    "Erfurt"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "H07RN-F 5G10",
+      "sku": "CAB-H07-5G10",
+      "quantity": 400,
+      "unit": "m"
+    },
+    {
+      "text": "Kabelleiter 400 mm breit, 3 m lang, feuerverzinkt",
+      "sku": "ACC-LADDER-400",
+      "quantity": 20,
+      "unit": "pcs"
+    },
+    {
+      "text": "NYM-J 3x2,5 mm²",
+      "sku": "CAB-NYM-3X2.5",
+      "quantity": 300,
+      "unit": "m"
+    },
+    {
+      "text": "Erdschraube 2000 mm, verzinkt",
+      "sku": "PV-GSCREW-2000",
+      "quantity": 24,
+      "unit": "pcs"
+    },
+    {
+      "text": "NAYY 4x70qmm Alu-Erdkabel",
+      "sku": "CAB-NAYY-4X70",
+      "quantity": 1800,
+      "unit": "m"
+    }
+  ]
+}

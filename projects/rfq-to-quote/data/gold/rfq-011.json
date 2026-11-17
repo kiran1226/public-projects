@@ -1,0 +1,22 @@
+{
+  "id": "rfq-011",
+  "source": "rfqs/rfq-011.eml",
+  "received": "2026-09-28",
+  "hard": "drums without a length: unit cannot be converted",
+  "split": "dev",
+  "customer_name": "Hafen Logistik Nord GmbH",
+  "customer_email": "technik@hafen-logistik-nord.example",
+  "delivery_date": "2026-10-30",
+  "delivery_location": [
+    "Bremerhaven"
+  ],
+  "open_questions": true,
+  "items": [
+    {
+      "text": "NYY-J 4x95",
+      "sku": "CAB-NYY-4X95",
+      "quantity": 2,
+      "unit": "pcs"
+    }
+  ]
+}

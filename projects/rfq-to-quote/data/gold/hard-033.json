@@ -1,0 +1,34 @@
+{
+  "id": "hard-033",
+  "source": "rfqs/hard-033.eml",
+  "received": "2026-11-10",
+  "hard": "pasted, misaligned table",
+  "split": "hard",
+  "customer_name": "Yverdal Industrieservice GmbH",
+  "customer_email": "m.ostrowski@yverdal-industrieservice-gmbh.example",
+  "delivery_date": "2026-11-25",
+  "delivery_location": [
+    "Oldenburg"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "MC4-Steckerpaar (Stecker + Buchse)",
+      "sku": "PV-MC4-PAIR",
+      "quantity": 24,
+      "unit": "pcs"
+    },
+    {
+      "text": "Erdungsband 30x3,5 mm, verzinkt",
+      "sku": "ACC-ETAPE-30X3.5",
+      "quantity": 300,
+      "unit": "m"
+    },
+    {
+      "text": "NYY-J 4x25 mm²",
+      "sku": "CAB-NYY-4X25",
+      "quantity": 1250,
+      "unit": "m"
+    }
+  ]
+}

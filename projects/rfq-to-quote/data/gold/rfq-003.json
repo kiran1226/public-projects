@@ -1,0 +1,22 @@
+{
+  "id": "rfq-003",
+  "source": "rfqs/rfq-003.eml",
+  "received": "2026-09-16",
+  "hard": "sloppy lowercase German, '2x', relative date",
+  "split": "dev",
+  "customer_name": "Windpark Nordlicht GmbH & Co. KG",
+  "customer_email": "kai@windpark-nordlicht.example",
+  "delivery_date": "2026-11-30",
+  "delivery_location": [
+    "Rostock"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "Trafo 630 kVA 20 kV Öl",
+      "sku": "TRF-OIL-630-20",
+      "quantity": 2,
+      "unit": "pcs"
+    }
+  ]
+}

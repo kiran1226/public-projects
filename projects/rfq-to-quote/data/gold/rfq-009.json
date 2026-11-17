@@ -1,0 +1,22 @@
+{
+  "id": "rfq-009",
+  "source": "rfqs/rfq-009.eml",
+  "received": "2026-09-24",
+  "hard": "cable type not stated: must not be guessed",
+  "split": "dev",
+  "customer_name": "Baltic Wind Services GmbH",
+  "customer_email": "d.novak@baltic-wind.example",
+  "delivery_date": "2026-10-09",
+  "delivery_location": [
+    "Kiel"
+  ],
+  "open_questions": true,
+  "items": [
+    {
+      "text": "5x2.5 cable",
+      "sku": null,
+      "quantity": 200,
+      "unit": "m"
+    }
+  ]
+}

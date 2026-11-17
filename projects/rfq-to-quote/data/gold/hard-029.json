@@ -1,0 +1,28 @@
+{
+  "id": "hard-029",
+  "source": "rfqs/hard-029.eml",
+  "received": "2026-11-13",
+  "hard": "product not in the catalog",
+  "split": "hard",
+  "customer_name": "Trellin Anlagenbau AG",
+  "customer_email": "m.kuehnert@trellin-anlagenbau-ag.example",
+  "delivery_date": "2026-12-10",
+  "delivery_location": [
+    "Erfurt"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "Montageschiene 40x40 mm, Länge 5,5 m",
+      "sku": null,
+      "quantity": 6,
+      "unit": "pcs"
+    },
+    {
+      "text": "Erdungsstab 1500 mm, Ø 20 mm, verzinkt",
+      "sku": "ACC-EROD-1500",
+      "quantity": 8,
+      "unit": "pcs"
+    }
+  ]
+}

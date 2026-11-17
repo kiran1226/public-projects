@@ -1,0 +1,46 @@
+{
+  "id": "hard-004",
+  "source": "rfqs/hard-004.eml",
+  "received": "2026-11-13",
+  "hard": "German and English number formats mixed; typos and trade abbreviations",
+  "split": "hard",
+  "customer_name": "Kessmar Solarbau GmbH",
+  "customer_email": "t.ostrowski@kessmar-solarbau-gmbh.example",
+  "delivery_date": "2027-02-16",
+  "delivery_location": [
+    "Cottbus"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "NA2XS(F)2Y 1x300 mm² 6/10 kV",
+      "sku": "CAB-MV-1X300-10KV",
+      "quantity": 150,
+      "unit": "m"
+    },
+    {
+      "text": "cast resin trafo 400kVA 10/0.4kV",
+      "sku": "TRF-DRY-400-10",
+      "quantity": 1,
+      "unit": "pcs"
+    },
+    {
+      "text": "H07RN-F 5G2.5",
+      "sku": "CAB-H07-5G2.5",
+      "quantity": 2500,
+      "unit": "m"
+    },
+    {
+      "text": "NYY-J 5x2.5 mm²",
+      "sku": "CAB-NYY-5X2.5",
+      "quantity": 1250,
+      "unit": "m"
+    },
+    {
+      "text": "moulded case circuit breaker (MCCB) 630 A, 3-pole",
+      "sku": "ACC-MCCB-630",
+      "quantity": 2,
+      "unit": "pcs"
+    }
+  ]
+}

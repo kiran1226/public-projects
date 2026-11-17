@@ -1,0 +1,28 @@
+{
+  "id": "rfq-002",
+  "source": "rfqs/rfq-002.eml",
+  "received": "2026-09-15",
+  "hard": "clean German list, decimal comma in sizes",
+  "split": "dev",
+  "customer_name": "Elektro Brandt GmbH",
+  "customer_email": "einkauf@elektro-brandt.example",
+  "delivery_date": "2026-10-12",
+  "delivery_location": [
+    "Kassel"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "NYY-J 5x2,5 mm²",
+      "sku": "CAB-NYY-5X2.5",
+      "quantity": 300,
+      "unit": "m"
+    },
+    {
+      "text": "NYY-J 5x6 mm²",
+      "sku": "CAB-NYY-5X6",
+      "quantity": 150,
+      "unit": "m"
+    }
+  ]
+}

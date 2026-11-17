@@ -1,0 +1,34 @@
+{
+  "id": "hard-008",
+  "source": "rfqs/hard-008.eml",
+  "received": "2026-11-03",
+  "hard": "typos and trade abbreviations; ambiguous on purpose",
+  "split": "hard",
+  "customer_name": "Halbrook Netzbau GmbH",
+  "customer_email": "h.ostrowski@halbrook-netzbau-gmbh.example",
+  "delivery_date": "2026-11-25",
+  "delivery_location": [
+    "Trier"
+  ],
+  "open_questions": true,
+  "items": [
+    {
+      "text": "module mid clamp for 35 mm frame, silver",
+      "sku": "PV-MID-35-SIL",
+      "quantity": 250,
+      "unit": "pcs"
+    },
+    {
+      "text": "alu mountng rail 40x60 L=4.4m",
+      "sku": "PV-RAIL-40X60-4400",
+      "quantity": 120,
+      "unit": "pcs"
+    },
+    {
+      "text": "medium-voltage cable NA2XS(F)2Y 1x300 mm²",
+      "sku": null,
+      "quantity": 750,
+      "unit": "m"
+    }
+  ]
+}

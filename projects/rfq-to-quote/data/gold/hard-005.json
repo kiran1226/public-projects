@@ -1,0 +1,34 @@
+{
+  "id": "hard-005",
+  "source": "rfqs/hard-005.eml",
+  "received": "2026-11-13",
+  "hard": "forwarded chain with a corrected quantity",
+  "split": "hard",
+  "customer_name": "Olvena Energietechnik GmbH",
+  "customer_email": "t.wiegand@olvena-energietechnik-gmbh.example",
+  "delivery_date": "2026-12-14",
+  "delivery_location": [
+    "Ulm"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "Kabelleiter 400 mm breit, 3 m lang, feuerverzinkt",
+      "sku": "ACC-LADDER-400",
+      "quantity": 40,
+      "unit": "pcs"
+    },
+    {
+      "text": "NAYY-J 4x120 mm²",
+      "sku": "CAB-NAYY-4X120",
+      "quantity": 800,
+      "unit": "m"
+    },
+    {
+      "text": "NYY-J 4x50 mm²",
+      "sku": "CAB-NYY-4X50",
+      "quantity": 200,
+      "unit": "m"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "hard-034",
+  "source": "rfqs/hard-034.eml",
+  "received": "2026-11-06",
+  "hard": "item mentioned only as context; product not in the catalog",
+  "split": "hard",
+  "customer_name": "Zornau Anlagenbau AG",
+  "customer_email": "h.hallberg@zornau-anlagenbau-ag.example",
+  "delivery_date": "2027-02-02",
+  "delivery_location": [
+    "Paderborn"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "oil-immersed distribution transformer 630 kVA, 20/0.4 kV",
+      "sku": "TRF-OIL-630-20",
+      "quantity": 1,
+      "unit": "pcs"
+    },
+    {
+      "text": "PV modules 440 Wp, monocrystalline",
+      "sku": null,
+      "quantity": 6,
+      "unit": "pcs"
+    },
+    {
+      "text": "ground screw 2000 mm, galvanised",
+      "sku": "PV-GSCREW-2000",
+      "quantity": 150,
+      "unit": "pcs"
+    },
+    {
+      "text": "compression cable lug 240 mm², tinned copper, M12",
+      "sku": "ACC-LUG-CU-240",
+      "quantity": 50,
+      "unit": "pcs"
+    }
+  ]
+}

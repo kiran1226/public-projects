@@ -1,0 +1,28 @@
+{
+  "id": "hard-010",
+  "source": "rfqs/hard-010.eml",
+  "received": "2026-11-10",
+  "hard": "near-miss variant; forwarded chain with a corrected quantity",
+  "split": "hard",
+  "customer_name": "Quentar Montage GmbH",
+  "customer_email": "s.achterberg@quentar-montage-gmbh.example",
+  "delivery_date": "2026-12-07",
+  "delivery_location": [
+    "Oldenburg"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "surge protection device type 2, 3-phase, TN-S",
+      "sku": "ACC-SPD-T2",
+      "quantity": 1,
+      "unit": "pcs"
+    },
+    {
+      "text": "ground screw 1.6 m long",
+      "sku": "PV-GSCREW-1600",
+      "quantity": 50,
+      "unit": "pcs"
+    }
+  ]
+}

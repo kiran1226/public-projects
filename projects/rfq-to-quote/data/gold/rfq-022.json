@@ -1,0 +1,28 @@
+{
+  "id": "rfq-022",
+  "source": "rfqs/rfq-022.txt",
+  "received": "2026-09-29",
+  "hard": "chat paste, two items on one line",
+  "split": "dev",
+  "customer_name": "JK Anlagenbau GmbH",
+  "customer_email": "jonas@jk-anlagenbau.example",
+  "delivery_date": "2026-10-09",
+  "delivery_location": [
+    "Mannheim"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "cable ladder 300 mm, 3 m lengths",
+      "sku": "ACC-LADDER-300",
+      "quantity": 40,
+      "unit": "pcs"
+    },
+    {
+      "text": "cable ladder 400 mm, 3 m lengths",
+      "sku": "ACC-LADDER-400",
+      "quantity": 20,
+      "unit": "pcs"
+    }
+  ]
+}

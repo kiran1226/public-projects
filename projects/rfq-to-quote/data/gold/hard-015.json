@@ -1,0 +1,46 @@
+{
+  "id": "hard-015",
+  "source": "rfqs/hard-015.eml",
+  "received": "2026-11-11",
+  "hard": "pasted, misaligned table",
+  "split": "hard",
+  "customer_name": "Wendtal Energietechnik GmbH",
+  "customer_email": "i.hallberg@wendtal-energietechnik-gmbh.example",
+  "delivery_date": "2027-02-22",
+  "delivery_location": [
+    "Chemnitz"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "Montageschiene 40x40 mm, Länge 6 m",
+      "sku": "PV-RAIL-40X40-6000",
+      "quantity": 24,
+      "unit": "pcs"
+    },
+    {
+      "text": "MC4-Steckerpaar (Stecker + Buchse)",
+      "sku": "PV-MC4-PAIR",
+      "quantity": 150,
+      "unit": "pcs"
+    },
+    {
+      "text": "Gießharztransformator 1000 kVA, 10/0,4 kV",
+      "sku": "TRF-DRY-1000-10",
+      "quantity": 1,
+      "unit": "pcs"
+    },
+    {
+      "text": "Kabelrinne 100 mm breit, 60 mm hoch, 3 m lang, verzinkt",
+      "sku": "ACC-TRAY-100",
+      "quantity": 6,
+      "unit": "pcs"
+    },
+    {
+      "text": "Kabelleiter 600 mm breit, 3 m lang, feuerverzinkt",
+      "sku": "ACC-LADDER-600",
+      "quantity": 36,
+      "unit": "pcs"
+    }
+  ]
+}

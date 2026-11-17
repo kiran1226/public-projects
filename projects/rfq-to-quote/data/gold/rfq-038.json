@@ -1,0 +1,28 @@
+{
+  "id": "rfq-038",
+  "source": "rfqs/rfq-038.txt",
+  "received": "2026-10-26",
+  "hard": "voicemail transcript: everything in words",
+  "split": "holdout",
+  "customer_name": "Voss Gebäudetechnik GmbH",
+  "customer_email": "markus@voss-gebaeudetechnik.example",
+  "delivery_date": "2026-11-06",
+  "delivery_location": [
+    "Bochum"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "NYM-J 5x2.5",
+      "sku": "CAB-NYM-5X2.5",
+      "quantity": 300,
+      "unit": "m"
+    },
+    {
+      "text": "cable glands M20",
+      "sku": "ACC-GLAND-M20",
+      "quantity": 50,
+      "unit": "pcs"
+    }
+  ]
+}

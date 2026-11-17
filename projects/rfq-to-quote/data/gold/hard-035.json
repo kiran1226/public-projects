@@ -1,0 +1,22 @@
+{
+  "id": "hard-035",
+  "source": "rfqs/hard-035.eml",
+  "received": "2026-11-13",
+  "hard": "typos and trade abbreviations",
+  "split": "hard",
+  "customer_name": "Albrink Elektrotechnik GmbH",
+  "customer_email": "t.wiegand@albrink-elektrotechnik-gmbh.example",
+  "delivery_date": "2026-12-04",
+  "delivery_location": [
+    "Regensburg"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "Mantelltg. NYMJ 5x2,5qmm",
+      "sku": "CAB-NYM-5X2.5",
+      "quantity": 300,
+      "unit": "m"
+    }
+  ]
+}

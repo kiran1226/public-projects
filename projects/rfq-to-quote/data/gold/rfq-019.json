@@ -1,0 +1,13 @@
+{
+  "id": "rfq-019",
+  "source": "rfqs/rfq-019.eml",
+  "received": "2026-10-12",
+  "hard": "not an RFQ at all (delivery complaint)",
+  "split": "dev",
+  "customer_name": "Greenfield Electrical Ltd",
+  "customer_email": "orders@greenfield-electrical.example",
+  "delivery_date": null,
+  "delivery_location": [],
+  "open_questions": true,
+  "items": []
+}

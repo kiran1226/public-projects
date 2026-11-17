@@ -1,0 +1,40 @@
+{
+  "id": "hard-007",
+  "source": "rfqs/hard-007.eml",
+  "received": "2026-11-02",
+  "hard": "item mentioned only as context",
+  "split": "hard",
+  "customer_name": "Fennwick Elektrotechnik GmbH",
+  "customer_email": "j.ostrowski@fennwick-elektrotechnik-gmbh.example",
+  "delivery_date": "2026-11-27",
+  "delivery_location": [
+    "Magdeburg"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "NYM-J 5x2,5 mm²",
+      "sku": "CAB-NYM-5X2.5",
+      "quantity": 2400,
+      "unit": "m"
+    },
+    {
+      "text": "NYM-J 5x16 mm²",
+      "sku": "CAB-NYM-5X16",
+      "quantity": 1250,
+      "unit": "m"
+    },
+    {
+      "text": "Solarkabel H1Z2Z2-K 1x6 mm² rot",
+      "sku": "CAB-PV-6-RD",
+      "quantity": 3600,
+      "unit": "m"
+    },
+    {
+      "text": "NYY-J 3x2,5 mm²",
+      "sku": "CAB-NYY-3X2.5",
+      "quantity": 600,
+      "unit": "m"
+    }
+  ]
+}

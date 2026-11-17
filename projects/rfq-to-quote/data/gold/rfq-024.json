@@ -1,0 +1,46 @@
+{
+  "id": "rfq-024",
+  "source": "rfqs/rfq-024.xlsx",
+  "received": "2026-10-02",
+  "hard": "quantity and unit share one cell",
+  "split": "dev",
+  "customer_name": "Northlight Renewables GmbH",
+  "customer_email": "s.berg@northlight-renewables.example",
+  "delivery_date": "2026-10-30",
+  "delivery_location": [
+    "Flensburg"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "Solar cable H1Z2Z2-K 4 mm2 black",
+      "sku": "CAB-PV-4-BK",
+      "quantity": 800,
+      "unit": "m"
+    },
+    {
+      "text": "Solar cable H1Z2Z2-K 4 mm2 red",
+      "sku": "CAB-PV-4-RD",
+      "quantity": 800,
+      "unit": "m"
+    },
+    {
+      "text": "MC4 connector pairs",
+      "sku": "PV-MC4-PAIR",
+      "quantity": 120,
+      "unit": "pcs"
+    },
+    {
+      "text": "Cable clips for module frame",
+      "sku": "PV-CLIP-CABLE",
+      "quantity": 500,
+      "unit": "pcs"
+    },
+    {
+      "text": "Surge protection device type 2",
+      "sku": "ACC-SPD-T2",
+      "quantity": 4,
+      "unit": "pcs"
+    }
+  ]
+}

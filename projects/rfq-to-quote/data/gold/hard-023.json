@@ -1,0 +1,22 @@
+{
+  "id": "hard-023",
+  "source": "rfqs/hard-023.eml",
+  "received": "2026-11-09",
+  "hard": "forwarded chain with a corrected quantity",
+  "split": "hard",
+  "customer_name": "Lindrath Elektrotechnik GmbH",
+  "customer_email": "s.falkner@lindrath-elektrotechnik-gmbh.example",
+  "delivery_date": "2026-11-24",
+  "delivery_location": [
+    "Regensburg"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "MC4-Steckerpaar (Stecker + Buchse)",
+      "sku": "PV-MC4-PAIR",
+      "quantity": 400,
+      "unit": "pcs"
+    }
+  ]
+}

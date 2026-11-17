@@ -1,0 +1,22 @@
+{
+  "id": "rfq-005",
+  "source": "rfqs/rfq-005.eml",
+  "received": "2026-09-18",
+  "hard": "drums times length must become metres",
+  "split": "dev",
+  "customer_name": "Tiefbau Krüger GmbH",
+  "customer_email": "m.krueger@tiefbau-krueger.example",
+  "delivery_date": "2026-10-19",
+  "delivery_location": [
+    "Dresden"
+  ],
+  "open_questions": false,
+  "items": [
+    {
+      "text": "NAYY-J 4x150",
+      "sku": "CAB-NAYY-4X150",
+      "quantity": 1500,
+      "unit": "m"
+    }
+  ]
+}
