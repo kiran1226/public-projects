@@ -1,0 +1,70 @@
+# The tracker this desk serves, and how its backtest is cut.
+# `triagedesk init --repo owner/name` writes a file like this for any public repository.
+repo: godotengine/godot
+
+# The kinds of label the desk proposes. A label counts if it starts with the prefix
+# and is on at least `min_issues` training issues. The hint is given to the model.
+groups:
+  area:
+    prefix: "topic:"
+    min_issues: 30
+    hint: >-
+      The part of the product the problem is in. Choose what a maintainer would route
+      the issue by; a second area only when the report clearly spans both.
+  platform:
+    prefix: "platform:"
+    min_issues: 30
+    hint: >-
+      Only when the problem is specific to that platform. Do not add one merely
+      because the reporter happens to use it.
+
+# Extra words for the rules baseline. The label's own name is always a keyword.
+keywords:
+  "topic:dotnet": ["c#", "csharp", ".net", "mono"]
+  "topic:gdscript": ["gd script"]
+  "topic:rendering": ["renderer", "vulkan", "opengl", "forward+"]
+  "topic:editor": ["inspector", "scene dock", "filesystem dock"]
+  "topic:physics": ["collision", "rigidbody", "rigidbody3d", "characterbody2d", "characterbody3d"]
+  "topic:animation": ["animationplayer", "animationtree"]
+  "topic:audio": ["sound"]
+  "topic:shaders": ["shader"]
+  "topic:import": ["importer", "gltf", "fbx"]
+  "topic:export": ["export template", "export templates"]
+  "topic:input": ["keyboard", "mouse", "gamepad", "joypad", "controller"]
+  "topic:xr": ["vr", "openxr"]
+  "topic:network": ["http", "websocket"]
+  "topic:multiplayer": ["rpc"]
+  "topic:navigation": ["navmesh", "navigationagent2d", "navigationagent3d"]
+  "topic:particles": ["gpuparticles2d", "gpuparticles3d", "cpuparticles2d", "cpuparticles3d"]
+  "topic:buildsystem": ["scons", "compile", "compiling"]
+  "topic:2d": ["tilemap", "sprite2d"]
+  "topic:3d": ["gridmap", "meshinstance3d"]
+  "topic:i18n": ["translation", "localization"]
+  "topic:gui": ["ui", "control node", "richtextlabel", "theme"]
+  "platform:linuxbsd": ["linux", "x11", "wayland", "ubuntu", "fedora"]
+  "platform:macos": ["mac", "osx"]
+  "platform:web": ["html5", "browser"]
+
+# Issues opened from history_start are fetched. Training and the taxonomy use those
+# opened before `cut`. The test window runs from `cut` to `test_end`; its last part,
+# from `held_out_start`, is not looked at while settings are chosen.
+history_start: 2022-01-01
+cut: 2026-05-01
+test_end: 2026-10-31
+held_out_start: 2026-09-01
+# The live desk is trained on issues opened before this day.
+live_cut: 2026-11-01
+truth_after_days: 14
+
+# Earlier issues retrieved per new issue, and how many of them the model reads.
+candidates: 20
+model_candidates: 8
+# Chosen on the development months (docs/decision-log.md, entries 15 and 16).
+retrieval: fused
+fusion_k: 10
+duplicate_confident: 0.95
+duplicate_propose: 0.90
+
+daily_cap_usd: 0.50
+# Repositories the desk may write to with --apply. Empty: it writes nowhere.
+apply_allow: []

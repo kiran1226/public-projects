@@ -1,0 +1,164 @@
+{
+  "19": [
+    {
+      "event": "commented",
+      "created_at": "2026-01-25T08:31:00Z",
+      "actor_type": "User",
+      "refs": [
+        7
+      ],
+      "says_duplicate": true
+    },
+    {
+      "event": "closed",
+      "created_at": "2026-01-25T08:31:05Z",
+      "actor_type": "User",
+      "state_reason": "duplicate"
+    }
+  ],
+  "28": [
+    {
+      "event": "commented",
+      "created_at": "2026-02-03T09:47:00Z",
+      "actor_type": "User",
+      "refs": [
+        12
+      ],
+      "says_duplicate": true
+    },
+    {
+      "event": "closed",
+      "created_at": "2026-02-03T09:47:05Z",
+      "actor_type": "User",
+      "state_reason": "duplicate"
+    }
+  ],
+  "37": [
+    {
+      "event": "commented",
+      "created_at": "2026-02-12T20:14:00Z",
+      "actor_type": "User",
+      "refs": [
+        22
+      ],
+      "says_duplicate": false
+    },
+    {
+      "event": "closed",
+      "created_at": "2026-02-12T20:18:05Z",
+      "actor_type": "User",
+      "state_reason": "duplicate"
+    }
+  ],
+  "47": [
+    {
+      "event": "commented",
+      "created_at": "2026-02-22T09:13:00Z",
+      "actor_type": "User",
+      "refs": [
+        33
+      ],
+      "says_duplicate": true
+    },
+    {
+      "event": "closed",
+      "created_at": "2026-02-22T09:13:05Z",
+      "actor_type": "User",
+      "state_reason": "duplicate"
+    }
+  ],
+  "58": [
+    {
+      "event": "commented",
+      "created_at": "2026-03-06T17:05:00Z",
+      "actor_type": "User",
+      "refs": [
+        45
+      ],
+      "says_duplicate": false
+    },
+    {
+      "event": "commented",
+      "created_at": "2026-03-07T10:44:00Z",
+      "actor_type": "User",
+      "refs": [
+        41
+      ],
+      "says_duplicate": true
+    },
+    {
+      "event": "closed",
+      "created_at": "2026-03-07T10:44:05Z",
+      "actor_type": "User",
+      "state_reason": "duplicate"
+    }
+  ],
+  "66": [
+    {
+      "event": "commented",
+      "created_at": "2026-03-15T09:36:00Z",
+      "actor_type": "User",
+      "refs": [
+        50
+      ],
+      "says_duplicate": true
+    },
+    {
+      "event": "closed",
+      "created_at": "2026-03-15T09:36:05Z",
+      "actor_type": "User",
+      "state_reason": "duplicate"
+    }
+  ],
+  "74": [
+    {
+      "event": "commented",
+      "created_at": "2026-04-03T10:02:00Z",
+      "actor_type": "User",
+      "refs": [
+        31
+      ],
+      "says_duplicate": true
+    },
+    {
+      "event": "closed",
+      "created_at": "2026-04-03T10:02:05Z",
+      "actor_type": "User",
+      "state_reason": "duplicate"
+    }
+  ],
+  "77": [
+    {
+      "event": "commented",
+      "created_at": "2026-04-06T09:21:00Z",
+      "actor_type": "User",
+      "refs": [
+        9
+      ],
+      "says_duplicate": true
+    },
+    {
+      "event": "closed",
+      "created_at": "2026-04-06T09:21:05Z",
+      "actor_type": "User",
+      "state_reason": "duplicate"
+    }
+  ],
+  "82": [
+    {
+      "event": "commented",
+      "created_at": "2026-04-10T08:26:00Z",
+      "actor_type": "User",
+      "refs": [
+        75
+      ],
+      "says_duplicate": true
+    },
+    {
+      "event": "closed",
+      "created_at": "2026-04-10T08:26:05Z",
+      "actor_type": "User",
+      "state_reason": "duplicate"
+    }
+  ]
+}

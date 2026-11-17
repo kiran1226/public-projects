@@ -1,0 +1,607 @@
+{
+ "repo": "godotengine/godot",
+ "built_from_issues": 33178,
+ "labels": [
+  {
+   "name": "topic:editor",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "dock",
+    "filesystem",
+    "select",
+    "inspector",
+    "ctrl",
+    "selected",
+    "gizmo",
+    "selecting"
+   ],
+   "examples": [],
+   "training_issues": 10202
+  },
+  {
+   "name": "topic:rendering",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "vulkan",
+    "renderer",
+    "light",
+    "lights",
+    "shadows",
+    "lighting",
+    "lightmapgi",
+    "mobile"
+   ],
+   "examples": [],
+   "training_issues": 4828
+  },
+  {
+   "name": "topic:3d",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "mesh",
+    "lightmapgi",
+    "meshes",
+    "lightmap",
+    "bake",
+    "lighting",
+    "light",
+    "shadows"
+   ],
+   "examples": [],
+   "training_issues": 3967
+  },
+  {
+   "name": "topic:gui",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "richtextlabel",
+    "font",
+    "bbcode",
+    "popupmenu",
+    "textedit",
+    "theme",
+    "lineedit",
+    "label"
+   ],
+   "examples": [],
+   "training_issues": 3308
+  },
+  {
+   "name": "topic:core",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "resourceloader.load_threaded_request",
+    "load_threaded_request",
+    "resourceloader",
+    "fileaccess",
+    "packedscene",
+    "expression.new",
+    "resourcesaver.save",
+    "print"
+   ],
+   "examples": [],
+   "training_issues": 2687
+  },
+  {
+   "name": "topic:gdscript",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "class_name",
+    "typed",
+    "variable",
+    "parser",
+    "autocomplete",
+    "class",
+    "lsp",
+    "2.0"
+   ],
+   "examples": [],
+   "training_issues": 2470
+  },
+  {
+   "name": "topic:2d",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "tileset",
+    "tilemap",
+    "tile",
+    "tiles",
+    "tilemaplayer",
+    "paint",
+    "camera2d",
+    "atlas"
+   ],
+   "examples": [],
+   "training_issues": 2103
+  },
+  {
+   "name": "topic:platforms",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "wayland",
+    "displayserver",
+    "x11",
+    "fullscreen",
+    "chrome",
+    "safari",
+    "html5",
+    "wayland_thread.cpp"
+   ],
+   "examples": [],
+   "training_issues": 2027
+  },
+  {
+   "name": "topic:animation",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "animationplayer",
+    "animationtree",
+    "animations",
+    "track",
+    "tracks",
+    "keyframe",
+    "bone",
+    "keyframes"
+   ],
+   "examples": [],
+   "training_issues": 1517
+  },
+  {
+   "name": "topic:input",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "event",
+    "events",
+    "controller",
+    "xbox",
+    "_input",
+    "gamepad",
+    "joypad",
+    "keyboard"
+   ],
+   "examples": [],
+   "training_issues": 1329
+  },
+  {
+   "name": "topic:import",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "importing",
+    "gltf",
+    "glb",
+    "blender",
+    "reimport",
+    "imported",
+    "importer",
+    "fbx"
+   ],
+   "examples": [],
+   "training_issues": 1212
+  },
+  {
+   "name": "topic:dotnet",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "mono",
+    "net",
+    "public",
+    "glue",
+    "godotsharp",
+    "csharp",
+    "partial",
+    "assembly"
+   ],
+   "examples": [],
+   "training_issues": 1210
+  },
+  {
+   "name": "topic:physics",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "collision",
+    "body",
+    "jolt",
+    "collisions",
+    "bodies",
+    "rigidbody3d",
+    "rigidbody",
+    "move_and_slide"
+   ],
+   "examples": [],
+   "training_issues": 1210
+  },
+  {
+   "name": "topic:export",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "exporting",
+    "pck",
+    "gradle",
+    "aab",
+    "apk",
+    "editor_export_platform.h",
+    "xcode",
+    "signing"
+   ],
+   "examples": [],
+   "training_issues": 849
+  },
+  {
+   "name": "topic:shaders",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "shader",
+    "uniform",
+    "shader_type",
+    "fragment",
+    "glsl",
+    "vec4",
+    "gdshader",
+    "vec3"
+   ],
+   "examples": [],
+   "training_issues": 814
+  },
+  {
+   "name": "topic:thirdparty",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "thorvg",
+    "svg",
+    "amd",
+    "intel",
+    "driver",
+    "graphics",
+    "vulkan",
+    "gpu"
+   ],
+   "examples": [],
+   "training_issues": 630
+  },
+  {
+   "name": "topic:buildsystem",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "scons",
+    "yes",
+    "compiling",
+    "sconscript",
+    "building",
+    "target",
+    "platform",
+    "template_release"
+   ],
+   "examples": [],
+   "training_issues": 539
+  },
+  {
+   "name": "topic:audio",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "audiostreamplayer",
+    "sound",
+    "stream",
+    "bus",
+    "wav",
+    "playback",
+    "audiostreamplayer3d",
+    "mp3"
+   ],
+   "examples": [],
+   "training_issues": 451
+  },
+  {
+   "name": "topic:particles",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "particle",
+    "gpuparticles3d",
+    "gpuparticles2d",
+    "particleprocessmaterial",
+    "emitting",
+    "gpuparticles",
+    "lifetime",
+    "gpuparticle2d"
+   ],
+   "examples": [],
+   "training_issues": 386
+  },
+  {
+   "name": "topic:navigation",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "agent",
+    "navmesh",
+    "navigationmesh",
+    "navigationagent2d",
+    "navigationregion2d",
+    "navigationregion3d",
+    "navigationpolygon",
+    "agents"
+   ],
+   "examples": [],
+   "training_issues": 362
+  },
+  {
+   "name": "topic:gdextension",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "godot-cpp",
+    "extension_api.json",
+    "gdnative",
+    "extension",
+    "gdextensions",
+    "godot-rust",
+    "rust",
+    "classdb"
+   ],
+   "examples": [],
+   "training_issues": 337
+  },
+  {
+   "name": "topic:xr",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "openxr",
+    "quest",
+    "headset",
+    "steamvr",
+    "meta",
+    "webxr",
+    "eye",
+    "xrorigin3d"
+   ],
+   "examples": [],
+   "training_issues": 324
+  },
+  {
+   "name": "topic:network",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "client",
+    "httprequest",
+    "server",
+    "rpc",
+    "websocket",
+    "host",
+    "multiplayer",
+    "clients"
+   ],
+   "examples": [],
+   "training_issues": 279
+  },
+  {
+   "name": "topic:plugin",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "editorplugin",
+    "plugins",
+    "addons",
+    "addon",
+    "_enter_tree",
+    "editorimportplugin",
+    "plugin.gd",
+    "editorexportplugin"
+   ],
+   "examples": [],
+   "training_issues": 262
+  },
+  {
+   "name": "topic:multiplayer",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "multiplayersynchronizer",
+    "multiplayerspawner",
+    "client",
+    "clients",
+    "rpc",
+    "peer",
+    "server",
+    "synchronizer"
+   ],
+   "examples": [],
+   "training_issues": 175
+  },
+  {
+   "name": "topic:assetlib",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "asset",
+    "library",
+    "asset-library",
+    "handshake",
+    "stream_peer_mbedtls.cpp",
+    "tls",
+    "mbedtls",
+    "assets"
+   ],
+   "examples": [],
+   "training_issues": 66
+  },
+  {
+   "name": "topic:i18n",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "localization",
+    "translation",
+    "pot",
+    "translations",
+    "translated",
+    "locale",
+    "english",
+    "csv"
+   ],
+   "examples": [],
+   "training_issues": 64
+  },
+  {
+   "name": "topic:visualscript",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "visual",
+    "3.4",
+    "recording",
+    "shown",
+    "expect",
+    "canvas",
+    "user-images.githubusercontent.com",
+    "search"
+   ],
+   "examples": [],
+   "training_issues": 53
+  },
+  {
+   "name": "topic:codestyle",
+   "group": "area",
+   "description": "",
+   "terms": [
+    "blob",
+    "godotengine",
+    "github.com",
+    "pull",
+    "master",
+    "platform",
+    "code",
+    "https"
+   ],
+   "examples": [],
+   "training_issues": 36
+  },
+  {
+   "name": "platform:windows",
+   "group": "platform",
+   "description": "",
+   "terms": [
+    "d3d12",
+    "mingw",
+    "msvc",
+    "microsoft",
+    "driver",
+    "direct3d",
+    "directx",
+    "llvm-mingw"
+   ],
+   "examples": [],
+   "training_issues": 1192
+  },
+  {
+   "name": "platform:android",
+   "group": "platform",
+   "description": "",
+   "terms": [
+    "apk",
+    "phone",
+    "gradle",
+    "logcat",
+    "adb",
+    "samsung",
+    "app",
+    "java"
+   ],
+   "examples": [],
+   "training_issues": 1175
+  },
+  {
+   "name": "platform:linuxbsd",
+   "group": "platform",
+   "description": "",
+   "terms": [
+    "wayland",
+    "x11",
+    "linux",
+    "gnome",
+    "kde",
+    "wayland_thread.cpp",
+    "display_server_x11.cpp",
+    "xwayland"
+   ],
+   "examples": [],
+   "training_issues": 1068
+  },
+  {
+   "name": "platform:macos",
+   "group": "platform",
+   "description": "",
+   "terms": [
+    "mac",
+    "macbook",
+    "apple",
+    "metal",
+    "osx",
+    "silicon",
+    "pro",
+    "moltenvk"
+   ],
+   "examples": [],
+   "training_issues": 833
+  },
+  {
+   "name": "platform:web",
+   "group": "platform",
+   "description": "",
+   "terms": [
+    "html5",
+    "browser",
+    "chrome",
+    "firefox",
+    "html",
+    "safari",
+    "webgl",
+    "editor.godotengine.org"
+   ],
+   "examples": [],
+   "training_issues": 564
+  },
+  {
+   "name": "platform:ios",
+   "group": "platform",
+   "description": "",
+   "terms": [
+    "xcode",
+    "iphone",
+    "ipad",
+    "safari",
+    "simulator",
+    "apple",
+    "bundle",
+    "ipa"
+   ],
+   "examples": [],
+   "training_issues": 264
+  }
+ ],
+ "dropped": {
+  "topic:tests": 29,
+  "topic:vfx": 6,
+  "platform:uwp": 5,
+  "platform:visionos": 4
+ }
+}

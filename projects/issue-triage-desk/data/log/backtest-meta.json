@@ -1,0 +1,68 @@
+{
+ "classifier": {
+  "confident": 0.99,
+  "propose": 0.55,
+  "validation": {
+   "at_confident": {
+    "proposed": 645,
+    "right": 546
+   },
+   "at_propose": {
+    "proposed": 4715,
+    "right": 3011
+   },
+   "confident_target": 0.95,
+   "confident_target_met": false,
+   "issues": 3093,
+   "labels_present": 4200
+  }
+ },
+ "cut": "2026-05-01",
+ "embedder": "BAAI/bge-small-en-v1.5",
+ "repo": "godotengine/godot",
+ "retrieval": "fused",
+ "stored_issues": 33371,
+ "training_issues": 30935,
+ "truth_read": "2026-11-17",
+ "versions": {
+  "1b44519986": {
+   "config": "model",
+   "model": "claude-haiku-5-5",
+   "note": "first duplicate instruction, May only",
+   "run": 1
+  },
+  "1d9732f3e2": {
+   "config": "model",
+   "model": "claude-haiku-5-5",
+   "run": 1
+  },
+  "520057f9e3": {
+   "config": "model",
+   "model": "claude-haiku-5-5",
+   "run": 2
+  },
+  "5d0562ea5a": {
+   "config": "rules",
+   "run": 1
+  },
+  "68831ded71": {
+   "config": "cascade",
+   "model": "claude-haiku-5-5",
+   "run": 1
+  },
+  "982e5e1243": {
+   "config": "model",
+   "model": "claude-haiku-5-5",
+   "run": 3
+  },
+  "a2a81145b6": {
+   "config": "model-alone",
+   "model": "claude-haiku-5-5",
+   "run": 1
+  },
+  "d0dad31414": {
+   "config": "classifier",
+   "run": 1
+  }
+ }
+}

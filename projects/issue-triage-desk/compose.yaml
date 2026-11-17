@@ -1,0 +1,94 @@
+# The hourly loop and the review page on any machine with Docker.
+#
+#   mkdir -p var                  # once, so the folder belongs to you and not to root
+#   docker compose up -d --build  # start
+#   docker compose logs -f desk   # watch a run
+#   docker compose down           # stop
+#
+# The review page is served at http://127.0.0.1:8501.
+#
+# Before the first start the local store has to be filled, once (docs/runbook.md,
+# "First-time setup"). In the container that is:
+#   docker compose run --rm desk triagedesk init
+#   docker compose run --rm desk triagedesk backfill
+#   docker compose run --rm desk triagedesk index
+#
+# Nothing below is required. Export the names in the shell, or put them in a .env file
+# next to this file (git-ignored, and kept out of the image):
+#   ANTHROPIC_API_KEY          without it the run writes the classifier's and the rules'
+#                              answers only, and costs nothing
+#   GITHUB_TOKEN               only raises GitHub's read limits. The loop never passes
+#                              --apply, so the desk writes nothing to a tracker
+#   TRIAGEDESK_DAILY_CAP_USD   the most the model may cost in a day (default 0.50)
+#
+# The containers write as user 1000. On Linux, if `id -u` prints another number, start with
+#   DESK_UID=$(id -u) DESK_GID=$(id -g) docker compose up -d --build
+
+services:
+  desk:
+    build: .
+    image: issue-triage-desk
+    user: "${DESK_UID:-1000}:${DESK_GID:-1000}"
+    # init passes the stop signal to the loop, so `docker compose down` does not wait.
+    init: true
+    restart: unless-stopped
+    environment:
+      # A name without a value is passed through only if it is set on this machine.
+      - ANTHROPIC_API_KEY
+      - GITHUB_TOKEN
+      - TRIAGEDESK_DAILY_CAP_USD
+    volumes:
+      # The local store (issue text and vectors), the embedding model, model recordings
+      # on real issues and the scoreboard. None of it is ever committed.
+      - ./var:/app/var
+      # data/log holds the prediction log, the run log and the outcomes, all append-only.
+      # The run also writes data/taxonomy-live.json, and the page data/corrections.
+      - ./data:/app/data
+    # One pass an hour: health, run, truth, then the scoreboard. A failed step skips the
+    # steps that read the tracker after it, is reported, and the loop goes on: the
+    # scoreboard is still written, so a failed feed check is on it. Then wait an hour.
+    # ($$ is a literal $ for the shell inside the container.)
+    command:
+      - sh
+      - -c
+      - |
+        while true; do
+          echo "== $$(date -u +%Y-%m-%dT%H:%M:%SZ) hourly run"
+          if triagedesk health && triagedesk run && triagedesk truth; then
+            echo "== health, run and truth finished"
+          else
+            echo "!! a step failed with status $$?: the steps after it were skipped, see above"
+          fi
+          triagedesk scoreboard || echo "!! scoreboard failed"
+          echo "== next run in 3600 seconds"
+          sleep 3600
+        done
+
+  queue:
+    image: issue-triage-desk
+    user: "${DESK_UID:-1000}:${DESK_GID:-1000}"
+    init: true
+    restart: unless-stopped
+    depends_on:
+      - desk
+    environment:
+      # Streamlit keeps a small settings folder under HOME; any user can write to /tmp.
+      - HOME=/tmp
+      # Set to 1 to run the demo tracker without downloading the embedding model.
+      - TRIAGEDESK_STUB_EMBEDDER
+    volumes:
+      # The page reads issue text from the store and the live log from data/log, and
+      # appends the reviewer's decisions to data/corrections/reviews.jsonl.
+      - ./var:/app/var
+      - ./data:/app/data
+    # Local only: the port is bound to this machine, not to the network.
+    ports:
+      - "127.0.0.1:8501:8501"
+    command:
+      - streamlit
+      - run
+      - app/triage_queue.py
+      - --server.address=0.0.0.0
+      - --server.port=8501
+      - --server.headless=true
+      - --browser.gatherUsageStats=false
