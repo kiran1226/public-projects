@@ -474,8 +474,8 @@ The desk has run on the live tracker since 17 November 2026, in shadow mode.
 | Model spend | US$0.012 |
 | Feed checks on the last run | Four of four passed |
 
-What a scheduled run does, in order, each a command that was run by hand in the
-build session:
+What a scheduled run does, in order. Each step is a command that was first run by
+hand:
 
 1. `triagedesk health`: four checks (the feed answers in a shape that parses; the
    newest issue is less than 48 hours old; the week's volume is not far below the

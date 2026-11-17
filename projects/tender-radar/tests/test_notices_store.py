@@ -232,7 +232,7 @@ def test_an_email_address_typed_into_a_notice_is_removed_when_it_is_parsed():
     raw = raw_notice(
         **{
             "description-proc": {
-                "deu": "Fragen an Vergabe.Stelle@klinikum-beispiel.de bis Freitag."
+                "deu": "Fragen an Vergabe.Stelle@klinikum-beispiel.example bis Freitag."
             },
             "selection-criterion-description-lot": {
                 "deu": ["Nachweise an a.b@example.org senden."]

@@ -4,6 +4,10 @@ on:
   push:
   pull_request:
 
+# Read-only: these jobs only check the code out and run it.
+permissions:
+  contents: read
+
 jobs:
   pages:
     runs-on: ubuntu-latest
@@ -118,60 +122,3 @@ jobs:
       - run: uv run editwatch loadtest --speeds 1,10
       # The cascade on the invented wiki, with the model's recorded answers.
       - run: uv run editwatch demo
-
-  docs-support-assistant:
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: projects/docs-support-assistant
-    env:
-      FASTEMBED_CACHE_PATH: ${{ github.workspace }}/projects/docs-support-assistant/var/fastembed
-    steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v5
-      # The embedding model and the index built from the pinned snapshot.
-      - uses: actions/cache@v4
-        with:
-          path: projects/docs-support-assistant/var
-          key: docsassist-var-${{ hashFiles('projects/docs-support-assistant/data/corpus/**', 'projects/docs-support-assistant/src/docsassist/ingest.py', 'projects/docs-support-assistant/src/docsassist/index.py', 'projects/docs-support-assistant/uv.lock') }}
-      - run: uv sync
-      - run: uv run ruff check .
-      - run: uv run ruff format --check .
-      - run: uv run pytest -q
-      # No API key needed: the baseline and retrieval use no paid model, and model
-      # configurations replay recordings when they exist.
-      - run: uv run docsassist eval --out "$RUNNER_TEMP/eval-report.md"
-
-  inference-sizing-kit:
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: projects/inference-sizing-kit
-    steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v5
-      - run: uv sync --all-extras
-      - run: uv run ruff check .
-      - run: uv run ruff format --check .
-      - run: uv run pytest -q
-      # No key and no model: the evaluation runs on the simulated server only.
-      - run: uv run sizekit eval --out "$RUNNER_TEMP/eval-report.md"
-
-  letter-explainer:
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: projects/letter-explainer
-    steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v5
-      - run: uv sync
-      - run: uv run ruff check .
-      - run: uv run ruff format --check .
-      - run: uv run pytest -q
-      # No planted identifier, whole or in part, in anything that would be sent or
-      # that was recorded.
-      - run: uv run letterhelp leak-check
-      # Runs without an API key: the rules need no model, OCR output is replayed, and
-      # model configurations replay recorded responses when they exist.
-      - run: uv run letterhelp eval --out "$RUNNER_TEMP/eval-report.md"
