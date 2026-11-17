@@ -1,0 +1,15 @@
+{
+ "alert_id": "AL-004",
+ "outcome": "escalate",
+ "typology": "layering_related_parties",
+ "reason_code": null,
+ "difficulty": "needs_investigation",
+ "key_evidence": [
+  "T000483",
+  "T000488",
+  "T000489",
+  "T000494"
+ ],
+ "sensitive_relevant": false,
+ "scenario": "layering"
+}

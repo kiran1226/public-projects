@@ -1,0 +1,12 @@
+{
+ "alert_id": "AL-018",
+ "outcome": "close",
+ "typology": null,
+ "reason_code": "screening_false_match",
+ "difficulty": "needs_investigation",
+ "key_evidence": [
+  "W003"
+ ],
+ "sensitive_relevant": false,
+ "scenario": "false_match"
+}

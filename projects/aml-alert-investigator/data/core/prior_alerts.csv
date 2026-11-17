@@ -1,0 +1,8 @@
+prior_id,customer_id,raised,rule,outcome,note
+H001,C0001,2025-07-21,CASH_FREQUENCY,closed_false_positive,Seasonal cash pattern confirmed against last year's accounts.
+H002,C0008,2025-07-21,CASH_FREQUENCY,closed_false_positive,Seasonal cash pattern confirmed against last year's accounts.
+H003,C0010,2025-07-21,CASH_FREQUENCY,closed_false_positive,Seasonal cash pattern confirmed against last year's accounts.
+H004,C0015,2025-07-21,CASH_FREQUENCY,closed_false_positive,Seasonal cash pattern confirmed against last year's accounts.
+H005,C0022,2026-03-02,PROFILE_DEVIATION,escalated,Third-party business payments into a student account; referred to level 2.
+H006,C0026,2025-07-21,CASH_FREQUENCY,closed_false_positive,Seasonal cash pattern confirmed against last year's accounts.
+H007,C0040,2025-07-21,CASH_FREQUENCY,closed_false_positive,Seasonal cash pattern confirmed against last year's accounts.

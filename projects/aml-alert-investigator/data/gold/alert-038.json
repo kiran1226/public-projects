@@ -1,0 +1,12 @@
+{
+ "alert_id": "AL-038",
+ "outcome": "close",
+ "typology": null,
+ "reason_code": "consistent_with_profile",
+ "difficulty": "clear",
+ "key_evidence": [
+  "H007"
+ ],
+ "sensitive_relevant": false,
+ "scenario": "seasonal"
+}

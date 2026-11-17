@@ -1,0 +1,12 @@
+{
+ "alert_id": "AL-029",
+ "outcome": "close",
+ "typology": null,
+ "reason_code": "documented_expected_activity",
+ "difficulty": "needs_investigation",
+ "key_evidence": [
+  "T002455"
+ ],
+ "sensitive_relevant": false,
+ "scenario": "club_treasurer"
+}

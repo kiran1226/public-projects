@@ -1,0 +1,12 @@
+{
+ "alert_id": "AL-027",
+ "outcome": "close",
+ "typology": null,
+ "reason_code": "explained_one_off",
+ "difficulty": "clear",
+ "key_evidence": [
+  "T002297"
+ ],
+ "sensitive_relevant": false,
+ "scenario": "bonus"
+}

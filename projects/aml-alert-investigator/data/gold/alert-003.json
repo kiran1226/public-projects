@@ -1,0 +1,12 @@
+{
+ "alert_id": "AL-003",
+ "outcome": "close",
+ "typology": null,
+ "reason_code": "documented_expected_activity",
+ "difficulty": "clear",
+ "key_evidence": [
+  "T000248"
+ ],
+ "sensitive_relevant": false,
+ "scenario": "tuition"
+}

@@ -1,0 +1,22 @@
+{
+ "alert_id": "AL-004",
+ "customer_id": "C0004",
+ "account_id": "A0004",
+ "rule": "RAPID_MOVEMENT",
+ "raised": "2026-07-13",
+ "as_of": "2026-07-13",
+ "window_start": "2026-06-10",
+ "window_end": "2026-07-12",
+ "amount": 168000,
+ "txn_ids": [
+  "T000483",
+  "T000488",
+  "T000489",
+  "T000494"
+ ],
+ "counterparty_ids": [
+  "P0050",
+  "P0051"
+ ],
+ "split": "dev"
+}

@@ -1,0 +1,18 @@
+{
+ "alert_id": "AL-025",
+ "customer_id": "C0027",
+ "account_id": "A0027",
+ "rule": "PROFILE_DEVIATION",
+ "raised": "2026-06-28",
+ "as_of": "2026-06-28",
+ "window_start": "2026-06-27",
+ "window_end": "2026-06-27",
+ "amount": 18100.0,
+ "txn_ids": [
+  "T002146"
+ ],
+ "counterparty_ids": [
+  "P0005"
+ ],
+ "split": "dev"
+}

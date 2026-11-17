@@ -1,0 +1,18 @@
+{
+ "alert_id": "AL-010",
+ "customer_id": "C0012",
+ "account_id": "A0012",
+ "rule": "WATCHLIST",
+ "raised": "2026-08-17",
+ "as_of": "2026-08-17",
+ "window_start": "2026-08-16",
+ "window_end": "2026-08-16",
+ "amount": 1800,
+ "txn_ids": [
+  "T000975"
+ ],
+ "counterparty_ids": [
+  "P0052"
+ ],
+ "split": "heldout"
+}

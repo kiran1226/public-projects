@@ -1,0 +1,24 @@
+{
+ "alert_id": "AL-016",
+ "customer_id": "C0018",
+ "account_id": "A0018",
+ "rule": "STRUCTURING",
+ "raised": "2026-05-20",
+ "as_of": "2026-05-20",
+ "window_start": "2026-05-09",
+ "window_end": "2026-05-19",
+ "amount": 63720.0,
+ "txn_ids": [
+  "T001466",
+  "T001467",
+  "T001468",
+  "T001469",
+  "T001470",
+  "T001471",
+  "T001472"
+ ],
+ "counterparty_ids": [
+  "P0065"
+ ],
+ "split": "heldout"
+}

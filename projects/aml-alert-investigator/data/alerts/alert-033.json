@@ -1,0 +1,18 @@
+{
+ "alert_id": "AL-033",
+ "customer_id": "C0035",
+ "account_id": "A0035",
+ "rule": "HIGH_VALUE",
+ "raised": "2026-09-16",
+ "as_of": "2026-09-16",
+ "window_start": "2026-09-15",
+ "window_end": "2026-09-15",
+ "amount": 27000.0,
+ "txn_ids": [
+  "T002775"
+ ],
+ "counterparty_ids": [
+  "P0032"
+ ],
+ "split": "dev"
+}

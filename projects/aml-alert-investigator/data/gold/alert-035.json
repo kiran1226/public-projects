@@ -1,0 +1,29 @@
+{
+ "alert_id": "AL-035",
+ "outcome": "escalate",
+ "typology": "pass_through",
+ "reason_code": null,
+ "difficulty": "needs_investigation",
+ "key_evidence": [
+  "T002919",
+  "T002921",
+  "T002923",
+  "T002925",
+  "T002927",
+  "T002929",
+  "T002931",
+  "T002933",
+  "T002935",
+  "T002920",
+  "T002922",
+  "T002924",
+  "T002926",
+  "T002928",
+  "T002930",
+  "T002932",
+  "T002934",
+  "T002936"
+ ],
+ "sensitive_relevant": false,
+ "scenario": "pass_through"
+}

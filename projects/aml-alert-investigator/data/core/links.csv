@@ -1,0 +1,4 @@
+customer_id,related_customer_id,link_type
+C0004,C0005,shared_director
+C0004,C0006,shared_director
+C0005,C0006,shared_director

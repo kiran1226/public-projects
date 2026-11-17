@@ -1,0 +1,17 @@
+{
+ "alert_id": "AL-020",
+ "outcome": "escalate",
+ "typology": "profile_mismatch",
+ "reason_code": null,
+ "difficulty": "needs_investigation",
+ "key_evidence": [
+  "T001749",
+  "T001750",
+  "T001751",
+  "T001752",
+  "T001753",
+  "H005"
+ ],
+ "sensitive_relevant": false,
+ "scenario": "profile_mismatch"
+}

@@ -1,0 +1,12 @@
+{
+ "alert_id": "AL-031",
+ "outcome": "close",
+ "typology": null,
+ "reason_code": "recurring_known_counterparty",
+ "difficulty": "clear",
+ "key_evidence": [
+  "T002623"
+ ],
+ "sensitive_relevant": false,
+ "scenario": "supplier"
+}

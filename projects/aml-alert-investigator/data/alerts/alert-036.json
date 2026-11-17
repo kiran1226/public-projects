@@ -1,0 +1,22 @@
+{
+ "alert_id": "AL-036",
+ "customer_id": "C0038",
+ "account_id": "A0038",
+ "rule": "HIGH_RISK_COUNTRY",
+ "raised": "2026-08-14",
+ "as_of": "2026-08-14",
+ "window_start": "2026-08-04",
+ "window_end": "2026-08-13",
+ "amount": 143600.0,
+ "txn_ids": [
+  "T003015",
+  "T003016",
+  "T003017",
+  "T003018"
+ ],
+ "counterparty_ids": [
+  "P0110",
+  "P0111"
+ ],
+ "split": "dev"
+}

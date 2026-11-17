@@ -1,0 +1,35 @@
+entry_id,name,aliases,kind,dob,country,list
+W001,Ilya Stanciu,I. Stanciu,person,1984-08-07,KV,sanctions
+W002,Vadim Vasilenko,,person,1953-03-09,KV,sanctions
+W003,Kasim Zhakupov,,person,1959-03-09,KV,sanctions
+W004,Vadim Tomescu,V. Tomescu,person,1983-11-23,KV,sanctions
+W005,Kasim Draganov,,person,1980-02-18,KV,sanctions
+W006,Ilya Draganov,,person,1975-08-16,CY,sanctions
+W007,Rashid Kovalenko,,person,1985-11-27,LT,sanctions
+W008,Kasim Kovalenko,,person,1958-06-14,KV,sanctions
+W009,Dmitar Draganov,,person,1976-03-14,CY,sanctions
+W010,Anton Vasilenko,,person,1987-01-15,CY,sanctions
+W011,Dmitar Tomescu,,person,1979-03-26,KV,sanctions
+W012,Ilya Mirzoyan,,person,1971-10-17,KV,pep
+W013,Vadim Kovalenko,,person,1978-08-23,CY,sanctions
+W014,Dmitar Orlovic,,person,1977-05-11,CY,sanctions
+W015,Anton Kovalenko,,person,1985-09-03,KV,pep
+W016,Octavian Stanciu,,person,1987-01-03,LT,sanctions
+W017,Vadim Orlovic,,person,1983-06-07,CY,sanctions
+W018,Teodor Baltaru,,person,1968-02-18,CY,pep
+W019,Anton Draganov,,person,1959-11-03,VD,sanctions
+W020,Teodor Kovalenko,,person,1978-10-21,LT,pep
+W021,Anton Zhakupov,,person,1966-12-22,CY,sanctions
+W022,Dmitar Hadjiev,,person,1955-10-21,KV,sanctions
+W023,Anton Stanciu,,person,1955-06-12,LT,pep
+W024,Dmitar Vasilenko,,person,1955-09-19,KV,pep
+W025,Zoran Vasilenko,,person,1975-02-12,VD,pep
+W026,Ilya Tomescu,,person,1986-03-04,CY,sanctions
+W027,Kasim Mirzoyan,,person,1958-09-19,CY,sanctions
+W028,Teodor Mirzoyan,,person,1989-03-22,CY,pep
+W029,Kasim Tomescu,,person,1957-01-10,LT,pep
+W030,Bogdan Hadjiev,,person,1974-07-18,VD,pep
+W031,Ilya Kovalenko,,person,1969-12-14,LT,sanctions
+W032,Bogdan Kovalenko,,person,1967-06-12,VD,sanctions
+W033,Teodor Orlovic,,person,1988-04-26,LT,pep
+W034,Octavian Vasilenko,,person,1966-05-11,KV,sanctions

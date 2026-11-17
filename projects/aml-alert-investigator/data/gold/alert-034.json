@@ -1,0 +1,15 @@
+{
+ "alert_id": "AL-034",
+ "outcome": "close",
+ "typology": null,
+ "reason_code": "explained_one_off",
+ "difficulty": "needs_investigation",
+ "key_evidence": [
+  "T002849",
+  "T002850",
+  "T002851",
+  "T002852"
+ ],
+ "sensitive_relevant": true,
+ "scenario": "clinic"
+}

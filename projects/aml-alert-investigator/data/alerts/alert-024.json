@@ -1,0 +1,25 @@
+{
+ "alert_id": "AL-024",
+ "customer_id": "C0026",
+ "account_id": "A0026",
+ "rule": "CASH_FREQUENCY",
+ "raised": "2026-07-21",
+ "as_of": "2026-07-21",
+ "window_start": "2026-07-02",
+ "window_end": "2026-07-20",
+ "amount": 41780.0,
+ "txn_ids": [
+  "T002064",
+  "T002065",
+  "T002066",
+  "T002067",
+  "T002068",
+  "T002069",
+  "T002070",
+  "T002071",
+  "T002072",
+  "T002073"
+ ],
+ "counterparty_ids": [],
+ "split": "dev"
+}

@@ -1,0 +1,18 @@
+{
+ "alert_id": "AL-011",
+ "outcome": "escalate",
+ "typology": "structuring",
+ "reason_code": null,
+ "difficulty": "needs_investigation",
+ "key_evidence": [
+  "T001042",
+  "T001043",
+  "T001044",
+  "T001045",
+  "T001046",
+  "T001047",
+  "T001048"
+ ],
+ "sensitive_relevant": false,
+ "scenario": "structuring"
+}

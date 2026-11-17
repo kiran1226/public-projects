@@ -1,0 +1,15 @@
+{
+ "alert_id": "AL-036",
+ "outcome": "escalate",
+ "typology": "high_risk_jurisdiction",
+ "reason_code": null,
+ "difficulty": "needs_investigation",
+ "key_evidence": [
+  "T003015",
+  "T003016",
+  "T003017",
+  "T003018"
+ ],
+ "sensitive_relevant": false,
+ "scenario": "high_risk"
+}

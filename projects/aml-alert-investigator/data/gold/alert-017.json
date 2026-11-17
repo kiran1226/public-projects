@@ -1,0 +1,12 @@
+{
+ "alert_id": "AL-017",
+ "outcome": "close",
+ "typology": null,
+ "reason_code": "documented_expected_activity",
+ "difficulty": "clear",
+ "key_evidence": [
+  "T001541"
+ ],
+ "sensitive_relevant": false,
+ "scenario": "vehicle_sale"
+}

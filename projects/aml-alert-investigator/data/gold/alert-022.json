@@ -1,0 +1,14 @@
+{
+ "alert_id": "AL-022",
+ "outcome": "escalate",
+ "typology": "sanctions_match",
+ "reason_code": null,
+ "difficulty": "needs_investigation",
+ "key_evidence": [
+  "T001905",
+  "T001906",
+  "W004"
+ ],
+ "sensitive_relevant": false,
+ "scenario": "sanctions_match"
+}

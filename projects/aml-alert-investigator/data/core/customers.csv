@@ -1,0 +1,43 @@
+customer_id,kind,name,dob,nationality,country,city,address,email,phone,occupation,risk_rating,pep,expected_monthly_turnover,onboarded,kyc_notes
+C0001,business,Dubois Handels GmbH,,DE,DE,Bremen,Hafenstrasse 14,dubois.handels.gmbh@example.com,+00 555 2618 643,boat rental,low,0,18000,2015-10-01,Seasonal business: most takings arrive in cash between June and August. The declared turnover is the yearly average; summer months run at three to four times that.
+C0002,business,Hartmann Service GmbH,,DE,DE,Hamburg,Am Deich 117,hartmann.service.gmbh@example.com,+00 555 8898 838,freight forwarding,low,0,45000,2021-11-01,
+C0003,retail,Marek Haddad,1996-04-14,DE,DE,Rostock,Lindenweg 102,marek.haddad@example.com,+00 555 3238 929,physician,low,0,6000,2023-09-01,Customer's child studies abroad; tuition is paid twice a year.
+C0004,business,Keller Handels GmbH,,DE,DE,Hamburg,Marktgasse 51,keller.handels.gmbh@example.com,+00 555 8659 896,management consulting,low,0,30000,2013-03-01,
+C0005,business,Castellano Logistik GmbH,,DE,DE,Leipzig,Kastanienring 61,castellano.logistik.gmbh@example.com,+00 555 2689 684,holding company,low,0,30000,2020-09-01,
+C0006,business,Moreau Logistik GmbH,,DE,DE,Hamburg,Kastanienring 36,moreau.logistik.gmbh@example.com,+00 555 3827 201,real estate services,low,0,30000,2024-12-01,
+C0007,retail,Emil Aaltonen,1982-03-18,DE,DE,Bremen,Birkenallee 16,emil.aaltonen@example.com,+00 555 9815 190,engineer,low,0,6100,2021-12-01,
+C0008,business,Hartmann Gastro GmbH,,DE,DE,Kiel,Birkenallee 81,hartmann.gastro.gmbh@example.com,+00 555 5463 215,campsite,low,0,18000,2013-03-01,Seasonal business: most takings arrive in cash between June and August. The declared turnover is the yearly average; summer months run at three to four times that.
+C0009,retail,Jonas Marchetti,1972-12-21,DE,DE,Rostock,Am Deich 96,jonas.marchetti@example.com,+00 555 9302 822,sales manager,low,0,4200,2019-08-01,
+C0010,business,Petrov Handels GmbH,,DE,DE,Kiel,Lindenweg 1,petrov.handels.gmbh@example.com,+00 555 1409 823,campsite,low,0,18000,2017-11-01,Seasonal business: most takings arrive in cash between June and August. The declared turnover is the yearly average; summer months run at three to four times that.
+C0011,retail,Greta Dubois,1962-11-19,DE,DE,Leipzig,Kastanienring 66,greta.dubois@example.com,+00 555 1495 799,engineer,low,0,5200,2013-10-01,
+C0012,retail,Jan Fischer,1966-04-01,DE,DE,Kiel,Schulstrasse 74,jan.fischer@example.com,+00 555 1844 844,architect,low,0,5200,2012-05-01,
+C0013,retail,Ida Fischer,1970-09-14,DE,DE,Bremen,Hafenstrasse 30,ida.fischer@example.com,+00 555 5626 343,taxi driver,low,0,2600,2018-09-01,
+C0014,retail,Marie Fischer,1959-12-26,DE,DE,Leipzig,Kastanienring 75,marie.fischer@example.com,+00 555 8286 543,physician,low,0,6000,2012-01-01,Customer's child studies abroad; tuition is paid twice a year.
+C0015,business,Moreau Gastro GmbH,,DE,DE,Rostock,Schulstrasse 110,moreau.gastro.gmbh@example.com,+00 555 5371 592,boat rental,low,0,18000,2024-09-01,Seasonal business: most takings arrive in cash between June and August. The declared turnover is the yearly average; summer months run at three to four times that.
+C0016,retail,Marek Marchetti,1978-09-23,DE,DE,Hannover,Hafenstrasse 95,marek.marchetti@example.com,+00 555 5686 401,warehouse worker,low,0,2200,2014-07-01,
+C0017,business,Marchetti Service GmbH,,DE,DE,Kiel,Schulstrasse 84,marchetti.service.gmbh@example.com,+00 555 3737 554,furniture retail,low,0,50000,2024-08-01,
+C0018,retail,Ida Aaltonen,1982-10-01,DE,DE,Bremen,Birkenallee 75,ida.aaltonen@example.com,+00 555 7717 331,taxi driver,low,0,2600,2017-09-01,
+C0019,retail,Paul Keller,1968-01-02,DE,DE,Hannover,Am Deich 104,paul.keller@example.com,+00 555 7705 978,electrician,low,0,3400,2015-02-01,Customer informed the branch about the private sale of a vehicle. Sales contract is on file.
+C0020,retail,Lukas Haddad,1989-11-14,DE,DE,Hannover,Hafenstrasse 118,lukas.haddad@example.com,+00 555 1976 986,architect,low,0,5200,2022-09-01,
+C0021,retail,Lukas Keller,1974-11-15,DE,DE,Bremen,Kastanienring 58,lukas.keller@example.com,+00 555 8248 971,sales manager,low,0,4200,2022-09-01,
+C0022,retail,Tobias Demir,2001-03-20,DE,DE,Hannover,Kastanienring 27,tobias.demir@example.com,+00 555 9412 722,student,low,0,900,2015-02-01,
+C0023,retail,Henrik Sorensen,1965-04-13,DE,DE,Kiel,Lindenweg 44,henrik.sorensen@example.com,+00 555 7542 193,physician,low,0,6000,2015-12-01,Customer's child studies abroad; tuition is paid twice a year.
+C0024,business,Nowak Service GmbH,,DE,DE,Leipzig,Hafenstrasse 41,nowak.service.gmbh@example.com,+00 555 2130 143,freight forwarding,low,0,45000,2012-04-01,
+C0025,retail,Sofia Sorensen,1994-06-09,DE,DE,Hannover,Schulstrasse 39,sofia.sorensen@example.com,+00 555 7743 835,teacher,low,0,3800,2021-06-01,Customer informed the branch in advance about the sale of an inherited flat. Notarised purchase contract is on file.
+C0026,business,Keller Service GmbH,,DE,DE,Bremen,Birkenallee 18,keller.service.gmbh@example.com,+00 555 5267 518,beach kiosk,low,0,18000,2021-01-01,Seasonal business: most takings arrive in cash between June and August. The declared turnover is the yearly average; summer months run at three to four times that.
+C0027,retail,Marie Kovacs,1987-01-11,DE,DE,Kiel,Birkenallee 118,marie.kovacs@example.com,+00 555 8031 423,engineer,low,0,6100,2023-09-01,
+C0028,business,Hartmann Technik GmbH,,DE,DE,Rostock,Am Deich 105,hartmann.technik.gmbh@example.com,+00 555 4850 917,restaurant supplies,low,0,50000,2013-04-01,
+C0029,retail,Ida Keller,1983-11-20,DE,DE,Hannover,Am Deich 44,ida.keller@example.com,+00 555 4110 684,pharmacist,low,0,5200,2017-06-01,
+C0030,retail,Sofia Castellano,1989-05-20,DE,DE,Leipzig,Schulstrasse 15,sofia.castellano@example.com,+00 555 4078 726,electrician,low,0,3400,2017-12-01,Customer informed the branch about the private sale of a vehicle. Sales contract is on file.
+C0031,retail,Sofia Keller,1957-06-17,DE,DE,Hannover,Schulstrasse 48,sofia.keller@example.com,+00 555 4476 362,bank clerk,low,0,3000,2012-05-01,Customer is the volunteer treasurer of a local football club and collects membership fees on this account.
+C0032,business,Yilmaz Service GmbH,,DE,DE,Bremen,Schulstrasse 93,yilmaz.service.gmbh@example.com,+00 555 8985 745,restaurant supplies,low,0,50000,2016-10-01,
+C0033,business,Wolff Gastro GmbH,,DE,DE,Rostock,Hafenstrasse 35,wolff.gastro.gmbh@example.com,+00 555 8291 991,textile wholesale,low,0,50000,2013-03-01,
+C0034,retail,Jonas Hartmann,1964-12-07,DE,DE,Hamburg,Birkenallee 91,jonas.hartmann@example.com,+00 555 9457 647,physician,low,0,6000,2022-01-01,Customer's child studies abroad; tuition is paid twice a year.
+C0035,business,Wolff Logistik GmbH,,DE,DE,Leipzig,Marktgasse 98,wolff.logistik.gmbh@example.com,+00 555 2035 763,textile wholesale,low,0,50000,2019-04-01,
+C0036,retail,Lukas Fischer,1972-04-06,DE,DE,Bremen,Lindenweg 103,lukas.fischer@example.com,+00 555 7076 891,accountant,low,0,4200,2015-07-01,
+C0037,retail,Felix Becker,1974-01-26,DE,DE,Kiel,Marktgasse 15,felix.becker@example.com,+00 555 8036 767,student,low,0,2200,2012-01-01,
+C0038,business,Hartmann Handels GmbH,,DE,DE,Hannover,Hafenstrasse 112,hartmann.handels.gmbh@example.com,+00 555 5077 534,import and export of machine parts,high,0,60000,2014-08-01,
+C0039,retail,Jan Sorensen,2000-08-03,DE,DE,Hannover,Schulstrasse 44,jan.sorensen@example.com,+00 555 2621 642,physician,low,0,6000,2019-02-01,Customer's child studies abroad; tuition is paid twice a year.
+C0040,business,Marchetti Bau GmbH,,DE,DE,Bremen,Am Deich 90,marchetti.bau.gmbh@example.com,+00 555 4432 103,campsite,low,0,18000,2012-08-01,Seasonal business: most takings arrive in cash between June and August. The declared turnover is the yearly average; summer months run at three to four times that.
+C0041,business,Aaltonen Technik GmbH,,DE,DE,Kiel,Lindenweg 63,aaltonen.technik.gmbh@example.com,+00 555 3903 828,textile wholesale,low,0,50000,2024-03-01,
+C0042,retail,Anna Moreau,1981-02-18,DE,DE,Hamburg,Schulstrasse 12,anna.moreau@example.com,+00 555 9352 156,sales manager,low,0,5200,2020-08-01,

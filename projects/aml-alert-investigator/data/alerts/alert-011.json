@@ -1,0 +1,24 @@
+{
+ "alert_id": "AL-011",
+ "customer_id": "C0013",
+ "account_id": "A0013",
+ "rule": "STRUCTURING",
+ "raised": "2026-05-19",
+ "as_of": "2026-05-19",
+ "window_start": "2026-05-09",
+ "window_end": "2026-05-18",
+ "amount": 64020.0,
+ "txn_ids": [
+  "T001042",
+  "T001043",
+  "T001044",
+  "T001045",
+  "T001046",
+  "T001047",
+  "T001048"
+ ],
+ "counterparty_ids": [
+  "P0053"
+ ],
+ "split": "dev"
+}

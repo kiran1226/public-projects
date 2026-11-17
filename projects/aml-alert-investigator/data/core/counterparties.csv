@@ -1,0 +1,113 @@
+counterparty_id,name,kind,country,iban,customer_id,sensitive_category,business_type,dob,first_seen
+P0001,Nordhafen Logistik GmbH,org,DE,DE48HARB5403814468,,,employer,,2026-04-01
+P0002,Elbtal Verkehrsbetriebe,org,DE,DE94HARB5988490287,,,employer,,2026-04-01
+P0003,Stadtverwaltung Lindhafen,org,DE,DE32HARB5261455315,,,employer,,2026-04-01
+P0004,Brennwerk Energie AG,org,DE,DE15HARB3928800126,,,employer,,2026-04-01
+P0005,Tallinger Maschinenbau GmbH,org,DE,DE29HARB9928443420,,,employer,,2026-04-01
+P0006,Kornfeld Verlag GmbH,org,DE,DE73HARB8352085495,,,employer,,2026-04-01
+P0007,Ida Moreau,person,DE,DE56HARB7275231009,,,landlord,,2026-04-01
+P0008,Tobias Dubois,person,DE,DE15HARB7918011723,,,landlord,,2026-04-01
+P0009,Anna Jansen,person,DE,DE81HARB8562164549,,,landlord,,2026-04-01
+P0010,Marek Jansen,person,DE,DE58HARB8768200205,,,landlord,,2026-04-01
+P0011,Lea Nowak,person,DE,DE22HARB5442630954,,,landlord,,2026-04-01
+P0012,Felix Demir,person,DE,DE91HARB9433207623,,,landlord,,2026-04-01
+P0013,Oskar Dubois,person,DE,DE25HARB1485176859,,,landlord,,2026-04-01
+P0014,Lukas Sorensen,person,DE,DE42HARB1004277539,,,landlord,,2026-04-01
+P0015,Stadtwerke Elbtal,org,DE,DE43HARB5866598012,,,utility,,2026-04-01
+P0016,Lumen Strom GmbH,org,DE,DE96HARB5959042876,,,utility,,2026-04-01
+P0017,Frischmarkt,org,DE,DE29HARB6000007213,,,supermarket,,2026-04-01
+P0018,Kaufhalle Nord,org,DE,DE77HARB2600688328,,,supermarket,,2026-04-01
+P0019,Biokorb,org,DE,DE74HARB7267591366,,,supermarket,,2026-04-01
+P0020,Hansekontor GmbH,org,DE,DE87HARB8920100982,,,business customer,,2026-04-01
+P0021,Wattwerk Solar GmbH,org,DE,DE79HARB3457433626,,,business customer,,2026-04-01
+P0022,Deichblick Hotel GmbH,org,DE,DE95HARB7843748452,,,business customer,,2026-04-01
+P0023,Fehmarn Reederei GmbH,org,DE,DE87HARB5534376860,,,business customer,,2026-04-01
+P0024,Lindhafen Immobilien GmbH,org,DE,DE66HARB1794149864,,,business customer,,2026-04-01
+P0025,Polarstern Catering GmbH,org,DE,DE37HARB8666603573,,,business customer,,2026-04-01
+P0026,Paul Becker,person,DE,DE64HARB5090850711,,,private customer,,2026-04-01
+P0027,Nora Nowak,person,DE,DE60HARB9689264122,,,private customer,,2026-04-01
+P0028,Felix Dubois,person,DE,DE19HARB3352592315,,,private customer,,2026-04-01
+P0029,Marek Petrov,person,DE,DE87HARB5370816365,,,private customer,,2026-04-01
+P0030,Baltica Hurt Sp. z o.o.,org,PL,PL27HARB7167079024,,,supplier,,2026-04-01
+P0031,Fornitura Adriatica S.r.l.,org,IT,IT56HARB1408480018,,,supplier,,2026-04-01
+P0032,Anadolu Tekstil A.S.,org,TR,TR61HARB3103873564,,,supplier,,2026-04-01
+P0033,Rheinland Baustoffe GmbH,org,DE,DE52HARB2016508766,,,supplier,,2026-04-01
+P0034,Nordsee Frischfisch GmbH,org,DE,DE13HARB5813924793,,,supplier,,2026-04-01
+P0035,Alpen Verpackung GmbH,org,AT,AT56HARB3776002199,,,supplier,,2026-04-01
+P0036,Lohnwerk Abrechnung GmbH,org,DE,DE78HARB3140667512,,,payroll provider,,2026-04-01
+P0037,Paul Yilmaz,person,DE,DE11HARB7412415936,,,private individual,,2026-04-01
+P0038,Jonas Petrov,person,DE,DE40HARB3902679497,,,private individual,,2026-04-01
+P0039,Nora Jansen,person,DE,DE48HARB5245546000,,,private individual,,2026-04-01
+P0040,Lea Jansen,person,DE,DE31HARB2250901480,,,private individual,,2026-04-01
+P0041,Henrik Nowak,person,DE,DE71HARB9834245090,,,private individual,,2026-04-01
+P0042,Marie Silva,person,DE,DE71HARB4565115044,,,private individual,,2026-04-01
+P0043,Gewerkschaft Metall Bezirk Nord,org,DE,DE86HARB6768760928,,trade_union,membership organisation,,2026-04-01
+P0044,Evangelische Gemeinde Lindhafen,org,DE,DE83HARB9501590151,,religion,religious community,,2026-04-01
+P0045,Praxis Sonnental,org,DE,DE16HARB4226309686,,health,medical practice,,2026-04-01
+P0046,Onkologie Zentrum Elbtal,org,DE,DE85HARB1944142571,,health,medical practice,,2026-04-01
+P0047,Ilya Stanciu,person,KV,KV36HARB9238689040,,,private individual,1984-08-07,2026-07-01
+P0048,Lakeland School of Design,org,IE,IE83HARB1201963010,,,university,,2026-04-01
+P0049,Keller Handels GmbH,org,DE,DE60HARB7568527093,C0004,,management consulting,,2026-04-01
+P0050,Castellano Logistik GmbH,org,DE,DE74HARB6092593383,C0005,,holding company,,2026-04-01
+P0051,Moreau Logistik GmbH,org,DE,DE64HARB5304261810,C0006,,real estate services,,2026-04-01
+P0052,Vadim Vasilenko,person,DE,DE40HARB4083507545,,,private individual,1991-08-21,2026-04-01
+P0053,Ida Yilmaz,person,TR,TR96HARB2409967179,,,private individual,,2026-05-08
+P0054,Universidad de Costa Clara,org,NL,NL83HARB9951130983,,,university,,2026-04-01
+P0055,Ida Dubois,person,LT,LT31HARB4603497359,,,private individual,,2026-05-06
+P0056,Ida Jansen,person,DE,DE26HARB6458934408,,,private individual,,2026-05-06
+P0057,Mira Haddad,person,DE,DE39HARB1908072074,,,private individual,,2026-05-06
+P0058,Felix Wolff,person,DE,DE95HARB7358449004,,,private individual,,2026-05-06
+P0059,Sofia Dubois,person,DE,DE21HARB6834234610,,,private individual,,2026-05-06
+P0060,Sofia Nowak,person,DE,DE26HARB5351302594,,,private individual,,2026-05-06
+P0061,Jan Haddad,person,DE,DE73HARB9470603895,,,private individual,,2026-05-06
+P0062,Elif Haddad,person,DE,DE13HARB2448432942,,,private individual,,2026-05-06
+P0063,Jan Lindqvist,person,DE,DE44HARB6951435120,,,private individual,,2026-05-06
+P0064,Sofia Haddad,person,DE,DE88HARB3991963222,,,private individual,,2026-05-06
+P0065,Ida Wolff,person,TR,TR17HARB9618027465,,,private individual,,2026-05-08
+P0066,Jonas Demir,person,DE,DE83HARB1551863207,,,private individual,,2026-04-01
+P0067,Kasim Zhakupov,person,DE,DE36HARB2536693526,,,private individual,1990-08-21,2026-04-01
+P0068,Brixen Vale Consulting SA,org,CY,CY75HARB4125437793,,,trading company,,2026-07-01
+P0069,Halcyon Reef Trading Ltd,org,CY,CY59HARB6582908444,,,trading company,,2026-07-01
+P0070,Kilmore College Dublin,org,NL,NL72HARB2030828354,,,university,,2026-04-01
+P0071,Vadim Tomescu,person,KV,KV69HARB9594101382,,,private individual,1983-11-23,2026-07-01
+P0072,Notariat Feldkamp,org,DE,DE42HARB2959869001,,,notary,,2026-04-01
+P0073,Mira Sorensen,person,DE,DE56HARB3295862740,,,private individual,,2026-04-01
+P0074,Nora Keller,person,DE,DE22HARB9214143278,,,private individual,,2026-04-01
+P0075,Jonas Wolff,person,DE,DE15HARB6843742288,,,private individual,,2026-04-01
+P0076,Henrik Moreau,person,DE,DE71HARB7619322267,,,private individual,,2026-04-01
+P0077,Oskar Demir,person,DE,DE39HARB7123610488,,,private individual,,2026-04-01
+P0078,Anna Aaltonen,person,DE,DE89HARB1984957642,,,private individual,,2026-04-01
+P0079,Tobias Lindqvist,person,DE,DE11HARB2625864639,,,private individual,,2026-04-01
+P0080,Jonas Keller,person,DE,DE66HARB6276238946,,,private individual,,2026-04-01
+P0081,Clara Castellano,person,DE,DE76HARB2532413488,,,private individual,,2026-04-01
+P0082,Tobias Marchetti,person,DE,DE90HARB9432221586,,,private individual,,2026-04-01
+P0083,Jan Demir,person,DE,DE39HARB8069275650,,,private individual,,2026-04-01
+P0084,Elif Sorensen,person,DE,DE49HARB3354518380,,,private individual,,2026-04-01
+P0085,Ida Hartmann,person,DE,DE84HARB9441106088,,,private individual,,2026-04-01
+P0086,Clara Jansen,person,DE,DE44HARB2724021357,,,private individual,,2026-04-01
+P0087,Greta Demir,person,DE,DE50HARB3262098994,,,private individual,,2026-04-01
+P0088,Mira Kovacs,person,DE,DE30HARB7427587675,,,private individual,,2026-04-01
+P0089,Paul Haddad,person,DE,DE23HARB6288806110,,,private individual,,2026-04-01
+P0090,Lukas Kovacs,person,DE,DE62HARB7002213855,,,private individual,,2026-04-01
+P0091,Jan Castellano,person,DE,DE80HARB2708872212,,,private individual,,2026-04-01
+P0092,Elif Silva,person,DE,DE39HARB1480452446,,,private individual,,2026-04-01
+P0093,Anna Wolff,person,DE,DE46HARB4436763958,,,private individual,,2026-04-01
+P0094,Marie Castellano,person,DE,DE18HARB6468555139,,,private individual,,2026-04-01
+P0095,Elif Petrov,person,DE,DE54HARB5907117302,,,private individual,,2026-04-01
+P0096,Henrik Marchetti,person,DE,DE82HARB2995015845,,,private individual,,2026-04-01
+P0097,Felix Petrov,person,DE,DE13HARB8767439839,,,private individual,,2026-04-01
+P0098,Kreissportbund Elbtal,org,DE,DE51HARB5507216001,,,sports association,,2026-04-01
+P0099,Delfthaven Institute of Technology,org,IE,IE41HARB8911372163,,,university,,2026-04-01
+P0100,Lea Marchetti,person,LT,LT82HARB1269659286,,,private individual,,2026-05-11
+P0101,Nora Moreau,person,DE,DE18HARB1970923703,,,private individual,,2026-05-11
+P0102,Clara Silva,person,DE,DE93HARB5957447379,,,private individual,,2026-05-11
+P0103,Tobias Moreau,person,DE,DE89HARB7539073466,,,private individual,,2026-05-11
+P0104,Lukas Moreau,person,DE,DE12HARB9481490406,,,private individual,,2026-05-11
+P0105,Clara Hartmann,person,DE,DE92HARB2242768767,,,private individual,,2026-05-11
+P0106,Oskar Lindqvist,person,DE,DE14HARB3659295338,,,private individual,,2026-05-11
+P0107,Sofia Demir,person,DE,DE28HARB7870671980,,,private individual,,2026-05-11
+P0108,Sofia Petrov,person,DE,DE87HARB5059167263,,,private individual,,2026-05-11
+P0109,Anna Becker,person,DE,DE72HARB5355855539,,,private individual,,2026-05-11
+P0110,Zandrik Partners Ltd,org,VD,VD95HARB8854354866,,,consulting firm,,2026-08-03
+P0111,Velmora Advisory LLC,org,KV,KV97HARB1362069643,,,consulting firm,,2026-08-03
+P0112,University of Westmark,org,IE,IE73HARB5609825047,,,university,,2026-04-01
