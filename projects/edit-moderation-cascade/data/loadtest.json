@@ -1,0 +1,89 @@
+{
+ "edits": 695,
+ "minutes": 10.0,
+ "target_s": 15.0,
+ "replays": 10,
+ "workers": 4,
+ "queue_bound": 50,
+ "results": [
+  {
+   "speed": 1.0,
+   "edits": 695,
+   "edits_per_second": 1.16,
+   "replays": 10,
+   "read_by_model": 167,
+   "skipped_queue_full": 0,
+   "skipped_budget": 0,
+   "model_p50_s": 3.99,
+   "model_p95_s": 6.81,
+   "all_p95_s": 5.56,
+   "longest_wait": 7
+  },
+  {
+   "speed": 2.0,
+   "edits": 695,
+   "edits_per_second": 2.32,
+   "replays": 10,
+   "read_by_model": 167,
+   "skipped_queue_full": 0,
+   "skipped_budget": 0,
+   "model_p50_s": 4.24,
+   "model_p95_s": 10.45,
+   "all_p95_s": 6.27,
+   "longest_wait": 15
+  },
+  {
+   "speed": 5.0,
+   "edits": 695,
+   "edits_per_second": 5.81,
+   "replays": 10,
+   "read_by_model": 167,
+   "skipped_queue_full": 0,
+   "skipped_budget": 0,
+   "model_p50_s": 7.94,
+   "model_p95_s": 16.38,
+   "all_p95_s": 12.07,
+   "longest_wait": 36
+  },
+  {
+   "speed": 10.0,
+   "edits": 695,
+   "edits_per_second": 11.61,
+   "replays": 10,
+   "read_by_model": 165,
+   "skipped_queue_full": 2,
+   "skipped_budget": 0,
+   "model_p50_s": 9.77,
+   "model_p95_s": 17.77,
+   "all_p95_s": 13.46,
+   "longest_wait": 50
+  },
+  {
+   "speed": 20.0,
+   "edits": 695,
+   "edits_per_second": 23.23,
+   "replays": 10,
+   "read_by_model": 122,
+   "skipped_queue_full": 46,
+   "skipped_budget": 0,
+   "model_p50_s": 11.98,
+   "model_p95_s": 19.11,
+   "all_p95_s": 13.37,
+   "longest_wait": 50
+  },
+  {
+   "speed": 50.0,
+   "edits": 695,
+   "edits_per_second": 58.07,
+   "replays": 10,
+   "read_by_model": 67,
+   "skipped_queue_full": 100,
+   "skipped_budget": 0,
+   "model_p50_s": 12.84,
+   "model_p95_s": 25.41,
+   "all_p95_s": 12.76,
+   "longest_wait": 50
+  }
+ ],
+ "sustained": "2x, 2.3 edits a second"
+}

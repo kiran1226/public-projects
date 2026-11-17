@@ -1,0 +1,104 @@
+# The live loop and the review page on any machine with Docker.
+#
+#   mkdir -p var                   # once, so the folder belongs to you and not to root
+#   docker compose up -d --build   # start
+#   docker compose logs -f watch   # watch a window
+#   docker compose down            # stop
+#
+# The review page is served at http://127.0.0.1:8501.
+#
+# Before the first start the local store has to be filled, once (docs/runbook.md,
+# "First-time setup"). In the container that is:
+#   docker compose run --rm watch editwatch backfill
+#   docker compose run --rm watch editwatch train
+#
+# Nothing below is required. Export the names in the shell, or put them in a .env file
+# next to this file (git-ignored, and kept out of the image):
+#   ANTHROPIC_API_KEY         without it the loop orders the queue with tier 1 alone,
+#                             says so, and costs nothing
+#   EDITWATCH_DAILY_CAP_USD   the most the model may cost in a day (default 1.00)
+#   EDITWATCH_USER_AGENT      how the client names itself to Wikimedia. The default names
+#                             the client only. Wikimedia asks for a way to reach the
+#                             operator as well: put the repository's URL here
+#   EDITWATCH_MODEL_SHARE     the share of edits the model reads (default 0.20)
+#
+# The loop reads Wikimedia's public stream and API. It never writes to a wiki.
+#
+# The containers write as user 1000. On Linux, if `id -u` prints another number, start with
+#   WATCH_UID=$(id -u) WATCH_GID=$(id -g) docker compose up -d --build
+
+services:
+  watch:
+    build: .
+    image: edit-moderation-cascade
+    user: "${WATCH_UID:-1000}:${WATCH_GID:-1000}"
+    # init passes the stop signal to the loop, so `docker compose down` does not wait.
+    init: true
+    restart: unless-stopped
+    environment:
+      # A name without a value is passed through only if it is set on this machine.
+      - ANTHROPIC_API_KEY
+      - EDITWATCH_DAILY_CAP_USD
+      - EDITWATCH_USER_AGENT
+      - EDITWATCH_MODEL_SHARE
+    volumes:
+      # The local store (sampled history, the live edits and what each one changed), the
+      # trained tier 1, the model's answers on live edits and the scoreboard. None of it
+      # is ever committed.
+      - ./var:/app/var
+      # data/log holds the prediction log, the run log and the outcomes, all append-only.
+      # The page writes data/corrections.
+      - ./data:/app/data
+    # Window after window, with no pause between them: health, ten minutes of the
+    # stream, truth, then the scoreboard. A failed step skips the steps after it and is
+    # reported. The scoreboard is still written, so a failed feed check is on it. The
+    # loop then waits five minutes before the next window, so a feed that refuses the
+    # client is not asked again at once.
+    # ($$ is a literal $ for the shell inside the container.)
+    command:
+      - sh
+      - -c
+      - |
+        while true; do
+          echo "== $$(date -u +%Y-%m-%dT%H:%M:%SZ) next window"
+          if editwatch health && editwatch run --minutes 10 && editwatch truth; then
+            echo "== health, run and truth finished"
+            pause=0
+          else
+            echo "!! a step failed with status $$?: the steps after it were skipped, see above"
+            pause=300
+          fi
+          editwatch scoreboard || echo "!! scoreboard failed"
+          if [ "$$pause" -gt 0 ]; then
+            echo "== next window in $$pause seconds"
+            sleep "$$pause"
+          fi
+        done
+
+  queue:
+    image: edit-moderation-cascade
+    user: "${WATCH_UID:-1000}:${WATCH_GID:-1000}"
+    init: true
+    restart: unless-stopped
+    depends_on:
+      - watch
+    environment:
+      # Streamlit keeps a small settings folder under HOME; any user can write to /tmp.
+      - HOME=/tmp
+    volumes:
+      # The page reads the edits and what each one changed from the store and the live
+      # log from data/log, and appends the reviewer's decisions to
+      # data/corrections/reviews.jsonl.
+      - ./var:/app/var
+      - ./data:/app/data
+    # Local only: the port is bound to this machine, not to the network.
+    ports:
+      - "127.0.0.1:8501:8501"
+    command:
+      - streamlit
+      - run
+      - app/review_queue.py
+      - --server.address=0.0.0.0
+      - --server.port=8501
+      - --server.headless=true
+      - --browser.gatherUsageStats=false

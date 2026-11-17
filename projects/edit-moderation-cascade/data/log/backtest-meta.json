@@ -1,0 +1,40 @@
+{
+ "versions": {
+  "0cecc6391f": {
+   "config": "cascade-haiku",
+   "model": "claude-haiku-5-5",
+   "run": 1,
+   "share": 0.2
+  },
+  "4d83c9051c": {
+   "config": "cascade-haiku",
+   "model": "claude-haiku-5-5",
+   "run": 2,
+   "share": 0.2
+  },
+  "8c6600a1d3": {
+   "config": "cascade-sonnet",
+   "model": "claude-sonnet-5-5",
+   "run": 1,
+   "share": 0.2
+  },
+  "a4bd5d4cef": {
+   "config": "cascade-opus",
+   "model": "claude-opus-5-5",
+   "run": 1,
+   "share": 0.1
+  },
+  "af82c1a084": {
+   "config": "every-haiku",
+   "model": "claude-haiku-5-5",
+   "run": 1,
+   "share": 1.0
+  },
+  "e7fb0c6b36": {
+   "config": "cascade-haiku",
+   "model": "claude-haiku-5-5",
+   "run": 3,
+   "share": 0.2
+  }
+ }
+}

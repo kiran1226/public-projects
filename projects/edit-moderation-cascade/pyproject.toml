@@ -1,0 +1,56 @@
+[project]
+name = "editwatch"
+version = "0.1.0"
+description = "Edit moderation cascade: a risk-ordered review queue for a live stream of edits, with a classical tier first and a model on the top slice, scored against which edits were reverted"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = [
+    "anthropic",
+    "httpx>=0.27",
+    "numpy>=1.26",
+    "pydantic>=2.7",
+    "python-dotenv>=1.0",
+    "pyyaml>=6.0",
+    "scikit-learn>=1.4",
+    "typer>=0.12",
+]
+
+[project.optional-dependencies]
+ui = ["streamlit>=1.37", "pandas>=2.0"]
+
+[project.scripts]
+editwatch = "editwatch.cli:app"
+
+[dependency-groups]
+dev = [
+    "matplotlib>=3.8",
+    "pytest>=8.0",
+    "ruff>=0.6",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/editwatch"]
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests", "scripts", "app"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["editwatch"]
+known-local-folder = ["conftest", "_draw"]
+
+[tool.ruff.lint.per-file-ignores]
+# Layout tables and hand-written test records read better as one row per line.
+"scripts/*" = ["E501"]
+"tests/*" = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

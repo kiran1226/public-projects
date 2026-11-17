@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Edit moderation cascade scoreboard</title>
+<style>
+  :root {
+    --bg: #f6f5f1; --panel: #ffffff; --ink: #1b1d21; --muted: #62676f; --line: #e2dfd7;
+    --accent: #1f5f8b; --good: #1d7a4c; --bad: #b3261e; --bar: #c9dcea; --bar-strong: #1f5f8b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161a; --panel: #1c1f25; --ink: #e9e7e1; --muted: #9aa0a8; --line: #2c3038;
+      --accent: #7fb6dc; --good: #63c796; --bad: #f08a80; --bar: #2a3d4d; --bar-strong: #7fb6dc;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 1060px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 28px; margin: 0 0 4px; letter-spacing: -0.01em; }
+  h2 { font-size: 19px; margin: 40px 0 6px; }
+  p { margin: 6px 0; }
+  .muted { color: var(--muted); }
+  .small { font-size: 14px; }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin-top: 20px; }
+  .tile { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+  .tile .label { font-size: 13px; color: var(--muted); }
+  .tile .value { font-size: 26px; font-weight: 650; font-variant-numeric: tabular-nums; margin-top: 2px; }
+  .tile .note { font-size: 13px; color: var(--muted); margin-top: 2px; }
+  .status { display: inline-flex; align-items: center; gap: 8px; font-weight: 600; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--muted); }
+  .ok .dot { background: var(--good); } .fail .dot { background: var(--bad); }
+  .ok { color: var(--good); } .fail { color: var(--bad); }
+  .scroll { overflow-x: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; margin-top: 10px; }
+  table { border-collapse: collapse; width: 100%; font-size: 14.5px; font-variant-numeric: tabular-nums; }
+  th, td { padding: 9px 10px; text-align: right; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  th:first-child, td:first-child { text-align: left; white-space: normal; min-width: 200px; }
+  td.worst { font-weight: 650; }
+  td.worst.nonzero { color: var(--bad); }
+  th { font-size: 12.5px; font-weight: 600; color: var(--muted); white-space: normal; vertical-align: bottom; }
+  tr:last-child td { border-bottom: 0; }
+  tr.lead td:first-child { font-weight: 650; }
+  .share { display: block; }
+  .pct { display: block; font-size: 13px; color: var(--muted); }
+  .bar { display: inline-block; height: 8px; border-radius: 4px; background: var(--bar); vertical-align: middle; width: 46px; position: relative; overflow: hidden; }
+  .bar i { position: absolute; left: 0; top: 0; bottom: 0; background: var(--bar-strong); }
+  ul.checks { list-style: none; padding: 0; margin: 10px 0 0; }
+  ul.checks li { padding: 6px 0; border-bottom: 1px solid var(--line); display: flex; gap: 10px; align-items: baseline; }
+  ul.checks li:last-child { border-bottom: 0; }
+  footer { margin-top: 48px; font-size: 13px; color: var(--muted); }
+  code { font: 13px ui-monospace, SFMono-Regular, Menlo, monospace; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Edit moderation cascade</h1>
+  <p class="muted" id="lead"></p>
+  <div id="app"></div>
+  <footer id="foot"></footer>
+</main>
+<script id="data" type="application/json">/*SCOREBOARD_DATA*/null</script>
+<script>
+(function () {
+  var board = JSON.parse(document.getElementById("data").textContent);
+  var app = document.getElementById("app");
+  function el(tag, attrs, children) {
+    var node = document.createElement(tag);
+    Object.keys(attrs || {}).forEach(function (k) {
+      if (k === "text") node.textContent = attrs[k]; else node.setAttribute(k, attrs[k]);
+    });
+    (children || []).forEach(function (c) { if (c) node.appendChild(c); });
+    return node;
+  }
+  function money(x) { return "US$" + Number(x || 0).toFixed(2); }
+  function num(x) { return Number(x || 0).toLocaleString("en-US"); }
+  function when(stamp) { return stamp ? stamp.slice(0, 10) + " " + stamp.slice(11, 16) + " UTC" : "never"; }
+  function secs(x) { return x == null ? "n/a" : Number(x).toFixed(1) + " s"; }
+  function tile(label, value, note) {
+    return el("div", { class: "tile" }, [
+      el("div", { class: "label", text: label }),
+      el("div", { class: "value", text: String(value) }),
+      note ? el("div", { class: "note", text: note }) : null
+    ]);
+  }
+  function shareCell(found, total) {
+    var td = el("td");
+    if (!total) { td.textContent = "n/a"; return td; }
+    var pct = Math.round(100 * found / total);
+    td.appendChild(el("span", { class: "share", text: num(found) + " of " + num(total) }));
+    var line = el("span", { class: "pct" });
+    var bar = el("span", { class: "bar" }); var fill = el("i"); fill.style.width = pct + "%";
+    bar.appendChild(fill); line.appendChild(bar);
+    line.appendChild(document.createTextNode(" " + pct + "%"));
+    td.appendChild(line);
+    return td;
+  }
+  function scoreTable(rows) {
+    var head = ["Configuration", "Edits", "Reverted edits in the top 2%", "In the top 5%", "In the top 10%", "Reverted, in the bottom half", "Read by a model", "Cost per 1,000"];
+    var table = el("table");
+    table.appendChild(el("tr", {}, head.map(function (h) { return el("th", { text: h }); })));
+    rows.forEach(function (r) {
+      var tr = el("tr", r.lead ? { class: "lead" } : {});
+      tr.appendChild(el("td", { text: r.label }));
+      tr.appendChild(el("td", { text: num(r.edits) }));
+      tr.appendChild(shareCell(r.top2, r.reverted));
+      tr.appendChild(shareCell(r.top5, r.reverted));
+      tr.appendChild(shareCell(r.top10, r.reverted));
+      tr.appendChild(el("td", { class: "worst" + (r.bottom_half ? " nonzero" : ""), text: String(r.bottom_half) }));
+      tr.appendChild(el("td", { text: num(r.model_read) }));
+      tr.appendChild(el("td", { text: r.cost_per_1000 ? money(r.cost_per_1000) : "none" }));
+      table.appendChild(tr);
+    });
+    return el("div", { class: "scroll" }, [table]);
+  }
+  function loadTable(load) {
+    var head = ["Replay speed", "Edits a second", "Read by the model", "Skipped, queue full", "Seconds to the queue, median", "95th percentile", "Longest queue"];
+    var table = el("table");
+    table.appendChild(el("tr", {}, head.map(function (h) { return el("th", { text: h }); })));
+    load.results.forEach(function (r) {
+      var over = r.model_p95_s != null && r.model_p95_s > load.target_s;
+      var tr = el("tr");
+      [r.speed + "x", r.edits_per_second, num(r.read_by_model)].forEach(function (t) { tr.appendChild(el("td", { text: String(t) })); });
+      tr.appendChild(el("td", { class: "worst" + (r.skipped_queue_full ? " nonzero" : ""), text: num(r.skipped_queue_full) }));
+      tr.appendChild(el("td", { text: secs(r.model_p50_s) }));
+      tr.appendChild(el("td", { class: "worst" + (over ? " nonzero" : ""), text: secs(r.model_p95_s) }));
+      tr.appendChild(el("td", { text: String(r.longest_wait) }));
+      table.appendChild(tr);
+    });
+    return el("div", { class: "scroll" }, [table]);
+  }
+  function section(title, lead) {
+    app.appendChild(el("h2", { text: title }));
+    if (lead) app.appendChild(el("p", { class: "muted small", text: lead }));
+  }
+  if (!board) { app.appendChild(el("p", { text: "No scoreboard data was embedded in this page." })); return; }
+
+  var live = board.live, back = board.backtest, cost = board.cost, health = board.health, load = board.loadtest;
+  document.getElementById("lead").textContent =
+    "A risk-ordered review queue for edits to " + board.wiki + ", scored against which edits were reverted within " + board.truth_after_hours + " hours.";
+  app.appendChild(el("p", { class: "status " + (health ? (health.ok ? "ok" : "fail") : "") }, [
+    el("span", { class: "dot" }),
+    el("span", { text: health ? (health.ok ? "Stream healthy" : "Stream check failed") : "Stream health not recorded" })
+  ]));
+
+  var tiles = el("div", { class: "tiles" });
+  tiles.appendChild(tile("Live since", live.since || "not started", live.runs + (live.runs === 1 ? " run" : " runs") + "; last " + when(live.last_run_at)));
+  tiles.appendChild(tile("Edits ordered", num(live.edits), num(live.read_by_model) + " read by the model; " + num(live.skipped) + " skipped under load or budget"));
+  var last = live.last_run || { model_p95_s: live.model_p95_s, tier1_p95_s: live.tier1_p95_s };
+  tiles.appendChild(tile("Seconds to the queue", secs(last.model_p95_s), "95th percentile for edits the model read, in the last run; target " + board.latency_target_s + " s; tier 1 alone " + secs(last.tier1_p95_s)));
+  tiles.appendChild(tile("Outcomes scored", num(live.scored), num(live.waiting) + " waiting; read " + board.truth_after_hours + " hours after an edit"));
+  tiles.appendChild(tile("Model spend today", money(cost.today_usd), "cap " + money(cost.cap_usd_per_day) + " a day, spent evenly; " + money(cost.last_30_days_usd) + " in 30 days"));
+  app.appendChild(tiles);
+
+  section("Live predictions", "Queues written as the edits arrived, scored against which edits were reverted afterwards.");
+  if (live.scores.length) app.appendChild(scoreTable(live.scores));
+  else app.appendChild(el("p", { text: live.since ? "No live edit has an outcome yet. The first are read " + board.truth_after_hours + " hours after " + live.since + "." : "The live run has not started." }));
+
+  section("Backtest, held-out days", num(back.held_out_n) + " edits drawn at random from the last two days of the test week, " + back.held_out_reverted + " of them reverted. Scored once. Every configuration orders the same edits.");
+  if (back.held_out.length) app.appendChild(scoreTable(back.held_out)); else app.appendChild(el("p", { text: "Not scored yet." }));
+
+  section("Backtest, development days", num(back.development_n) + " edits drawn at random, " + back.development_reverted + " of them reverted. Settings were chosen here.");
+  if (back.development.length) app.appendChild(scoreTable(back.development)); else app.appendChild(el("p", { text: "Not scored yet." }));
+
+  if (load && load.results) {
+    section("Does it keep up?", "A recording of " + num(load.edits) + " edits over " + load.minutes + " minutes, replayed on a virtual clock with measured request and model times, " + (load.replays || 1) + " times at each speed; counts are per replay. Target: " + load.target_s + " seconds at the 95th percentile. Fastest replay inside it with nothing skipped: " + load.sustained + ".");
+    app.appendChild(loadTable(load));
+  }
+
+  if (health) {
+    section("Stream health", "Checked " + when(health.checked_at) + ".");
+    var list = el("ul", { class: "checks" });
+    health.checks.forEach(function (c) {
+      list.appendChild(el("li", {}, [
+        el("span", { class: "status " + (c.ok ? "ok" : "fail") }, [el("span", { class: "dot" })]),
+        el("span", {}, [el("strong", { text: c.name.replace(/_/g, " ") }), document.createTextNode(": " + c.detail)])
+      ]));
+    });
+    app.appendChild(list);
+  }
+
+  document.getElementById("foot").textContent =
+    "Generated " + when(board.generated_at) + " from the prediction log and the outcome log. " +
+    "\"Reverted\" is not \"vandalism\": good-faith mistakes are reverted, and damage nobody noticed counts as fine. " +
+    "The system orders a queue. It never edits or reverts, and it stores no account names.";
+})();
+</script>
+</body>
+</html>

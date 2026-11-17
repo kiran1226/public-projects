@@ -1,0 +1,23 @@
+# Local environment and runtime state: rebuilt or mounted, never copied into the image.
+.venv
+var
+
+# Keys stay out of the image. Pass them through the environment.
+.env
+.env.*
+
+# Caches
+__pycache__
+*.py[cod]
+.pytest_cache
+.ruff_cache
+.mypy_cache
+*.egg-info
+dist
+
+# Decisions made on this machine
+data/corrections
+
+.git
+.DS_Store
+*.tmp

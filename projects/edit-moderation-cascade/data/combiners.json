@@ -1,0 +1,30 @@
+{
+ "cascade-haiku": {
+  "intercept": -1.9932966622382218,
+  "weight_tier1": 0.5959485650383818,
+  "weight_model": 2.9360803160124656,
+  "fitted_on": 317,
+  "reverted": 37
+ },
+ "cascade-opus": {
+  "intercept": -2.699678267338483,
+  "weight_tier1": 0.10223536402594133,
+  "weight_model": 3.6464333416750074,
+  "fitted_on": 141,
+  "reverted": 24
+ },
+ "cascade-sonnet": {
+  "intercept": -2.214112267087787,
+  "weight_tier1": 0.7372747720544219,
+  "weight_model": 4.106030715053571,
+  "fitted_on": 317,
+  "reverted": 37
+ },
+ "every-haiku": {
+  "intercept": -2.024669893101383,
+  "weight_tier1": 0.7147423404056301,
+  "weight_model": 3.408856087669616,
+  "fitted_on": 1500,
+  "reverted": 83
+ }
+}

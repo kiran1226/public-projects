@@ -1,0 +1,76 @@
+{
+ "edits": 695,
+ "minutes": 10.0,
+ "target_s": 15.0,
+ "replays": 10,
+ "workers": 4,
+ "queue_bound": 50,
+ "results": [
+  {
+   "speed": 1.0,
+   "edits": 695,
+   "edits_per_second": 1.16,
+   "replays": 10,
+   "read_by_model": 695,
+   "skipped_queue_full": 0,
+   "skipped_budget": 0,
+   "model_p50_s": 7.76,
+   "model_p95_s": 15.38,
+   "all_p95_s": 15.38,
+   "longest_wait": 32
+  },
+  {
+   "speed": 2.0,
+   "edits": 695,
+   "edits_per_second": 2.32,
+   "replays": 10,
+   "read_by_model": 689,
+   "skipped_queue_full": 6,
+   "skipped_budget": 0,
+   "model_p50_s": 9.66,
+   "model_p95_s": 17.81,
+   "all_p95_s": 17.77,
+   "longest_wait": 50
+  },
+  {
+   "speed": 3.0,
+   "edits": 695,
+   "edits_per_second": 3.48,
+   "replays": 10,
+   "read_by_model": 610,
+   "skipped_queue_full": 85,
+   "skipped_budget": 0,
+   "model_p50_s": 11.99,
+   "model_p95_s": 20.08,
+   "all_p95_s": 19.84,
+   "longest_wait": 50
+  },
+  {
+   "speed": 5.0,
+   "edits": 695,
+   "edits_per_second": 5.81,
+   "replays": 10,
+   "read_by_model": 404,
+   "skipped_queue_full": 291,
+   "skipped_budget": 0,
+   "model_p50_s": 12.92,
+   "model_p95_s": 22.82,
+   "all_p95_s": 20.57,
+   "longest_wait": 50
+  },
+  {
+   "speed": 10.0,
+   "edits": 695,
+   "edits_per_second": 11.61,
+   "replays": 10,
+   "read_by_model": 230,
+   "skipped_queue_full": 465,
+   "skipped_budget": 0,
+   "model_p50_s": 13.01,
+   "model_p95_s": 21.07,
+   "all_p95_s": 17.54,
+   "longest_wait": 50
+  }
+ ],
+ "sustained": "none of the speeds tried"
+}

@@ -1,0 +1,49 @@
+{
+ "trained_on": 61623,
+ "reverted_share": 0.0696,
+ "features": [
+  "delta",
+  "abs_delta_log",
+  "old_len_log",
+  "new_len_log",
+  "shrink_share",
+  "minor",
+  "temp",
+  "comment_len",
+  "comment_empty",
+  "comment_section_only",
+  "comment_is_revert",
+  "comment_has_link",
+  "comment_upper_share",
+  "comment_auto",
+  "hour",
+  "weekday",
+  "parent_gap_log",
+  "title_len",
+  "title_has_year",
+  "title_has_brackets"
+ ],
+ "quantiles": {
+  "0.02": 0.238096,
+  "0.05": 0.17569,
+  "0.1": 0.138165,
+  "0.2": 0.102094,
+  "0.3": 0.080952,
+  "0.4": 0.065806,
+  "0.5": 0.053771
+ },
+ "windows": {
+  "training": {
+   "edits": 61623,
+   "reverted": 4287
+  },
+  "development": {
+   "edits": 21128,
+   "reverted": 1452
+  },
+  "held_out": {
+   "edits": 8877,
+   "reverted": 456
+  }
+ }
+}
