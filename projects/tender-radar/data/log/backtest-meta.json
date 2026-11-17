@@ -1,0 +1,32 @@
+{
+ "divisions": [
+  "24",
+  "33",
+  "38"
+ ],
+ "profile_start": "2025-01-01",
+ "cut": "2026-04-01",
+ "test_end": "2026-06-30",
+ "held_out_start": "2026-06-01",
+ "awards_before_cut": 81029,
+ "awards_until": "2026-11-17",
+ "awards": 126452,
+ "suppliers": 33868,
+ "shared_identifiers": 287,
+ "eligible": 1550,
+ "panel": 200,
+ "min_past_wins": 5,
+ "min_test_wins": 2,
+ "tenders": 11549,
+ "days": 60,
+ "embedder": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+ "versions": {
+  "alert": "e72805d7",
+  "cpv": "a9148623",
+  "lexical": "8219a02c",
+  "embedding": "e85b1868",
+  "buyer": "3b9f0754",
+  "fused": "2ab2546e",
+  "fused+model": "2b4073a0"
+ }
+}

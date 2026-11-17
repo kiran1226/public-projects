@@ -1,0 +1,54 @@
+# The scenario client. Fictional: no company of this name is meant.
+# A bid desk would write this file once and revise it as bid and skip decisions pile up.
+
+id: client
+name: Tarnwell Lab Supply
+description: >
+  A distributor of laboratory instruments, reagents and consumables for hospital,
+  university and public-health laboratories. It sells and installs instruments made by
+  others, supplies the reagents and consumables to run them, and services what it
+  installs. It does not manufacture, does not sell pharmaceuticals or medical devices
+  used on patients, and does not take on building work.
+
+# Countries of the buyer, as the feed writes them.
+countries: [DEU, AUT, POL, CZE]
+
+# Category codes (CPV) with a weight: 3 is core business, 1 is "we look at these".
+categories:
+  "38434000": 3   # analysers
+  "38433000": 3   # spectrometers
+  "38432000": 2   # analysis apparatus
+  "38430000": 2   # detection and analysis apparatus
+  "38510000": 2   # microscopes
+  "38437000": 2   # laboratory pipettes and accessories
+  "33696500": 3   # laboratory reagents
+  "33696000": 2   # reagents and contrast media
+  "24300000": 1   # basic chemicals for laboratories
+  "38000000": 1   # laboratory, optical and precision equipment in general
+
+# What it sells, in the words a notice would use. German and English, because the
+# home market is German-speaking; the embedding model carries the rest.
+sells:
+  - Analysers for clinical chemistry, haematology and immunoassay, with installation and maintenance
+  - Mass spectrometers, HPLC and gas chromatography systems for research and routine laboratories
+  - Laboratory reagents, test kits, culture media and consumables for clinical and microbiology laboratories
+  - Microscopes and imaging systems for research and pathology
+  - Pipettes, centrifuges, incubators and other general laboratory equipment
+  - Lieferung von Laborgeräten, Analysegeräten und Reagenzien einschließlich Wartung
+  - Laborverbrauchsmaterial und Chemikalien für Kliniken und Hochschulen
+
+# Hard rules. A tender that breaks one is not listed, and the list says how many were removed.
+min_value_eur: 20000
+max_value_eur: 3000000
+min_days_to_deadline: 10
+excluded_procedure_types: []
+excluded_natures: [works]
+
+# What it can show a buyer. The model compares the notice's conditions against these.
+capabilities:
+  - Annual turnover of about EUR 14 million in each of the last three years
+  - ISO 9001 certified quality management
+  - Authorised distributor agreements with several instrument manufacturers
+  - Reference contracts with university hospitals and state laboratories in Germany and Austria
+  - Service engineers based in Germany, Austria and Poland
+  - No ISO 13485 certificate

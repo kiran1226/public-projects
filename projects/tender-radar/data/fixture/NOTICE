@@ -1,0 +1,16 @@
+Tender notices in this folder
+=============================
+
+Source: TED (Tenders Electronic Daily), the online version of the Supplement to the
+Official Journal of the EU, https://ted.europa.eu, fetched through its search API.
+
+Content: the competition notices in category divisions 24, 33, 38 whose procedure was
+first published on 2026-05-12, 191 notices, as the API returned them, with two changes.
+The `links` field (document URLs) was dropped. Email addresses that buyers typed into
+free text were replaced by "[email removed]": 2 occurrences. Nothing else was
+edited. Contact fields were never requested.
+
+Reuse: the TED legal notice states that procurement notices "can be freely reused, for
+commercial or non-commercial purposes", under the Commission Decision of 12 December
+2011 on the reuse of Commission documents (read on 2026-11-17 at
+https://ted.europa.eu/en/legal-notice). (c) European Union.

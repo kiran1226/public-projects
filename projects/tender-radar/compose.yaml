@@ -1,0 +1,77 @@
+# The daily loop on any machine with Docker.
+#
+#   mkdir -p var                  # once, so the folder belongs to you and not to root
+#   docker compose up -d --build  # start
+#   docker compose logs -f radar  # watch a run
+#   docker compose down           # stop
+#
+# The scoreboard is served at http://127.0.0.1:8080 once the first run has finished.
+#
+# The key is optional. Export ANTHROPIC_API_KEY in the shell, or put it in a .env file
+# next to this file (git-ignored, and kept out of the image). Without it the run still
+# writes every list; the client's list has no model assessments.
+#
+# The container writes as user 1000. On Linux, if `id -u` prints another number, start with
+#   RADAR_UID=$(id -u) RADAR_GID=$(id -g) docker compose up -d --build
+
+services:
+  radar:
+    build: .
+    image: tender-radar
+    user: "${RADAR_UID:-1000}:${RADAR_GID:-1000}"
+    # init passes the stop signal to the loop, so `docker compose down` does not wait.
+    init: true
+    restart: unless-stopped
+    environment:
+      # A name without a value is passed through only if it is set on this machine.
+      - ANTHROPIC_API_KEY
+      - TENDERRADAR_DAILY_CAP_USD
+      - TENDERRADAR_USER_AGENT
+      - TENDERRADAR_MODEL
+      - TENDERRADAR_EFFORT
+      # Hour of the day, UTC, at which the next run starts.
+      - RUN_AT_HOUR_UTC=${RUN_AT_HOUR_UTC:-6}
+    volumes:
+      # The local database, the embedding model, the embedding cache and the scoreboard.
+      - ./var:/app/var
+      # The prediction log, the day index and the outcomes. Append-only.
+      - ./data/log:/app/data/log
+      # Recorded model responses.
+      - ./data/cassettes:/app/data/cassettes
+    # One pass: run, truth, eval, scoreboard. A failed step is reported and the loop goes
+    # on, so the scoreboard is written with the failed feed check on it. Then sleep until
+    # RUN_AT_HOUR_UTC tomorrow. ($$ is a literal $ for the shell inside the container.)
+    command:
+      - sh
+      - -c
+      - |
+        while true; do
+          echo "== $$(date -u +%Y-%m-%dT%H:%M:%SZ) daily run"
+          tenderradar run || echo "!! run failed: see the feed checks above"
+          tenderradar truth || echo "!! truth failed"
+          tenderradar eval --out var/scoreboard/eval-report.md || echo "!! eval failed"
+          tenderradar scoreboard || echo "!! scoreboard failed"
+          now=$$(date -u +%s)
+          wait=$$(( 86400 - now % 86400 + RUN_AT_HOUR_UTC * 3600 ))
+          echo "== next run in $$(( wait / 3600 )) h $$(( wait % 3600 / 60 )) min"
+          sleep "$$wait"
+        done
+
+  scoreboard:
+    image: tender-radar
+    user: "${RADAR_UID:-1000}:${RADAR_GID:-1000}"
+    init: true
+    restart: unless-stopped
+    depends_on:
+      - radar
+    volumes:
+      - ./var:/app/var
+    # Local only: the port is bound to this machine, not to the network.
+    ports:
+      - "127.0.0.1:8080:8080"
+    # A static file server for var/scoreboard. The folder is made first, so the server
+    # starts before the first run has written the page.
+    command:
+      - sh
+      - -c
+      - mkdir -p var/scoreboard && exec python -m http.server 8080 --directory var/scoreboard

@@ -1,0 +1,28 @@
+Supplier profiles in this folder
+================================
+
+Source: TED (Tenders Electronic Daily), the online version of the Supplement to the
+Official Journal of the EU, https://ted.europa.eu, fetched through its search API.
+
+Content of panel.jsonl.gz: one profile for each of the 200 panel suppliers, built from
+the award notices published before 1 April 2026 that name the supplier as a winner.
+A profile holds category codes with weights, buyer countries, hashed buyer ids, a count
+of past wins, and up to 40 excerpts of award-notice text (title and description, cut
+at 600 characters): 5,550 excerpts in all, as the API returned them. The excerpts
+describe the contract. They can name the buying organisation; they do not hold the
+winner's name, and no contact field was ever requested.
+
+Content of aliases.json: for each panel supplier, a hash of every spelling of its name
+or registration number, mapped to its profile id. It lets the scheduled run recognise
+a panel supplier in a new award without the names being in the repository.
+
+The ids are hashes, not anonymity. Award notices are public, the hash is unsalted and
+its recipe is in the source code, so anyone who has a supplier's name can compute its
+id, and the contract excerpts can be searched on TED. The hashes keep a list of company
+names out of this repository; they do not hide who the suppliers are from someone who
+goes looking.
+
+Reuse: the TED legal notice states that procurement notices "can be freely reused, for
+commercial or non-commercial purposes", under the Commission Decision of 12 December
+2011 on the reuse of Commission documents (read on 2026-11-17 at
+https://ted.europa.eu/en/legal-notice). (c) European Union.
