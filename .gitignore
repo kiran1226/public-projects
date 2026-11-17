@@ -1,0 +1,46 @@
+# Secrets: never commit API keys
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+
+# Local runtime state
+var/
+*.db
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+# Reviewer corrections made while trying the demo (commit them in a real deployment)
+projects/*/data/corrections/
+
+# Partial recording left behind if a run is interrupted mid-write
+*.tmp
+
+# Working plans for building the projects (not part of the published repo)
+docs/superpowers/
+projects/*/docs/plans/
+
+# Generated synthetic worlds (rebuilt from a seed by `revwatch generate`)
+projects/*/data/worlds/
+
+# Personal documents kept at the repository root (never published)
+/*.pdf
+
+# Third-party evaluation data, downloaded by `rfq2quote fetch-outside` (not redistributed)
+projects/*/data/external/
+
+# Personal site: it lives in its own repository, so nothing under site/ belongs here
+/site/
+
+# The CV with a phone number stays local; the site ships site/public/cv.pdf
+/Burak_Kiran_CV_*.pdf

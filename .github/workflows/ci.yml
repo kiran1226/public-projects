@@ -1,0 +1,177 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  pages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # Standard library only. Checks links, anchors and the figures the root README
+      # quotes from the project READMEs.
+      - run: python3 scripts/test_check_pages.py
+      - run: python3 scripts/check_pages.py
+
+  rfq-to-quote:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/rfq-to-quote
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --all-extras
+      - run: uv run ruff check .
+      - run: uv run ruff format --check .
+      - run: uv run pytest -q
+      # Runs without an API key: the baseline needs no model, and LLM
+      # configurations replay recorded responses when they exist.
+      - run: uv run rfq2quote eval --out "$RUNNER_TEMP/eval-report.md"
+
+  revenue-incident-agent:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/revenue-incident-agent
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --all-extras
+      - run: uv run ruff check .
+      - run: uv run ruff format --check .
+      - run: uv run mypy
+      - run: uv run pytest -q
+      # No API key needed: both worlds are rebuilt from their seeds, detection and the
+      # scripted investigator use no model, and the agent replays recordings when they exist.
+      - run: uv run revwatch generate
+      - run: uv run revwatch eval --out "$RUNNER_TEMP/eval-report.md"
+
+  aml-alert-investigator:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/aml-alert-investigator
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --all-extras
+      - run: uv run ruff check .
+      - run: uv run ruff format --check .
+      - run: uv run pytest -q
+      # No secret needed: the baseline uses no model, model configurations replay
+      # recordings when they exist, and the leak check scans those recordings.
+      - run: uv run aml-agent leak-check
+      - run: uv run aml-agent eval --out "$RUNNER_TEMP/eval-report.md"
+
+  tender-radar:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/tender-radar
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --all-extras
+      - run: uv run ruff check .
+      - run: uv run ruff format --check .
+      - run: uv run pytest -q
+      # No key and no feed needed: the report is scored from the committed logs, the
+      # lists the system wrote and the outcomes that arrived later.
+      - run: uv run tenderradar eval --out "$RUNNER_TEMP/eval-report.md"
+
+  issue-triage-desk:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/issue-triage-desk
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --all-extras
+      - run: uv run ruff check .
+      - run: uv run ruff format --check .
+      - run: uv run pytest -q
+      # No key and no tracker needed: the report is scored from the committed logs,
+      # which hold issue numbers, labels and the desk's answers, and no issue text.
+      - run: uv run triagedesk eval --no-write
+      # The desk on the invented tracker, with the model's recorded answers.
+      - run: uv run triagedesk demo --stub-embedder
+
+  edit-moderation-cascade:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/edit-moderation-cascade
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --all-extras
+      - run: uv run ruff check .
+      - run: uv run ruff format --check .
+      - run: uv run pytest -q
+      # No key and no wiki needed: the report is scored from the committed logs, which
+      # hold revision ids, scores and outcomes, and no page text.
+      - run: uv run editwatch eval --no-write
+      # The load test on the committed slice of the stream, on a virtual clock.
+      - run: uv run editwatch loadtest --speeds 1,10
+      # The cascade on the invented wiki, with the model's recorded answers.
+      - run: uv run editwatch demo
+
+  docs-support-assistant:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/docs-support-assistant
+    env:
+      FASTEMBED_CACHE_PATH: ${{ github.workspace }}/projects/docs-support-assistant/var/fastembed
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      # The embedding model and the index built from the pinned snapshot.
+      - uses: actions/cache@v4
+        with:
+          path: projects/docs-support-assistant/var
+          key: docsassist-var-${{ hashFiles('projects/docs-support-assistant/data/corpus/**', 'projects/docs-support-assistant/src/docsassist/ingest.py', 'projects/docs-support-assistant/src/docsassist/index.py', 'projects/docs-support-assistant/uv.lock') }}
+      - run: uv sync
+      - run: uv run ruff check .
+      - run: uv run ruff format --check .
+      - run: uv run pytest -q
+      # No API key needed: the baseline and retrieval use no paid model, and model
+      # configurations replay recordings when they exist.
+      - run: uv run docsassist eval --out "$RUNNER_TEMP/eval-report.md"
+
+  inference-sizing-kit:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/inference-sizing-kit
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --all-extras
+      - run: uv run ruff check .
+      - run: uv run ruff format --check .
+      - run: uv run pytest -q
+      # No key and no model: the evaluation runs on the simulated server only.
+      - run: uv run sizekit eval --out "$RUNNER_TEMP/eval-report.md"
+
+  letter-explainer:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/letter-explainer
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync
+      - run: uv run ruff check .
+      - run: uv run ruff format --check .
+      - run: uv run pytest -q
+      # No planted identifier, whole or in part, in anything that would be sent or
+      # that was recorded.
+      - run: uv run letterhelp leak-check
+      # Runs without an API key: the rules need no model, OCR output is replayed, and
+      # model configurations replay recorded responses when they exist.
+      - run: uv run letterhelp eval --out "$RUNNER_TEMP/eval-report.md"
