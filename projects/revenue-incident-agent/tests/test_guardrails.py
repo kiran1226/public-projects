@@ -92,7 +92,9 @@ def test_a_change_that_does_not_exist_or_came_after_the_incident_began(wh: Wareh
     finding = investigation.finding
     investigation.finding = finding.model_copy(update={"change_id": "CHG-99999"})
     assert "CAUSE_NOT_IN_CHANGE_LOG" in codes(case, investigation, box)
-    later = wh.changes(at(10, 11), at(10, 13))[0]["change_id"]
+    # Any change logged from the alert's hour to the end of the world will do: which background
+    # changes a seed produces differs between operating systems, so no single hour is safe.
+    later = wh.changes(at(10, 11), at(21))[0]["change_id"]
     investigation.finding = finding.model_copy(update={"change_id": later})
     assert "CAUSE_AFTER_ONSET" in codes(case, investigation, box)
 

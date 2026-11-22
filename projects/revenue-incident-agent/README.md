@@ -743,8 +743,10 @@ uv run streamlit run app/review_ui.py
 `revwatch eval --detector gbm --world dev` scores one detector on one world and
 prints its report without touching the committed one.
 
-The evaluation replays the agent from `data/cassettes/`, so it needs no key. If
-the prompt, the tool definitions, the model or a world changes, the recording no
+The evaluation replays the agent from `data/cassettes/`, so it needs no key. The
+recordings were made on macOS (Apple silicon) and replay there; on Linux the
+rebuilt worlds differ slightly and the replay stops (see
+[Limits](#15-limits-and-next-steps)). If the prompt, the tool definitions, the model or a world changes, the recording no
 longer matches and the command stops and says so. `revwatch repeats` replays
 `data/repeat-runs/` the same way and prints one row per run. Where one
 investigation's recording no longer matches, it names that investigation,
@@ -840,8 +842,13 @@ tests/
   that way (see [Repeat runs](#repeat-runs)). Before the fix the published
   run replayed in full on four builds of the worlds and both Haiku repeats on
   three, and all three replay in full on the one-thread reads used now. The
-  recordings were made on macOS; whether a Linux runner returns the same last
-  digits has not been tested, and CI would stop and say so if it does not.
+  recordings were made on macOS, and they replay only there. On Linux the
+  worlds rebuilt from the same seeds are not bit-identical: the sampling
+  library's floating-point results differ between the two systems, a few
+  sampled counts change, and the background change log shifts with them.
+  Incident ids are derived from the world's content, so on Linux the replay
+  finds no recorded answer and stops. CI therefore runs the tests on Linux
+  and the replay on macOS.
 - **Sums are sums of floats.** Exact decimal sums would not depend on order at
   all, but the model saw the float sums: with exact sums about one recorded
   investigation in seven no longer replays. That change belongs with the next

@@ -47,6 +47,20 @@ jobs:
       - run: uv run ruff format --check .
       - run: uv run mypy
       - run: uv run pytest -q
+
+  # The replay runs on macOS, where the agent's answers were recorded. A world rebuilt from its
+  # seed is not bit-identical on Linux (the sampling library's floating-point results differ
+  # between the two systems), incident ids are derived from the world's content, and so a
+  # recording made on macOS finds no matching request on Linux.
+  revenue-incident-agent-replay:
+    runs-on: macos-latest
+    defaults:
+      run:
+        working-directory: projects/revenue-incident-agent
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --all-extras
       # No API key needed: both worlds are rebuilt from their seeds, detection and the
       # scripted investigator use no model, and the agent replays recordings when they exist.
       - run: uv run revwatch generate

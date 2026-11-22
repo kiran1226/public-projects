@@ -1,4 +1,6 @@
+from datetime import datetime
 from pathlib import Path
+from typing import Any
 
 import pytest
 
@@ -75,8 +77,22 @@ def test_an_alert_inside_a_planned_event_is_an_expected_event(wh: Warehouse) -> 
     )
 
 
-def test_with_nothing_to_blame_it_says_unknown_and_proposes_nothing(wh: Warehouse) -> None:
-    finding = investigate(wh, "gross_margin_rate", Slice.of(country="AT"), -1, 12, 14).finding
+class QuietChangeLog(Warehouse):
+    """The same shop with an empty change log.
+
+    The background changes a seed produces differ between operating systems, so a test that
+    needs "nothing to blame" cannot rely on a quiet hour in the generated log.
+    """
+
+    def changes(self, start: datetime, end: datetime) -> list[dict[str, Any]]:
+        return []
+
+
+def test_with_nothing_to_blame_it_says_unknown_and_proposes_nothing(
+    small_world: tuple[Path, list[Label]],
+) -> None:
+    quiet = QuietChangeLog(small_world[0])
+    finding = investigate(quiet, "gross_margin_rate", Slice.of(country="AT"), -1, 12, 14).finding
     assert (finding.cause, finding.change_id, finding.mitigation) == ("unknown", None, None)
     assert finding.confidence == "low" and "Cause not found" in finding.summary
 
